@@ -17,4 +17,4 @@ TODO
 | Roldan Kramer | [Roldan](https://github.com/benshuttle28) | Power & Battery Management |
 
 ## Demo
-[![BRSD Demo](https://img.youtube.com/vi/68byBlV1OcU/0.jpg)](https://www.youtube.com/watch?v=68byBlV1OcU)
+https://youtu.be/cxL46I0cIJM?si=ko8gH6GEZB_BGILE

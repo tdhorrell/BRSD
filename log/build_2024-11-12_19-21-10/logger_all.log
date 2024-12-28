@@ -1,0 +1,1101 @@
+[1.651s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.652s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f99530b20>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f99530b20>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f9940b7c0>)
+[2.588s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.589s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.589s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.589s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.589s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.590s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.590s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/brsd/microros_ws'
+[2.590s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.591s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.591s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.591s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.591s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.591s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.592s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.592s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.592s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.654s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.655s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.655s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.655s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.655s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.656s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.656s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.657s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.657s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.658s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.658s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.659s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.659s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.659s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.660s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[2.660s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[2.660s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[2.661s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[2.661s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[2.661s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[2.661s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[2.661s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[2.662s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[2.662s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[2.662s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[2.662s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[2.662s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[2.663s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[2.663s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[2.663s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[2.664s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[2.664s] Level 1:colcon.colcon_core.package_identification:_identify(src/fsm) by extensions ['ignore', 'ignore_ament_install']
+[2.664s] Level 1:colcon.colcon_core.package_identification:_identify(src/fsm) by extension 'ignore'
+[2.665s] Level 1:colcon.colcon_core.package_identification:_identify(src/fsm) by extension 'ignore_ament_install'
+[2.665s] Level 1:colcon.colcon_core.package_identification:_identify(src/fsm) by extensions ['colcon_pkg']
+[2.665s] Level 1:colcon.colcon_core.package_identification:_identify(src/fsm) by extension 'colcon_pkg'
+[2.666s] Level 1:colcon.colcon_core.package_identification:_identify(src/fsm) by extensions ['colcon_meta']
+[2.666s] Level 1:colcon.colcon_core.package_identification:_identify(src/fsm) by extension 'colcon_meta'
+[2.666s] Level 1:colcon.colcon_core.package_identification:_identify(src/fsm) by extensions ['ros']
+[2.666s] Level 1:colcon.colcon_core.package_identification:_identify(src/fsm) by extension 'ros'
+[2.681s] DEBUG:colcon.colcon_core.package_identification:Package 'src/fsm' with type 'ros.ament_python' and name 'fsm'
+[2.682s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[2.682s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[2.682s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[2.683s] Level 1:colcon.colcon_core.package_identification:_identify(src/jetson_comm) by extensions ['ignore', 'ignore_ament_install']
+[2.683s] Level 1:colcon.colcon_core.package_identification:_identify(src/jetson_comm) by extension 'ignore'
+[2.683s] Level 1:colcon.colcon_core.package_identification:_identify(src/jetson_comm) by extension 'ignore_ament_install'
+[2.684s] Level 1:colcon.colcon_core.package_identification:_identify(src/jetson_comm) by extensions ['colcon_pkg']
+[2.684s] Level 1:colcon.colcon_core.package_identification:_identify(src/jetson_comm) by extension 'colcon_pkg'
+[2.684s] Level 1:colcon.colcon_core.package_identification:_identify(src/jetson_comm) by extensions ['colcon_meta']
+[2.684s] Level 1:colcon.colcon_core.package_identification:_identify(src/jetson_comm) by extension 'colcon_meta'
+[2.684s] Level 1:colcon.colcon_core.package_identification:_identify(src/jetson_comm) by extensions ['ros']
+[2.685s] Level 1:colcon.colcon_core.package_identification:_identify(src/jetson_comm) by extension 'ros'
+[2.688s] DEBUG:colcon.colcon_core.package_identification:Package 'src/jetson_comm' with type 'ros.ament_python' and name 'jetson_comm'
+[2.689s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_input) by extensions ['ignore', 'ignore_ament_install']
+[2.689s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_input) by extension 'ignore'
+[2.690s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_input) by extension 'ignore_ament_install'
+[2.690s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_input) by extensions ['colcon_pkg']
+[2.690s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_input) by extension 'colcon_pkg'
+[2.690s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_input) by extensions ['colcon_meta']
+[2.690s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_input) by extension 'colcon_meta'
+[2.691s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_input) by extensions ['ros']
+[2.691s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_input) by extension 'ros'
+[2.694s] DEBUG:colcon.colcon_core.package_identification:Package 'src/joystick_input' with type 'ros.ament_python' and name 'joystick_input'
+[2.694s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[2.695s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[2.695s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[2.695s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extensions ['ignore', 'ignore_ament_install']
+[2.695s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extension 'ignore'
+[2.696s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extension 'ignore_ament_install'
+[2.696s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extensions ['colcon_pkg']
+[2.696s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extension 'colcon_pkg'
+[2.696s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extensions ['colcon_meta']
+[2.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extension 'colcon_meta'
+[2.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extensions ['ros']
+[2.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extension 'ros'
+[2.701s] DEBUG:colcon.colcon_core.package_identification:Package 'src/micro_ros_setup' with type 'ros.ament_cmake' and name 'micro_ros_setup'
+[2.702s] Level 1:colcon.colcon_core.package_identification:_identify(src/multisense_ros2) by extensions ['ignore', 'ignore_ament_install']
+[2.702s] Level 1:colcon.colcon_core.package_identification:_identify(src/multisense_ros2) by extension 'ignore'
+[2.703s] Level 1:colcon.colcon_core.package_identification:_identify(src/multisense_ros2) by extension 'ignore_ament_install'
+[2.703s] Level 1:colcon.colcon_core.package_identification:_identify(src/multisense_ros2) by extensions ['colcon_pkg']
+[2.703s] Level 1:colcon.colcon_core.package_identification:_identify(src/multisense_ros2) by extension 'colcon_pkg'
+[2.703s] Level 1:colcon.colcon_core.package_identification:_identify(src/multisense_ros2) by extensions ['colcon_meta']
+[2.703s] Level 1:colcon.colcon_core.package_identification:_identify(src/multisense_ros2) by extension 'colcon_meta'
+[2.704s] Level 1:colcon.colcon_core.package_identification:_identify(src/multisense_ros2) by extensions ['ros']
+[2.704s] Level 1:colcon.colcon_core.package_identification:_identify(src/multisense_ros2) by extension 'ros'
+[2.704s] Level 1:colcon.colcon_core.package_identification:_identify(src/multisense_ros2) by extensions ['cmake', 'python']
+[2.704s] Level 1:colcon.colcon_core.package_identification:_identify(src/multisense_ros2) by extension 'cmake'
+[2.705s] Level 1:colcon.colcon_core.package_identification:_identify(src/multisense_ros2) by extension 'python'
+[2.705s] Level 1:colcon.colcon_core.package_identification:_identify(src/multisense_ros2) by extensions ['python_setup_py']
+[2.705s] Level 1:colcon.colcon_core.package_identification:_identify(src/multisense_ros2) by extension 'python_setup_py'
+[2.706s] Level 1:colcon.colcon_core.package_identification:_identify(src/multisense_ros2/multisense_lib) by extensions ['ignore', 'ignore_ament_install']
+[2.706s] Level 1:colcon.colcon_core.package_identification:_identify(src/multisense_ros2/multisense_lib) by extension 'ignore'
+[2.706s] Level 1:colcon.colcon_core.package_identification:_identify(src/multisense_ros2/multisense_lib) by extension 'ignore_ament_install'
+[2.706s] Level 1:colcon.colcon_core.package_identification:_identify(src/multisense_ros2/multisense_lib) by extensions ['colcon_pkg']
+[2.706s] Level 1:colcon.colcon_core.package_identification:_identify(src/multisense_ros2/multisense_lib) by extension 'colcon_pkg'
+[2.707s] Level 1:colcon.colcon_core.package_identification:_identify(src/multisense_ros2/multisense_lib) by extensions ['colcon_meta']
+[2.707s] Level 1:colcon.colcon_core.package_identification:_identify(src/multisense_ros2/multisense_lib) by extension 'colcon_meta'
+[2.707s] Level 1:colcon.colcon_core.package_identification:_identify(src/multisense_ros2/multisense_lib) by extensions ['ros']
+[2.707s] Level 1:colcon.colcon_core.package_identification:_identify(src/multisense_ros2/multisense_lib) by extension 'ros'
+[2.710s] DEBUG:colcon.colcon_core.package_identification:Package 'src/multisense_ros2/multisense_lib' with type 'ros.ament_cmake' and name 'multisense_lib'
+[2.711s] Level 1:colcon.colcon_core.package_identification:_identify(src/multisense_ros2/multisense_msgs) by extensions ['ignore', 'ignore_ament_install']
+[2.711s] Level 1:colcon.colcon_core.package_identification:_identify(src/multisense_ros2/multisense_msgs) by extension 'ignore'
+[2.711s] Level 1:colcon.colcon_core.package_identification:_identify(src/multisense_ros2/multisense_msgs) by extension 'ignore_ament_install'
+[2.711s] Level 1:colcon.colcon_core.package_identification:_identify(src/multisense_ros2/multisense_msgs) by extensions ['colcon_pkg']
+[2.712s] Level 1:colcon.colcon_core.package_identification:_identify(src/multisense_ros2/multisense_msgs) by extension 'colcon_pkg'
+[2.712s] Level 1:colcon.colcon_core.package_identification:_identify(src/multisense_ros2/multisense_msgs) by extensions ['colcon_meta']
+[2.712s] Level 1:colcon.colcon_core.package_identification:_identify(src/multisense_ros2/multisense_msgs) by extension 'colcon_meta'
+[2.712s] Level 1:colcon.colcon_core.package_identification:_identify(src/multisense_ros2/multisense_msgs) by extensions ['ros']
+[2.712s] Level 1:colcon.colcon_core.package_identification:_identify(src/multisense_ros2/multisense_msgs) by extension 'ros'
+[2.715s] DEBUG:colcon.colcon_core.package_identification:Package 'src/multisense_ros2/multisense_msgs' with type 'ros.ament_cmake' and name 'multisense_msgs'
+[2.716s] Level 1:colcon.colcon_core.package_identification:_identify(src/multisense_ros2/multisense_ros) by extensions ['ignore', 'ignore_ament_install']
+[2.716s] Level 1:colcon.colcon_core.package_identification:_identify(src/multisense_ros2/multisense_ros) by extension 'ignore'
+[2.716s] Level 1:colcon.colcon_core.package_identification:_identify(src/multisense_ros2/multisense_ros) by extension 'ignore_ament_install'
+[2.717s] Level 1:colcon.colcon_core.package_identification:_identify(src/multisense_ros2/multisense_ros) by extensions ['colcon_pkg']
+[2.717s] Level 1:colcon.colcon_core.package_identification:_identify(src/multisense_ros2/multisense_ros) by extension 'colcon_pkg'
+[2.717s] Level 1:colcon.colcon_core.package_identification:_identify(src/multisense_ros2/multisense_ros) by extensions ['colcon_meta']
+[2.717s] Level 1:colcon.colcon_core.package_identification:_identify(src/multisense_ros2/multisense_ros) by extension 'colcon_meta'
+[2.717s] Level 1:colcon.colcon_core.package_identification:_identify(src/multisense_ros2/multisense_ros) by extensions ['ros']
+[2.717s] Level 1:colcon.colcon_core.package_identification:_identify(src/multisense_ros2/multisense_ros) by extension 'ros'
+[2.723s] DEBUG:colcon.colcon_core.package_identification:Package 'src/multisense_ros2/multisense_ros' with type 'ros.ament_cmake' and name 'multisense_ros'
+[2.723s] Level 1:colcon.colcon_core.package_identification:_identify(src/object_detection_pkg) by extensions ['ignore', 'ignore_ament_install']
+[2.723s] Level 1:colcon.colcon_core.package_identification:_identify(src/object_detection_pkg) by extension 'ignore'
+[2.724s] Level 1:colcon.colcon_core.package_identification:_identify(src/object_detection_pkg) by extension 'ignore_ament_install'
+[2.724s] Level 1:colcon.colcon_core.package_identification:_identify(src/object_detection_pkg) by extensions ['colcon_pkg']
+[2.724s] Level 1:colcon.colcon_core.package_identification:_identify(src/object_detection_pkg) by extension 'colcon_pkg'
+[2.724s] Level 1:colcon.colcon_core.package_identification:_identify(src/object_detection_pkg) by extensions ['colcon_meta']
+[2.725s] Level 1:colcon.colcon_core.package_identification:_identify(src/object_detection_pkg) by extension 'colcon_meta'
+[2.725s] Level 1:colcon.colcon_core.package_identification:_identify(src/object_detection_pkg) by extensions ['ros']
+[2.725s] Level 1:colcon.colcon_core.package_identification:_identify(src/object_detection_pkg) by extension 'ros'
+[2.728s] DEBUG:colcon.colcon_core.package_identification:Package 'src/object_detection_pkg' with type 'ros.ament_python' and name 'object_detection_pkg'
+[2.728s] Level 1:colcon.colcon_core.package_identification:_identify(src/pathfinding) by extensions ['ignore', 'ignore_ament_install']
+[2.729s] Level 1:colcon.colcon_core.package_identification:_identify(src/pathfinding) by extension 'ignore'
+[2.729s] Level 1:colcon.colcon_core.package_identification:_identify(src/pathfinding) by extension 'ignore_ament_install'
+[2.729s] Level 1:colcon.colcon_core.package_identification:_identify(src/pathfinding) by extensions ['colcon_pkg']
+[2.729s] Level 1:colcon.colcon_core.package_identification:_identify(src/pathfinding) by extension 'colcon_pkg'
+[2.730s] Level 1:colcon.colcon_core.package_identification:_identify(src/pathfinding) by extensions ['colcon_meta']
+[2.730s] Level 1:colcon.colcon_core.package_identification:_identify(src/pathfinding) by extension 'colcon_meta'
+[2.730s] Level 1:colcon.colcon_core.package_identification:_identify(src/pathfinding) by extensions ['ros']
+[2.730s] Level 1:colcon.colcon_core.package_identification:_identify(src/pathfinding) by extension 'ros'
+[2.735s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pathfinding' with type 'ros.ament_python' and name 'pathfinding'
+[2.735s] Level 1:colcon.colcon_core.package_identification:_identify(src/person_detection) by extensions ['ignore', 'ignore_ament_install']
+[2.735s] Level 1:colcon.colcon_core.package_identification:_identify(src/person_detection) by extension 'ignore'
+[2.736s] Level 1:colcon.colcon_core.package_identification:_identify(src/person_detection) by extension 'ignore_ament_install'
+[2.736s] Level 1:colcon.colcon_core.package_identification:_identify(src/person_detection) by extensions ['colcon_pkg']
+[2.736s] Level 1:colcon.colcon_core.package_identification:_identify(src/person_detection) by extension 'colcon_pkg'
+[2.736s] Level 1:colcon.colcon_core.package_identification:_identify(src/person_detection) by extensions ['colcon_meta']
+[2.736s] Level 1:colcon.colcon_core.package_identification:_identify(src/person_detection) by extension 'colcon_meta'
+[2.737s] Level 1:colcon.colcon_core.package_identification:_identify(src/person_detection) by extensions ['ros']
+[2.737s] Level 1:colcon.colcon_core.package_identification:_identify(src/person_detection) by extension 'ros'
+[2.740s] DEBUG:colcon.colcon_core.package_identification:Package 'src/person_detection' with type 'ros.ament_python' and name 'person_detection'
+[2.740s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extensions ['ignore', 'ignore_ament_install']
+[2.741s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'ignore'
+[2.741s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'ignore_ament_install'
+[2.741s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extensions ['colcon_pkg']
+[2.741s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'colcon_pkg'
+[2.742s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extensions ['colcon_meta']
+[2.742s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'colcon_meta'
+[2.742s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extensions ['ros']
+[2.742s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'ros'
+[2.742s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extensions ['cmake', 'python']
+[2.743s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'cmake'
+[2.743s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'python'
+[2.743s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extensions ['python_setup_py']
+[2.743s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'python_setup_py'
+[2.743s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base) by extensions ['ignore', 'ignore_ament_install']
+[2.744s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base) by extension 'ignore'
+[2.744s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base) by extension 'ignore_ament_install'
+[2.745s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base) by extensions ['colcon_pkg']
+[2.745s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base) by extension 'colcon_pkg'
+[2.745s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base) by extensions ['colcon_meta']
+[2.745s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base) by extension 'colcon_meta'
+[2.746s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base) by extensions ['ros']
+[2.746s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base) by extension 'ros'
+[2.746s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base) by extensions ['cmake', 'python']
+[2.746s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base) by extension 'cmake'
+[2.746s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base) by extension 'python'
+[2.747s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base) by extensions ['python_setup_py']
+[2.747s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base) by extension 'python_setup_py'
+[2.747s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base/drive_base_msgs) by extensions ['ignore', 'ignore_ament_install']
+[2.748s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base/drive_base_msgs) by extension 'ignore'
+[2.748s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base/drive_base_msgs) by extension 'ignore_ament_install'
+[2.748s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base/drive_base_msgs) by extensions ['colcon_pkg']
+[2.748s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base/drive_base_msgs) by extension 'colcon_pkg'
+[2.749s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base/drive_base_msgs) by extensions ['colcon_meta']
+[2.749s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base/drive_base_msgs) by extension 'colcon_meta'
+[2.749s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base/drive_base_msgs) by extensions ['ros']
+[2.749s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base/drive_base_msgs) by extension 'ros'
+[2.753s] DEBUG:colcon.colcon_core.package_identification:Package 'src/uros/drive_base/drive_base_msgs' with type 'ros.ament_cmake' and name 'drive_base_msgs'
+[2.753s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extensions ['ignore', 'ignore_ament_install']
+[2.754s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'ignore'
+[2.754s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'ignore_ament_install'
+[2.755s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extensions ['colcon_pkg']
+[2.755s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'colcon_pkg'
+[2.755s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extensions ['colcon_meta']
+[2.755s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'colcon_meta'
+[2.755s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extensions ['ros']
+[2.755s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'ros'
+[2.756s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extensions ['cmake', 'python']
+[2.756s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'cmake'
+[2.756s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'python'
+[2.756s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extensions ['python_setup_py']
+[2.757s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'python_setup_py'
+[2.757s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extensions ['ignore', 'ignore_ament_install']
+[2.758s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'ignore'
+[2.758s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'ignore_ament_install'
+[2.758s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extensions ['colcon_pkg']
+[2.758s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'colcon_pkg'
+[2.758s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extensions ['colcon_meta']
+[2.759s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'colcon_meta'
+[2.759s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extensions ['ros']
+[2.759s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'ros'
+[2.764s] DEBUG:colcon.colcon_core.package_identification:Package 'src/uros/micro-ROS-Agent/micro_ros_agent' with type 'ros.ament_cmake' and name 'micro_ros_agent'
+[2.764s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extensions ['ignore', 'ignore_ament_install']
+[2.765s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'ignore'
+[2.765s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'ignore_ament_install'
+[2.766s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extensions ['colcon_pkg']
+[2.766s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'colcon_pkg'
+[2.766s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extensions ['colcon_meta']
+[2.766s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'colcon_meta'
+[2.766s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extensions ['ros']
+[2.767s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'ros'
+[2.767s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extensions ['cmake', 'python']
+[2.767s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'cmake'
+[2.767s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'python'
+[2.767s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extensions ['python_setup_py']
+[2.768s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'python_setup_py'
+[2.768s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['ignore', 'ignore_ament_install']
+[2.768s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'ignore'
+[2.769s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'ignore_ament_install'
+[2.769s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['colcon_pkg']
+[2.769s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'colcon_pkg'
+[2.769s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['colcon_meta']
+[2.769s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'colcon_meta'
+[2.770s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['ros']
+[2.770s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'ros'
+[2.770s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['cmake', 'python']
+[2.770s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'cmake'
+[2.771s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'python'
+[2.771s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['python_setup_py']
+[2.771s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'python_setup_py'
+[2.772s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['ignore', 'ignore_ament_install']
+[2.772s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'ignore'
+[2.772s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'ignore_ament_install'
+[2.773s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['colcon_pkg']
+[2.773s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'colcon_pkg'
+[2.773s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['colcon_meta']
+[2.773s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'colcon_meta'
+[2.773s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['ros']
+[2.773s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'ros'
+[2.774s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['cmake', 'python']
+[2.774s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'cmake'
+[2.774s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'python'
+[2.774s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['python_setup_py']
+[2.775s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'python_setup_py'
+[2.775s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extensions ['ignore', 'ignore_ament_install']
+[2.775s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extension 'ignore'
+[2.776s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extension 'ignore_ament_install'
+[2.776s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extensions ['colcon_pkg']
+[2.776s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extension 'colcon_pkg'
+[2.776s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extensions ['colcon_meta']
+[2.776s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extension 'colcon_meta'
+[2.777s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extensions ['ros']
+[2.777s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extension 'ros'
+[2.781s] DEBUG:colcon.colcon_core.package_identification:Package 'src/uros/micro_ros_msgs' with type 'ros.ament_cmake' and name 'micro_ros_msgs'
+[2.781s] Level 1:colcon.colcon_core.package_identification:_identify(src/xacro) by extensions ['ignore', 'ignore_ament_install']
+[2.782s] Level 1:colcon.colcon_core.package_identification:_identify(src/xacro) by extension 'ignore'
+[2.782s] Level 1:colcon.colcon_core.package_identification:_identify(src/xacro) by extension 'ignore_ament_install'
+[2.782s] Level 1:colcon.colcon_core.package_identification:_identify(src/xacro) by extensions ['colcon_pkg']
+[2.782s] Level 1:colcon.colcon_core.package_identification:_identify(src/xacro) by extension 'colcon_pkg'
+[2.785s] Level 1:colcon.colcon_core.package_identification:_identify(src/xacro) by extensions ['colcon_meta']
+[2.785s] Level 1:colcon.colcon_core.package_identification:_identify(src/xacro) by extension 'colcon_meta'
+[2.785s] Level 1:colcon.colcon_core.package_identification:_identify(src/xacro) by extensions ['ros']
+[2.785s] Level 1:colcon.colcon_core.package_identification:_identify(src/xacro) by extension 'ros'
+[2.790s] DEBUG:colcon.colcon_core.package_identification:Package 'src/xacro' with type 'ros.ament_cmake' and name 'xacro'
+[2.790s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.790s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.790s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.790s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.790s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.872s] INFO:colcon.colcon_metadata.metadata.colcon_pkg:Updating descriptor of package 'src/xacro' from colcon.pkg: {'hooks': ['share/xacro/environment/completion.bash']}
+[2.895s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.895s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.910s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 14 installed packages in /home/brsd/microros_ws/install
+[2.917s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 263 installed packages in /opt/ros/foxy
+[2.968s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[3.459s] Level 5:colcon.colcon_core.verb:set package 'drive_base_msgs' build argument 'cmake_args' from command line to 'None'
+[3.459s] Level 5:colcon.colcon_core.verb:set package 'drive_base_msgs' build argument 'cmake_target' from command line to 'None'
+[3.459s] Level 5:colcon.colcon_core.verb:set package 'drive_base_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.460s] Level 5:colcon.colcon_core.verb:set package 'drive_base_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[3.460s] Level 5:colcon.colcon_core.verb:set package 'drive_base_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[3.460s] Level 5:colcon.colcon_core.verb:set package 'drive_base_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[3.460s] Level 5:colcon.colcon_core.verb:set package 'drive_base_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[3.460s] Level 5:colcon.colcon_core.verb:set package 'drive_base_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[3.460s] Level 5:colcon.colcon_core.verb:set package 'drive_base_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.461s] DEBUG:colcon.colcon_core.verb:Building package 'drive_base_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/brsd/microros_ws/build/drive_base_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/brsd/microros_ws/install/drive_base_msgs', 'merge_install': False, 'path': '/home/brsd/microros_ws/src/uros/drive_base/drive_base_msgs', 'symlink_install': False, 'test_result_base': None}
+[3.463s] Level 5:colcon.colcon_core.verb:set package 'fsm' build argument 'cmake_args' from command line to 'None'
+[3.463s] Level 5:colcon.colcon_core.verb:set package 'fsm' build argument 'cmake_target' from command line to 'None'
+[3.463s] Level 5:colcon.colcon_core.verb:set package 'fsm' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.463s] Level 5:colcon.colcon_core.verb:set package 'fsm' build argument 'cmake_clean_cache' from command line to 'False'
+[3.463s] Level 5:colcon.colcon_core.verb:set package 'fsm' build argument 'cmake_clean_first' from command line to 'False'
+[3.463s] Level 5:colcon.colcon_core.verb:set package 'fsm' build argument 'cmake_force_configure' from command line to 'False'
+[3.463s] Level 5:colcon.colcon_core.verb:set package 'fsm' build argument 'ament_cmake_args' from command line to 'None'
+[3.463s] Level 5:colcon.colcon_core.verb:set package 'fsm' build argument 'catkin_cmake_args' from command line to 'None'
+[3.464s] Level 5:colcon.colcon_core.verb:set package 'fsm' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.464s] DEBUG:colcon.colcon_core.verb:Building package 'fsm' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/brsd/microros_ws/build/fsm', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/brsd/microros_ws/install/fsm', 'merge_install': False, 'path': '/home/brsd/microros_ws/src/fsm', 'symlink_install': False, 'test_result_base': None}
+[3.466s] Level 5:colcon.colcon_core.verb:set package 'jetson_comm' build argument 'cmake_args' from command line to 'None'
+[3.466s] Level 5:colcon.colcon_core.verb:set package 'jetson_comm' build argument 'cmake_target' from command line to 'None'
+[3.466s] Level 5:colcon.colcon_core.verb:set package 'jetson_comm' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.466s] Level 5:colcon.colcon_core.verb:set package 'jetson_comm' build argument 'cmake_clean_cache' from command line to 'False'
+[3.466s] Level 5:colcon.colcon_core.verb:set package 'jetson_comm' build argument 'cmake_clean_first' from command line to 'False'
+[3.466s] Level 5:colcon.colcon_core.verb:set package 'jetson_comm' build argument 'cmake_force_configure' from command line to 'False'
+[3.466s] Level 5:colcon.colcon_core.verb:set package 'jetson_comm' build argument 'ament_cmake_args' from command line to 'None'
+[3.467s] Level 5:colcon.colcon_core.verb:set package 'jetson_comm' build argument 'catkin_cmake_args' from command line to 'None'
+[3.467s] Level 5:colcon.colcon_core.verb:set package 'jetson_comm' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.467s] DEBUG:colcon.colcon_core.verb:Building package 'jetson_comm' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/brsd/microros_ws/build/jetson_comm', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/brsd/microros_ws/install/jetson_comm', 'merge_install': False, 'path': '/home/brsd/microros_ws/src/jetson_comm', 'symlink_install': False, 'test_result_base': None}
+[3.469s] Level 5:colcon.colcon_core.verb:set package 'joystick_input' build argument 'cmake_args' from command line to 'None'
+[3.469s] Level 5:colcon.colcon_core.verb:set package 'joystick_input' build argument 'cmake_target' from command line to 'None'
+[3.469s] Level 5:colcon.colcon_core.verb:set package 'joystick_input' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.469s] Level 5:colcon.colcon_core.verb:set package 'joystick_input' build argument 'cmake_clean_cache' from command line to 'False'
+[3.469s] Level 5:colcon.colcon_core.verb:set package 'joystick_input' build argument 'cmake_clean_first' from command line to 'False'
+[3.469s] Level 5:colcon.colcon_core.verb:set package 'joystick_input' build argument 'cmake_force_configure' from command line to 'False'
+[3.469s] Level 5:colcon.colcon_core.verb:set package 'joystick_input' build argument 'ament_cmake_args' from command line to 'None'
+[3.470s] Level 5:colcon.colcon_core.verb:set package 'joystick_input' build argument 'catkin_cmake_args' from command line to 'None'
+[3.470s] Level 5:colcon.colcon_core.verb:set package 'joystick_input' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.470s] DEBUG:colcon.colcon_core.verb:Building package 'joystick_input' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/brsd/microros_ws/build/joystick_input', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/brsd/microros_ws/install/joystick_input', 'merge_install': False, 'path': '/home/brsd/microros_ws/src/joystick_input', 'symlink_install': False, 'test_result_base': None}
+[3.472s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'cmake_args' from command line to 'None'
+[3.472s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'cmake_target' from command line to 'None'
+[3.472s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.472s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[3.472s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[3.473s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[3.473s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[3.473s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[3.473s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.473s] DEBUG:colcon.colcon_core.verb:Building package 'micro_ros_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/brsd/microros_ws/build/micro_ros_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/brsd/microros_ws/install/micro_ros_msgs', 'merge_install': False, 'path': '/home/brsd/microros_ws/src/uros/micro_ros_msgs', 'symlink_install': False, 'test_result_base': None}
+[3.475s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_args' from command line to 'None'
+[3.475s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_target' from command line to 'None'
+[3.475s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.476s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_clean_cache' from command line to 'False'
+[3.476s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_clean_first' from command line to 'False'
+[3.476s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_force_configure' from command line to 'False'
+[3.476s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'ament_cmake_args' from command line to 'None'
+[3.476s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'catkin_cmake_args' from command line to 'None'
+[3.476s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.476s] DEBUG:colcon.colcon_core.verb:Building package 'micro_ros_setup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/brsd/microros_ws/build/micro_ros_setup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/brsd/microros_ws/install/micro_ros_setup', 'merge_install': False, 'path': '/home/brsd/microros_ws/src/micro_ros_setup', 'symlink_install': False, 'test_result_base': None}
+[3.478s] Level 5:colcon.colcon_core.verb:set package 'multisense_lib' build argument 'cmake_args' from command line to 'None'
+[3.478s] Level 5:colcon.colcon_core.verb:set package 'multisense_lib' build argument 'cmake_target' from command line to 'None'
+[3.479s] Level 5:colcon.colcon_core.verb:set package 'multisense_lib' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.479s] Level 5:colcon.colcon_core.verb:set package 'multisense_lib' build argument 'cmake_clean_cache' from command line to 'False'
+[3.479s] Level 5:colcon.colcon_core.verb:set package 'multisense_lib' build argument 'cmake_clean_first' from command line to 'False'
+[3.479s] Level 5:colcon.colcon_core.verb:set package 'multisense_lib' build argument 'cmake_force_configure' from command line to 'False'
+[3.479s] Level 5:colcon.colcon_core.verb:set package 'multisense_lib' build argument 'ament_cmake_args' from command line to 'None'
+[3.479s] Level 5:colcon.colcon_core.verb:set package 'multisense_lib' build argument 'catkin_cmake_args' from command line to 'None'
+[3.479s] Level 5:colcon.colcon_core.verb:set package 'multisense_lib' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.479s] DEBUG:colcon.colcon_core.verb:Building package 'multisense_lib' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/brsd/microros_ws/build/multisense_lib', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/brsd/microros_ws/install/multisense_lib', 'merge_install': False, 'path': '/home/brsd/microros_ws/src/multisense_ros2/multisense_lib', 'symlink_install': False, 'test_result_base': None}
+[3.481s] Level 5:colcon.colcon_core.verb:set package 'multisense_msgs' build argument 'cmake_args' from command line to 'None'
+[3.481s] Level 5:colcon.colcon_core.verb:set package 'multisense_msgs' build argument 'cmake_target' from command line to 'None'
+[3.482s] Level 5:colcon.colcon_core.verb:set package 'multisense_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.482s] Level 5:colcon.colcon_core.verb:set package 'multisense_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[3.482s] Level 5:colcon.colcon_core.verb:set package 'multisense_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[3.482s] Level 5:colcon.colcon_core.verb:set package 'multisense_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[3.482s] Level 5:colcon.colcon_core.verb:set package 'multisense_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[3.482s] Level 5:colcon.colcon_core.verb:set package 'multisense_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[3.482s] Level 5:colcon.colcon_core.verb:set package 'multisense_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.482s] DEBUG:colcon.colcon_core.verb:Building package 'multisense_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/brsd/microros_ws/build/multisense_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/brsd/microros_ws/install/multisense_msgs', 'merge_install': False, 'path': '/home/brsd/microros_ws/src/multisense_ros2/multisense_msgs', 'symlink_install': False, 'test_result_base': None}
+[3.484s] Level 5:colcon.colcon_core.verb:set package 'object_detection_pkg' build argument 'cmake_args' from command line to 'None'
+[3.484s] Level 5:colcon.colcon_core.verb:set package 'object_detection_pkg' build argument 'cmake_target' from command line to 'None'
+[3.484s] Level 5:colcon.colcon_core.verb:set package 'object_detection_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.485s] Level 5:colcon.colcon_core.verb:set package 'object_detection_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[3.485s] Level 5:colcon.colcon_core.verb:set package 'object_detection_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[3.485s] Level 5:colcon.colcon_core.verb:set package 'object_detection_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[3.485s] Level 5:colcon.colcon_core.verb:set package 'object_detection_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[3.485s] Level 5:colcon.colcon_core.verb:set package 'object_detection_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[3.485s] Level 5:colcon.colcon_core.verb:set package 'object_detection_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.485s] DEBUG:colcon.colcon_core.verb:Building package 'object_detection_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/brsd/microros_ws/build/object_detection_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/brsd/microros_ws/install/object_detection_pkg', 'merge_install': False, 'path': '/home/brsd/microros_ws/src/object_detection_pkg', 'symlink_install': False, 'test_result_base': None}
+[3.487s] Level 5:colcon.colcon_core.verb:set package 'pathfinding' build argument 'cmake_args' from command line to 'None'
+[3.487s] Level 5:colcon.colcon_core.verb:set package 'pathfinding' build argument 'cmake_target' from command line to 'None'
+[3.487s] Level 5:colcon.colcon_core.verb:set package 'pathfinding' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.487s] Level 5:colcon.colcon_core.verb:set package 'pathfinding' build argument 'cmake_clean_cache' from command line to 'False'
+[3.488s] Level 5:colcon.colcon_core.verb:set package 'pathfinding' build argument 'cmake_clean_first' from command line to 'False'
+[3.488s] Level 5:colcon.colcon_core.verb:set package 'pathfinding' build argument 'cmake_force_configure' from command line to 'False'
+[3.488s] Level 5:colcon.colcon_core.verb:set package 'pathfinding' build argument 'ament_cmake_args' from command line to 'None'
+[3.488s] Level 5:colcon.colcon_core.verb:set package 'pathfinding' build argument 'catkin_cmake_args' from command line to 'None'
+[3.488s] Level 5:colcon.colcon_core.verb:set package 'pathfinding' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.488s] DEBUG:colcon.colcon_core.verb:Building package 'pathfinding' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/brsd/microros_ws/build/pathfinding', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/brsd/microros_ws/install/pathfinding', 'merge_install': False, 'path': '/home/brsd/microros_ws/src/pathfinding', 'symlink_install': False, 'test_result_base': None}
+[3.490s] Level 5:colcon.colcon_core.verb:set package 'person_detection' build argument 'cmake_args' from command line to 'None'
+[3.490s] Level 5:colcon.colcon_core.verb:set package 'person_detection' build argument 'cmake_target' from command line to 'None'
+[3.490s] Level 5:colcon.colcon_core.verb:set package 'person_detection' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.490s] Level 5:colcon.colcon_core.verb:set package 'person_detection' build argument 'cmake_clean_cache' from command line to 'False'
+[3.491s] Level 5:colcon.colcon_core.verb:set package 'person_detection' build argument 'cmake_clean_first' from command line to 'False'
+[3.491s] Level 5:colcon.colcon_core.verb:set package 'person_detection' build argument 'cmake_force_configure' from command line to 'False'
+[3.491s] Level 5:colcon.colcon_core.verb:set package 'person_detection' build argument 'ament_cmake_args' from command line to 'None'
+[3.491s] Level 5:colcon.colcon_core.verb:set package 'person_detection' build argument 'catkin_cmake_args' from command line to 'None'
+[3.491s] Level 5:colcon.colcon_core.verb:set package 'person_detection' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.491s] DEBUG:colcon.colcon_core.verb:Building package 'person_detection' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/brsd/microros_ws/build/person_detection', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/brsd/microros_ws/install/person_detection', 'merge_install': False, 'path': '/home/brsd/microros_ws/src/person_detection', 'symlink_install': False, 'test_result_base': None}
+[3.493s] Level 5:colcon.colcon_core.verb:set package 'xacro' build argument 'cmake_args' from command line to 'None'
+[3.493s] Level 5:colcon.colcon_core.verb:set package 'xacro' build argument 'cmake_target' from command line to 'None'
+[3.493s] Level 5:colcon.colcon_core.verb:set package 'xacro' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.494s] Level 5:colcon.colcon_core.verb:set package 'xacro' build argument 'cmake_clean_cache' from command line to 'False'
+[3.494s] Level 5:colcon.colcon_core.verb:set package 'xacro' build argument 'cmake_clean_first' from command line to 'False'
+[3.494s] Level 5:colcon.colcon_core.verb:set package 'xacro' build argument 'cmake_force_configure' from command line to 'False'
+[3.494s] Level 5:colcon.colcon_core.verb:set package 'xacro' build argument 'ament_cmake_args' from command line to 'None'
+[3.494s] Level 5:colcon.colcon_core.verb:set package 'xacro' build argument 'catkin_cmake_args' from command line to 'None'
+[3.494s] Level 5:colcon.colcon_core.verb:set package 'xacro' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.494s] DEBUG:colcon.colcon_core.verb:Building package 'xacro' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/brsd/microros_ws/build/xacro', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/brsd/microros_ws/install/xacro', 'merge_install': False, 'path': '/home/brsd/microros_ws/src/xacro', 'symlink_install': False, 'test_result_base': None}
+[3.496s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_args' from command line to 'None'
+[3.496s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_target' from command line to 'None'
+[3.496s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.497s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_clean_cache' from command line to 'False'
+[3.497s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_clean_first' from command line to 'False'
+[3.497s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_force_configure' from command line to 'False'
+[3.497s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'ament_cmake_args' from command line to 'None'
+[3.497s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'catkin_cmake_args' from command line to 'None'
+[3.497s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.497s] DEBUG:colcon.colcon_core.verb:Building package 'micro_ros_agent' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/brsd/microros_ws/build/micro_ros_agent', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/brsd/microros_ws/install/micro_ros_agent', 'merge_install': False, 'path': '/home/brsd/microros_ws/src/uros/micro-ROS-Agent/micro_ros_agent', 'symlink_install': False, 'test_result_base': None}
+[3.499s] Level 5:colcon.colcon_core.verb:set package 'multisense_ros' build argument 'cmake_args' from command line to 'None'
+[3.499s] Level 5:colcon.colcon_core.verb:set package 'multisense_ros' build argument 'cmake_target' from command line to 'None'
+[3.499s] Level 5:colcon.colcon_core.verb:set package 'multisense_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.499s] Level 5:colcon.colcon_core.verb:set package 'multisense_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[3.500s] Level 5:colcon.colcon_core.verb:set package 'multisense_ros' build argument 'cmake_clean_first' from command line to 'False'
+[3.500s] Level 5:colcon.colcon_core.verb:set package 'multisense_ros' build argument 'cmake_force_configure' from command line to 'False'
+[3.500s] Level 5:colcon.colcon_core.verb:set package 'multisense_ros' build argument 'ament_cmake_args' from command line to 'None'
+[3.500s] Level 5:colcon.colcon_core.verb:set package 'multisense_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[3.500s] Level 5:colcon.colcon_core.verb:set package 'multisense_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.500s] DEBUG:colcon.colcon_core.verb:Building package 'multisense_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/brsd/microros_ws/build/multisense_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/brsd/microros_ws/install/multisense_ros', 'merge_install': False, 'path': '/home/brsd/microros_ws/src/multisense_ros2/multisense_ros', 'symlink_install': False, 'test_result_base': None}
+[3.501s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[3.505s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[3.506s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/brsd/microros_ws/src/uros/micro_ros_msgs' with build type 'ament_cmake'
+[3.506s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/brsd/microros_ws/src/uros/micro_ros_msgs'
+[3.523s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[3.524s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.525s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.552s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/brsd/microros_ws/src/multisense_ros2/multisense_lib' with build type 'ament_cmake'
+[3.553s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/brsd/microros_ws/src/multisense_ros2/multisense_lib'
+[3.555s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.556s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.580s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/brsd/microros_ws/src/multisense_ros2/multisense_msgs' with build type 'ament_cmake'
+[3.581s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/brsd/microros_ws/src/multisense_ros2/multisense_msgs'
+[3.583s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.583s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.612s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/brsd/microros_ws/src/xacro' with build type 'ament_cmake'
+[3.613s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/brsd/microros_ws/src/xacro'
+[3.615s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.616s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.676s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/brsd/microros_ws/build/micro_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brsd/microros_ws/install/person_detection:/home/brsd/microros_ws/install/pathfinding:/home/brsd/microros_ws/install/object_detection_pkg:/home/brsd/microros_ws/install/joystick_input:/home/brsd/microros_ws/install/jetson_comm:/home/brsd/microros_ws/install/fsm:/opt/ros/foxy /usr/bin/cmake --build /home/brsd/microros_ws/build/micro_ros_msgs -- -j4 -l4
+[3.751s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/brsd/microros_ws/build/multisense_lib': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brsd/microros_ws/install/person_detection:/home/brsd/microros_ws/install/pathfinding:/home/brsd/microros_ws/install/object_detection_pkg:/home/brsd/microros_ws/install/joystick_input:/home/brsd/microros_ws/install/jetson_comm:/home/brsd/microros_ws/install/fsm:/opt/ros/foxy /usr/bin/cmake --build /home/brsd/microros_ws/build/multisense_lib -- -j4 -l4
+[3.780s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/brsd/microros_ws/build/multisense_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brsd/microros_ws/install/person_detection:/home/brsd/microros_ws/install/pathfinding:/home/brsd/microros_ws/install/object_detection_pkg:/home/brsd/microros_ws/install/joystick_input:/home/brsd/microros_ws/install/jetson_comm:/home/brsd/microros_ws/install/fsm:/opt/ros/foxy /usr/bin/cmake --build /home/brsd/microros_ws/build/multisense_msgs -- -j4 -l4
+[3.840s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/brsd/microros_ws/build/xacro': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brsd/microros_ws/install/person_detection:/home/brsd/microros_ws/install/pathfinding:/home/brsd/microros_ws/install/object_detection_pkg:/home/brsd/microros_ws/install/joystick_input:/home/brsd/microros_ws/install/jetson_comm:/home/brsd/microros_ws/install/fsm:/opt/ros/foxy /usr/bin/cmake --build /home/brsd/microros_ws/build/xacro -- -j4 -l4
+[4.054s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/brsd/microros_ws/build/xacro' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brsd/microros_ws/install/person_detection:/home/brsd/microros_ws/install/pathfinding:/home/brsd/microros_ws/install/object_detection_pkg:/home/brsd/microros_ws/install/joystick_input:/home/brsd/microros_ws/install/jetson_comm:/home/brsd/microros_ws/install/fsm:/opt/ros/foxy /usr/bin/cmake --build /home/brsd/microros_ws/build/xacro -- -j4 -l4
+[4.447s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/brsd/microros_ws/build/xacro': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brsd/microros_ws/install/person_detection:/home/brsd/microros_ws/install/pathfinding:/home/brsd/microros_ws/install/object_detection_pkg:/home/brsd/microros_ws/install/joystick_input:/home/brsd/microros_ws/install/jetson_comm:/home/brsd/microros_ws/install/fsm:/opt/ros/foxy /usr/bin/cmake --install /home/brsd/microros_ws/build/xacro
+[4.958s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(xacro)
+[4.971s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/brsd/microros_ws/build/xacro' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brsd/microros_ws/install/person_detection:/home/brsd/microros_ws/install/pathfinding:/home/brsd/microros_ws/install/object_detection_pkg:/home/brsd/microros_ws/install/joystick_input:/home/brsd/microros_ws/install/jetson_comm:/home/brsd/microros_ws/install/fsm:/opt/ros/foxy /usr/bin/cmake --install /home/brsd/microros_ws/build/xacro
+[5.002s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/xacro' for CMake module files
+[5.006s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/xacro' for CMake config files
+[5.012s] Level 1:colcon.colcon_core.shell:create_environment_hook('xacro', 'cmake_prefix_path')
+[5.014s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brsd/microros_ws/install/xacro/share/xacro/hook/cmake_prefix_path.ps1'
+[5.023s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/brsd/microros_ws/install/xacro/share/xacro/hook/cmake_prefix_path.dsv'
+[5.038s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brsd/microros_ws/install/xacro/share/xacro/hook/cmake_prefix_path.sh'
+[5.045s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/xacro/lib'
+[5.048s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/xacro/bin'
+[5.049s] Level 1:colcon.colcon_core.shell:create_environment_hook('xacro', 'path')
+[5.051s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brsd/microros_ws/install/xacro/share/xacro/hook/path.ps1'
+[5.064s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/brsd/microros_ws/install/xacro/share/xacro/hook/path.dsv'
+[5.068s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brsd/microros_ws/install/xacro/share/xacro/hook/path.sh'
+[5.075s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/xacro/lib/pkgconfig/xacro.pc'
+[5.081s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/xacro/lib/python3.8/site-packages'
+[5.084s] Level 1:colcon.colcon_core.shell:create_environment_hook('xacro', 'pythonpath')
+[5.086s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brsd/microros_ws/install/xacro/share/xacro/hook/pythonpath.ps1'
+[5.090s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/brsd/microros_ws/install/xacro/share/xacro/hook/pythonpath.dsv'
+[5.103s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brsd/microros_ws/install/xacro/share/xacro/hook/pythonpath.sh'
+[5.107s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/xacro/bin'
+[5.109s] Level 1:colcon.colcon_core.shell:create_environment_hook('xacro', 'pythonscriptspath')
+[5.113s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brsd/microros_ws/install/xacro/share/xacro/hook/pythonscriptspath.ps1'
+[5.118s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/brsd/microros_ws/install/xacro/share/xacro/hook/pythonscriptspath.dsv'
+[5.121s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brsd/microros_ws/install/xacro/share/xacro/hook/pythonscriptspath.sh'
+[5.126s] INFO:colcon.colcon_core.shell:Creating package script '/home/brsd/microros_ws/install/xacro/share/xacro/package.ps1'
+[5.136s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/brsd/microros_ws/install/xacro/share/xacro/package.dsv'
+[5.154s] INFO:colcon.colcon_core.shell:Creating package script '/home/brsd/microros_ws/install/xacro/share/xacro/package.sh'
+[5.162s] INFO:colcon.colcon_core.shell:Creating package script '/home/brsd/microros_ws/install/xacro/share/xacro/package.bash'
+[5.179s] INFO:colcon.colcon_core.shell:Creating package script '/home/brsd/microros_ws/install/xacro/share/xacro/package.zsh'
+[5.190s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/brsd/microros_ws/install/xacro/share/colcon-core/packages/xacro)
+[5.390s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(xacro)
+[5.395s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/xacro' for CMake module files
+[5.398s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/xacro' for CMake config files
+[5.401s] Level 1:colcon.colcon_core.shell:create_environment_hook('xacro', 'cmake_prefix_path')
+[5.403s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brsd/microros_ws/install/xacro/share/xacro/hook/cmake_prefix_path.ps1'
+[5.407s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/brsd/microros_ws/install/xacro/share/xacro/hook/cmake_prefix_path.dsv'
+[5.410s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brsd/microros_ws/install/xacro/share/xacro/hook/cmake_prefix_path.sh'
+[5.413s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/xacro/lib'
+[5.413s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/xacro/bin'
+[5.413s] Level 1:colcon.colcon_core.shell:create_environment_hook('xacro', 'path')
+[5.415s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brsd/microros_ws/install/xacro/share/xacro/hook/path.ps1'
+[5.424s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/brsd/microros_ws/install/xacro/share/xacro/hook/path.dsv'
+[5.427s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brsd/microros_ws/install/xacro/share/xacro/hook/path.sh'
+[5.430s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/xacro/lib/pkgconfig/xacro.pc'
+[5.431s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/xacro/lib/python3.8/site-packages'
+[5.432s] Level 1:colcon.colcon_core.shell:create_environment_hook('xacro', 'pythonpath')
+[5.434s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brsd/microros_ws/install/xacro/share/xacro/hook/pythonpath.ps1'
+[5.437s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/brsd/microros_ws/install/xacro/share/xacro/hook/pythonpath.dsv'
+[5.440s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brsd/microros_ws/install/xacro/share/xacro/hook/pythonpath.sh'
+[5.444s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/xacro/bin'
+[5.444s] Level 1:colcon.colcon_core.shell:create_environment_hook('xacro', 'pythonscriptspath')
+[5.446s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brsd/microros_ws/install/xacro/share/xacro/hook/pythonscriptspath.ps1'
+[5.448s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/brsd/microros_ws/install/xacro/share/xacro/hook/pythonscriptspath.dsv'
+[5.450s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brsd/microros_ws/install/xacro/share/xacro/hook/pythonscriptspath.sh'
+[5.455s] INFO:colcon.colcon_core.shell:Creating package script '/home/brsd/microros_ws/install/xacro/share/xacro/package.ps1'
+[5.459s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/brsd/microros_ws/install/xacro/share/xacro/package.dsv'
+[5.465s] INFO:colcon.colcon_core.shell:Creating package script '/home/brsd/microros_ws/install/xacro/share/xacro/package.sh'
+[5.468s] INFO:colcon.colcon_core.shell:Creating package script '/home/brsd/microros_ws/install/xacro/share/xacro/package.bash'
+[5.472s] INFO:colcon.colcon_core.shell:Creating package script '/home/brsd/microros_ws/install/xacro/share/xacro/package.zsh'
+[5.476s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/brsd/microros_ws/install/xacro/share/colcon-core/packages/xacro)
+[5.480s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/brsd/microros_ws/src/uros/drive_base/drive_base_msgs' with build type 'ament_cmake'
+[5.482s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/brsd/microros_ws/src/uros/drive_base/drive_base_msgs'
+[5.484s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.485s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.571s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/brsd/microros_ws/build/drive_base_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brsd/microros_ws/install/person_detection:/home/brsd/microros_ws/install/pathfinding:/home/brsd/microros_ws/install/object_detection_pkg:/home/brsd/microros_ws/install/joystick_input:/home/brsd/microros_ws/install/jetson_comm:/home/brsd/microros_ws/install/fsm:/opt/ros/foxy /usr/bin/cmake --build /home/brsd/microros_ws/build/drive_base_msgs -- -j4 -l4
+[5.610s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/brsd/microros_ws/build/multisense_lib' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brsd/microros_ws/install/person_detection:/home/brsd/microros_ws/install/pathfinding:/home/brsd/microros_ws/install/object_detection_pkg:/home/brsd/microros_ws/install/joystick_input:/home/brsd/microros_ws/install/jetson_comm:/home/brsd/microros_ws/install/fsm:/opt/ros/foxy /usr/bin/cmake --build /home/brsd/microros_ws/build/multisense_lib -- -j4 -l4
+[6.089s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/brsd/microros_ws/build/multisense_lib': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brsd/microros_ws/install/person_detection:/home/brsd/microros_ws/install/pathfinding:/home/brsd/microros_ws/install/object_detection_pkg:/home/brsd/microros_ws/install/joystick_input:/home/brsd/microros_ws/install/jetson_comm:/home/brsd/microros_ws/install/fsm:/opt/ros/foxy /usr/bin/cmake --install /home/brsd/microros_ws/build/multisense_lib
+[6.103s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/brsd/microros_ws/build/micro_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brsd/microros_ws/install/person_detection:/home/brsd/microros_ws/install/pathfinding:/home/brsd/microros_ws/install/object_detection_pkg:/home/brsd/microros_ws/install/joystick_input:/home/brsd/microros_ws/install/jetson_comm:/home/brsd/microros_ws/install/fsm:/opt/ros/foxy /usr/bin/cmake --build /home/brsd/microros_ws/build/micro_ros_msgs -- -j4 -l4
+[6.131s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/brsd/microros_ws/build/multisense_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brsd/microros_ws/install/person_detection:/home/brsd/microros_ws/install/pathfinding:/home/brsd/microros_ws/install/object_detection_pkg:/home/brsd/microros_ws/install/joystick_input:/home/brsd/microros_ws/install/jetson_comm:/home/brsd/microros_ws/install/fsm:/opt/ros/foxy /usr/bin/cmake --build /home/brsd/microros_ws/build/multisense_msgs -- -j4 -l4
+[6.334s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(multisense_lib)
+[6.336s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/brsd/microros_ws/build/multisense_lib' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brsd/microros_ws/install/person_detection:/home/brsd/microros_ws/install/pathfinding:/home/brsd/microros_ws/install/object_detection_pkg:/home/brsd/microros_ws/install/joystick_input:/home/brsd/microros_ws/install/jetson_comm:/home/brsd/microros_ws/install/fsm:/opt/ros/foxy /usr/bin/cmake --install /home/brsd/microros_ws/build/multisense_lib
+[6.338s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/multisense_lib' for CMake module files
+[6.341s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/multisense_lib' for CMake config files
+[6.342s] Level 1:colcon.colcon_core.shell:create_environment_hook('multisense_lib', 'cmake_prefix_path')
+[6.344s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brsd/microros_ws/install/multisense_lib/share/multisense_lib/hook/cmake_prefix_path.ps1'
+[6.351s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/brsd/microros_ws/install/multisense_lib/share/multisense_lib/hook/cmake_prefix_path.dsv'
+[6.355s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brsd/microros_ws/install/multisense_lib/share/multisense_lib/hook/cmake_prefix_path.sh'
+[6.360s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/multisense_lib/lib'
+[6.364s] Level 1:colcon.colcon_core.shell:create_environment_hook('multisense_lib', 'ld_library_path_lib')
+[6.366s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brsd/microros_ws/install/multisense_lib/share/multisense_lib/hook/ld_library_path_lib.ps1'
+[6.370s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/brsd/microros_ws/install/multisense_lib/share/multisense_lib/hook/ld_library_path_lib.dsv'
+[6.373s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brsd/microros_ws/install/multisense_lib/share/multisense_lib/hook/ld_library_path_lib.sh'
+[6.377s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/multisense_lib/bin'
+[6.378s] Level 1:colcon.colcon_core.shell:create_environment_hook('multisense_lib', 'path')
+[6.379s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brsd/microros_ws/install/multisense_lib/share/multisense_lib/hook/path.ps1'
+[6.383s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/brsd/microros_ws/install/multisense_lib/share/multisense_lib/hook/path.dsv'
+[6.386s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brsd/microros_ws/install/multisense_lib/share/multisense_lib/hook/path.sh'
+[6.390s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/multisense_lib/lib/pkgconfig/multisense_lib.pc'
+[6.391s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/multisense_lib/lib/python3.8/site-packages'
+[6.393s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/multisense_lib/bin'
+[6.394s] Level 1:colcon.colcon_core.shell:create_environment_hook('multisense_lib', 'pythonscriptspath')
+[6.395s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brsd/microros_ws/install/multisense_lib/share/multisense_lib/hook/pythonscriptspath.ps1'
+[6.399s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/brsd/microros_ws/install/multisense_lib/share/multisense_lib/hook/pythonscriptspath.dsv'
+[6.402s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brsd/microros_ws/install/multisense_lib/share/multisense_lib/hook/pythonscriptspath.sh'
+[6.412s] INFO:colcon.colcon_core.shell:Creating package script '/home/brsd/microros_ws/install/multisense_lib/share/multisense_lib/package.ps1'
+[6.417s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/brsd/microros_ws/install/multisense_lib/share/multisense_lib/package.dsv'
+[6.421s] INFO:colcon.colcon_core.shell:Creating package script '/home/brsd/microros_ws/install/multisense_lib/share/multisense_lib/package.sh'
+[6.426s] INFO:colcon.colcon_core.shell:Creating package script '/home/brsd/microros_ws/install/multisense_lib/share/multisense_lib/package.bash'
+[6.431s] INFO:colcon.colcon_core.shell:Creating package script '/home/brsd/microros_ws/install/multisense_lib/share/multisense_lib/package.zsh'
+[6.437s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/brsd/microros_ws/install/multisense_lib/share/colcon-core/packages/multisense_lib)
+[6.674s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(multisense_lib)
+[6.676s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/multisense_lib' for CMake module files
+[6.679s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/multisense_lib' for CMake config files
+[6.680s] Level 1:colcon.colcon_core.shell:create_environment_hook('multisense_lib', 'cmake_prefix_path')
+[6.681s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brsd/microros_ws/install/multisense_lib/share/multisense_lib/hook/cmake_prefix_path.ps1'
+[6.683s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/brsd/microros_ws/install/multisense_lib/share/multisense_lib/hook/cmake_prefix_path.dsv'
+[6.685s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brsd/microros_ws/install/multisense_lib/share/multisense_lib/hook/cmake_prefix_path.sh'
+[6.691s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/multisense_lib/lib'
+[6.692s] Level 1:colcon.colcon_core.shell:create_environment_hook('multisense_lib', 'ld_library_path_lib')
+[6.694s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brsd/microros_ws/install/multisense_lib/share/multisense_lib/hook/ld_library_path_lib.ps1'
+[6.696s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/brsd/microros_ws/install/multisense_lib/share/multisense_lib/hook/ld_library_path_lib.dsv'
+[6.701s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brsd/microros_ws/install/multisense_lib/share/multisense_lib/hook/ld_library_path_lib.sh'
+[6.703s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/multisense_lib/bin'
+[6.703s] Level 1:colcon.colcon_core.shell:create_environment_hook('multisense_lib', 'path')
+[6.705s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brsd/microros_ws/install/multisense_lib/share/multisense_lib/hook/path.ps1'
+[6.708s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/brsd/microros_ws/install/multisense_lib/share/multisense_lib/hook/path.dsv'
+[6.710s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brsd/microros_ws/install/multisense_lib/share/multisense_lib/hook/path.sh'
+[6.713s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/multisense_lib/lib/pkgconfig/multisense_lib.pc'
+[6.714s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/multisense_lib/lib/python3.8/site-packages'
+[6.716s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/multisense_lib/bin'
+[6.717s] Level 1:colcon.colcon_core.shell:create_environment_hook('multisense_lib', 'pythonscriptspath')
+[6.718s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brsd/microros_ws/install/multisense_lib/share/multisense_lib/hook/pythonscriptspath.ps1'
+[6.721s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/brsd/microros_ws/install/multisense_lib/share/multisense_lib/hook/pythonscriptspath.dsv'
+[6.724s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brsd/microros_ws/install/multisense_lib/share/multisense_lib/hook/pythonscriptspath.sh'
+[6.730s] INFO:colcon.colcon_core.shell:Creating package script '/home/brsd/microros_ws/install/multisense_lib/share/multisense_lib/package.ps1'
+[6.734s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/brsd/microros_ws/install/multisense_lib/share/multisense_lib/package.dsv'
+[6.738s] INFO:colcon.colcon_core.shell:Creating package script '/home/brsd/microros_ws/install/multisense_lib/share/multisense_lib/package.sh'
+[6.741s] INFO:colcon.colcon_core.shell:Creating package script '/home/brsd/microros_ws/install/multisense_lib/share/multisense_lib/package.bash'
+[6.744s] INFO:colcon.colcon_core.shell:Creating package script '/home/brsd/microros_ws/install/multisense_lib/share/multisense_lib/package.zsh'
+[6.746s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/brsd/microros_ws/install/multisense_lib/share/colcon-core/packages/multisense_lib)
+[6.751s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/brsd/microros_ws/src/fsm' with build type 'ament_python'
+[6.752s] Level 1:colcon.colcon_core.shell:create_environment_hook('fsm', 'ament_prefix_path')
+[6.754s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brsd/microros_ws/install/fsm/share/fsm/hook/ament_prefix_path.ps1'
+[6.756s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/brsd/microros_ws/install/fsm/share/fsm/hook/ament_prefix_path.dsv'
+[6.758s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brsd/microros_ws/install/fsm/share/fsm/hook/ament_prefix_path.sh'
+[6.761s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.762s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.827s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/brsd/microros_ws/src/fsm'
+[8.830s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.830s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.891s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/brsd/microros_ws/build/drive_base_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brsd/microros_ws/install/person_detection:/home/brsd/microros_ws/install/pathfinding:/home/brsd/microros_ws/install/object_detection_pkg:/home/brsd/microros_ws/install/joystick_input:/home/brsd/microros_ws/install/jetson_comm:/home/brsd/microros_ws/install/fsm:/opt/ros/foxy /usr/bin/cmake --build /home/brsd/microros_ws/build/drive_base_msgs -- -j4 -l4
+[8.935s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/brsd/microros_ws/build/multisense_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brsd/microros_ws/install/person_detection:/home/brsd/microros_ws/install/pathfinding:/home/brsd/microros_ws/install/object_detection_pkg:/home/brsd/microros_ws/install/joystick_input:/home/brsd/microros_ws/install/jetson_comm:/home/brsd/microros_ws/install/fsm:/opt/ros/foxy /usr/bin/cmake --install /home/brsd/microros_ws/build/multisense_msgs
+[8.965s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/brsd/microros_ws/build/micro_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brsd/microros_ws/install/person_detection:/home/brsd/microros_ws/install/pathfinding:/home/brsd/microros_ws/install/object_detection_pkg:/home/brsd/microros_ws/install/joystick_input:/home/brsd/microros_ws/install/jetson_comm:/home/brsd/microros_ws/install/fsm:/opt/ros/foxy /usr/bin/cmake --install /home/brsd/microros_ws/build/micro_ros_msgs
+[9.840s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(micro_ros_msgs)
+[9.844s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/micro_ros_msgs' for CMake module files
+[9.850s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/micro_ros_msgs' for CMake config files
+[9.853s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_msgs', 'cmake_prefix_path')
+[9.873s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brsd/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.ps1'
+[9.880s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/brsd/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.dsv'
+[9.893s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brsd/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.sh'
+[9.909s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/micro_ros_msgs/lib'
+[9.910s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_msgs', 'ld_library_path_lib')
+[9.912s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brsd/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.ps1'
+[9.926s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/brsd/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.dsv'
+[9.937s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brsd/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.sh'
+[9.945s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/micro_ros_msgs/bin'
+[9.946s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/micro_ros_msgs/lib/pkgconfig/micro_ros_msgs.pc'
+[9.947s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/micro_ros_msgs/lib/python3.8/site-packages'
+[9.948s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_msgs', 'pythonpath')
+[9.949s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brsd/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/pythonpath.ps1'
+[9.951s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/brsd/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/pythonpath.dsv'
+[9.955s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/brsd/microros_ws/build/micro_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brsd/microros_ws/install/person_detection:/home/brsd/microros_ws/install/pathfinding:/home/brsd/microros_ws/install/object_detection_pkg:/home/brsd/microros_ws/install/joystick_input:/home/brsd/microros_ws/install/jetson_comm:/home/brsd/microros_ws/install/fsm:/opt/ros/foxy /usr/bin/cmake --install /home/brsd/microros_ws/build/micro_ros_msgs
+[9.972s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brsd/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/pythonpath.sh'
+[9.976s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/micro_ros_msgs/bin'
+[9.989s] INFO:colcon.colcon_core.shell:Creating package script '/home/brsd/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.ps1'
+[9.996s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/brsd/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.dsv'
+[9.999s] INFO:colcon.colcon_core.shell:Creating package script '/home/brsd/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.sh'
+[10.004s] INFO:colcon.colcon_core.shell:Creating package script '/home/brsd/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.bash'
+[10.015s] INFO:colcon.colcon_core.shell:Creating package script '/home/brsd/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.zsh'
+[10.018s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/brsd/microros_ws/install/micro_ros_msgs/share/colcon-core/packages/micro_ros_msgs)
+[10.064s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(multisense_msgs)
+[10.068s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/multisense_msgs' for CMake module files
+[10.066s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/brsd/microros_ws/build/multisense_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brsd/microros_ws/install/person_detection:/home/brsd/microros_ws/install/pathfinding:/home/brsd/microros_ws/install/object_detection_pkg:/home/brsd/microros_ws/install/joystick_input:/home/brsd/microros_ws/install/jetson_comm:/home/brsd/microros_ws/install/fsm:/opt/ros/foxy /usr/bin/cmake --install /home/brsd/microros_ws/build/multisense_msgs
+[10.081s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/multisense_msgs' for CMake config files
+[10.103s] Level 1:colcon.colcon_core.shell:create_environment_hook('multisense_msgs', 'cmake_prefix_path')
+[10.105s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brsd/microros_ws/install/multisense_msgs/share/multisense_msgs/hook/cmake_prefix_path.ps1'
+[10.112s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/brsd/microros_ws/install/multisense_msgs/share/multisense_msgs/hook/cmake_prefix_path.dsv'
+[10.114s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brsd/microros_ws/install/multisense_msgs/share/multisense_msgs/hook/cmake_prefix_path.sh'
+[10.117s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/multisense_msgs/lib'
+[10.118s] Level 1:colcon.colcon_core.shell:create_environment_hook('multisense_msgs', 'ld_library_path_lib')
+[10.119s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brsd/microros_ws/install/multisense_msgs/share/multisense_msgs/hook/ld_library_path_lib.ps1'
+[10.138s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/brsd/microros_ws/install/multisense_msgs/share/multisense_msgs/hook/ld_library_path_lib.dsv'
+[10.140s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brsd/microros_ws/install/multisense_msgs/share/multisense_msgs/hook/ld_library_path_lib.sh'
+[10.142s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/multisense_msgs/bin'
+[10.142s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/multisense_msgs/lib/pkgconfig/multisense_msgs.pc'
+[10.144s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/multisense_msgs/lib/python3.8/site-packages'
+[10.144s] Level 1:colcon.colcon_core.shell:create_environment_hook('multisense_msgs', 'pythonpath')
+[10.146s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brsd/microros_ws/install/multisense_msgs/share/multisense_msgs/hook/pythonpath.ps1'
+[10.148s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/brsd/microros_ws/install/multisense_msgs/share/multisense_msgs/hook/pythonpath.dsv'
+[10.153s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brsd/microros_ws/install/multisense_msgs/share/multisense_msgs/hook/pythonpath.sh'
+[10.156s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/multisense_msgs/bin'
+[10.158s] INFO:colcon.colcon_core.shell:Creating package script '/home/brsd/microros_ws/install/multisense_msgs/share/multisense_msgs/package.ps1'
+[10.162s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/brsd/microros_ws/install/multisense_msgs/share/multisense_msgs/package.dsv'
+[10.165s] INFO:colcon.colcon_core.shell:Creating package script '/home/brsd/microros_ws/install/multisense_msgs/share/multisense_msgs/package.sh'
+[10.167s] INFO:colcon.colcon_core.shell:Creating package script '/home/brsd/microros_ws/install/multisense_msgs/share/multisense_msgs/package.bash'
+[10.169s] INFO:colcon.colcon_core.shell:Creating package script '/home/brsd/microros_ws/install/multisense_msgs/share/multisense_msgs/package.zsh'
+[10.172s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/brsd/microros_ws/install/multisense_msgs/share/colcon-core/packages/multisense_msgs)
+[10.710s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/brsd/microros_ws/build/drive_base_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brsd/microros_ws/install/person_detection:/home/brsd/microros_ws/install/pathfinding:/home/brsd/microros_ws/install/object_detection_pkg:/home/brsd/microros_ws/install/joystick_input:/home/brsd/microros_ws/install/jetson_comm:/home/brsd/microros_ws/install/fsm:/opt/ros/foxy /usr/bin/cmake --install /home/brsd/microros_ws/build/drive_base_msgs
+[11.146s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(micro_ros_msgs)
+[11.148s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/micro_ros_msgs' for CMake module files
+[11.152s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/micro_ros_msgs' for CMake config files
+[11.176s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_msgs', 'cmake_prefix_path')
+[11.177s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brsd/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.ps1'
+[11.194s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/brsd/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.dsv'
+[11.198s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brsd/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.sh'
+[11.207s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/micro_ros_msgs/lib'
+[11.207s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_msgs', 'ld_library_path_lib')
+[11.209s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brsd/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.ps1'
+[11.231s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/brsd/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.dsv'
+[11.235s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brsd/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.sh'
+[11.237s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/micro_ros_msgs/bin'
+[11.237s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/micro_ros_msgs/lib/pkgconfig/micro_ros_msgs.pc'
+[11.239s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/micro_ros_msgs/lib/python3.8/site-packages'
+[11.242s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_msgs', 'pythonpath')
+[11.244s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brsd/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/pythonpath.ps1'
+[11.254s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/brsd/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/pythonpath.dsv'
+[11.265s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brsd/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/pythonpath.sh'
+[11.268s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/micro_ros_msgs/bin'
+[11.270s] INFO:colcon.colcon_core.shell:Creating package script '/home/brsd/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.ps1'
+[11.279s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/brsd/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.dsv'
+[11.282s] INFO:colcon.colcon_core.shell:Creating package script '/home/brsd/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.sh'
+[11.285s] INFO:colcon.colcon_core.shell:Creating package script '/home/brsd/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.bash'
+[11.294s] INFO:colcon.colcon_core.shell:Creating package script '/home/brsd/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.zsh'
+[11.297s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/brsd/microros_ws/install/micro_ros_msgs/share/colcon-core/packages/micro_ros_msgs)
+[11.303s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/brsd/microros_ws/src/jetson_comm' with build type 'ament_python'
+[11.304s] Level 1:colcon.colcon_core.shell:create_environment_hook('jetson_comm', 'ament_prefix_path')
+[11.306s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brsd/microros_ws/install/jetson_comm/share/jetson_comm/hook/ament_prefix_path.ps1'
+[11.309s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/brsd/microros_ws/install/jetson_comm/share/jetson_comm/hook/ament_prefix_path.dsv'
+[11.312s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brsd/microros_ws/install/jetson_comm/share/jetson_comm/hook/ament_prefix_path.sh'
+[11.317s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[11.318s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[11.367s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(drive_base_msgs)
+[11.369s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/brsd/microros_ws/build/drive_base_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brsd/microros_ws/install/person_detection:/home/brsd/microros_ws/install/pathfinding:/home/brsd/microros_ws/install/object_detection_pkg:/home/brsd/microros_ws/install/joystick_input:/home/brsd/microros_ws/install/jetson_comm:/home/brsd/microros_ws/install/fsm:/opt/ros/foxy /usr/bin/cmake --install /home/brsd/microros_ws/build/drive_base_msgs
+[11.372s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/drive_base_msgs' for CMake module files
+[11.381s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/drive_base_msgs' for CMake config files
+[11.386s] Level 1:colcon.colcon_core.shell:create_environment_hook('drive_base_msgs', 'cmake_prefix_path')
+[11.389s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brsd/microros_ws/install/drive_base_msgs/share/drive_base_msgs/hook/cmake_prefix_path.ps1'
+[11.394s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/brsd/microros_ws/install/drive_base_msgs/share/drive_base_msgs/hook/cmake_prefix_path.dsv'
+[11.398s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brsd/microros_ws/install/drive_base_msgs/share/drive_base_msgs/hook/cmake_prefix_path.sh'
+[11.403s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/drive_base_msgs/lib'
+[11.404s] Level 1:colcon.colcon_core.shell:create_environment_hook('drive_base_msgs', 'ld_library_path_lib')
+[11.406s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brsd/microros_ws/install/drive_base_msgs/share/drive_base_msgs/hook/ld_library_path_lib.ps1'
+[11.408s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/brsd/microros_ws/install/drive_base_msgs/share/drive_base_msgs/hook/ld_library_path_lib.dsv'
+[11.412s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brsd/microros_ws/install/drive_base_msgs/share/drive_base_msgs/hook/ld_library_path_lib.sh'
+[11.415s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/drive_base_msgs/bin'
+[11.417s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/drive_base_msgs/lib/pkgconfig/drive_base_msgs.pc'
+[11.419s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/drive_base_msgs/lib/python3.8/site-packages'
+[11.420s] Level 1:colcon.colcon_core.shell:create_environment_hook('drive_base_msgs', 'pythonpath')
+[11.422s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brsd/microros_ws/install/drive_base_msgs/share/drive_base_msgs/hook/pythonpath.ps1'
+[11.425s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/brsd/microros_ws/install/drive_base_msgs/share/drive_base_msgs/hook/pythonpath.dsv'
+[11.429s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brsd/microros_ws/install/drive_base_msgs/share/drive_base_msgs/hook/pythonpath.sh'
+[11.433s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/drive_base_msgs/bin'
+[11.435s] INFO:colcon.colcon_core.shell:Creating package script '/home/brsd/microros_ws/install/drive_base_msgs/share/drive_base_msgs/package.ps1'
+[11.440s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/brsd/microros_ws/install/drive_base_msgs/share/drive_base_msgs/package.dsv'
+[11.445s] INFO:colcon.colcon_core.shell:Creating package script '/home/brsd/microros_ws/install/drive_base_msgs/share/drive_base_msgs/package.sh'
+[11.449s] INFO:colcon.colcon_core.shell:Creating package script '/home/brsd/microros_ws/install/drive_base_msgs/share/drive_base_msgs/package.bash'
+[11.453s] INFO:colcon.colcon_core.shell:Creating package script '/home/brsd/microros_ws/install/drive_base_msgs/share/drive_base_msgs/package.zsh'
+[11.456s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/brsd/microros_ws/install/drive_base_msgs/share/colcon-core/packages/drive_base_msgs)
+[13.428s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/brsd/microros_ws/src/jetson_comm'
+[13.430s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[13.430s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[13.485s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(multisense_msgs)
+[13.491s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/multisense_msgs' for CMake module files
+[13.498s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/multisense_msgs' for CMake config files
+[13.503s] Level 1:colcon.colcon_core.shell:create_environment_hook('multisense_msgs', 'cmake_prefix_path')
+[13.508s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brsd/microros_ws/install/multisense_msgs/share/multisense_msgs/hook/cmake_prefix_path.ps1'
+[13.514s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/brsd/microros_ws/install/multisense_msgs/share/multisense_msgs/hook/cmake_prefix_path.dsv'
+[13.517s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brsd/microros_ws/install/multisense_msgs/share/multisense_msgs/hook/cmake_prefix_path.sh'
+[13.524s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/multisense_msgs/lib'
+[13.524s] Level 1:colcon.colcon_core.shell:create_environment_hook('multisense_msgs', 'ld_library_path_lib')
+[13.526s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brsd/microros_ws/install/multisense_msgs/share/multisense_msgs/hook/ld_library_path_lib.ps1'
+[13.530s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/brsd/microros_ws/install/multisense_msgs/share/multisense_msgs/hook/ld_library_path_lib.dsv'
+[13.533s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brsd/microros_ws/install/multisense_msgs/share/multisense_msgs/hook/ld_library_path_lib.sh'
+[13.536s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/multisense_msgs/bin'
+[13.537s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/multisense_msgs/lib/pkgconfig/multisense_msgs.pc'
+[13.541s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/multisense_msgs/lib/python3.8/site-packages'
+[13.541s] Level 1:colcon.colcon_core.shell:create_environment_hook('multisense_msgs', 'pythonpath')
+[13.543s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brsd/microros_ws/install/multisense_msgs/share/multisense_msgs/hook/pythonpath.ps1'
+[13.545s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/brsd/microros_ws/install/multisense_msgs/share/multisense_msgs/hook/pythonpath.dsv'
+[13.547s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brsd/microros_ws/install/multisense_msgs/share/multisense_msgs/hook/pythonpath.sh'
+[13.549s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/multisense_msgs/bin'
+[13.553s] INFO:colcon.colcon_core.shell:Creating package script '/home/brsd/microros_ws/install/multisense_msgs/share/multisense_msgs/package.ps1'
+[13.560s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/brsd/microros_ws/install/multisense_msgs/share/multisense_msgs/package.dsv'
+[13.565s] INFO:colcon.colcon_core.shell:Creating package script '/home/brsd/microros_ws/install/multisense_msgs/share/multisense_msgs/package.sh'
+[13.569s] INFO:colcon.colcon_core.shell:Creating package script '/home/brsd/microros_ws/install/multisense_msgs/share/multisense_msgs/package.bash'
+[13.574s] INFO:colcon.colcon_core.shell:Creating package script '/home/brsd/microros_ws/install/multisense_msgs/share/multisense_msgs/package.zsh'
+[13.579s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/brsd/microros_ws/install/multisense_msgs/share/colcon-core/packages/multisense_msgs)
+[13.582s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(drive_base_msgs)
+[13.586s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/drive_base_msgs' for CMake module files
+[13.591s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/drive_base_msgs' for CMake config files
+[13.595s] Level 1:colcon.colcon_core.shell:create_environment_hook('drive_base_msgs', 'cmake_prefix_path')
+[13.615s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brsd/microros_ws/install/drive_base_msgs/share/drive_base_msgs/hook/cmake_prefix_path.ps1'
+[13.617s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/brsd/microros_ws/install/drive_base_msgs/share/drive_base_msgs/hook/cmake_prefix_path.dsv'
+[13.619s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brsd/microros_ws/install/drive_base_msgs/share/drive_base_msgs/hook/cmake_prefix_path.sh'
+[13.624s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/drive_base_msgs/lib'
+[13.625s] Level 1:colcon.colcon_core.shell:create_environment_hook('drive_base_msgs', 'ld_library_path_lib')
+[13.626s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brsd/microros_ws/install/drive_base_msgs/share/drive_base_msgs/hook/ld_library_path_lib.ps1'
+[13.630s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/brsd/microros_ws/install/drive_base_msgs/share/drive_base_msgs/hook/ld_library_path_lib.dsv'
+[13.633s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brsd/microros_ws/install/drive_base_msgs/share/drive_base_msgs/hook/ld_library_path_lib.sh'
+[13.636s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/drive_base_msgs/bin'
+[13.637s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/drive_base_msgs/lib/pkgconfig/drive_base_msgs.pc'
+[13.638s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/drive_base_msgs/lib/python3.8/site-packages'
+[13.641s] Level 1:colcon.colcon_core.shell:create_environment_hook('drive_base_msgs', 'pythonpath')
+[13.642s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brsd/microros_ws/install/drive_base_msgs/share/drive_base_msgs/hook/pythonpath.ps1'
+[13.645s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/brsd/microros_ws/install/drive_base_msgs/share/drive_base_msgs/hook/pythonpath.dsv'
+[13.646s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brsd/microros_ws/install/drive_base_msgs/share/drive_base_msgs/hook/pythonpath.sh'
+[13.649s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/drive_base_msgs/bin'
+[13.658s] INFO:colcon.colcon_core.shell:Creating package script '/home/brsd/microros_ws/install/drive_base_msgs/share/drive_base_msgs/package.ps1'
+[13.664s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/brsd/microros_ws/install/drive_base_msgs/share/drive_base_msgs/package.dsv'
+[13.681s] INFO:colcon.colcon_core.shell:Creating package script '/home/brsd/microros_ws/install/drive_base_msgs/share/drive_base_msgs/package.sh'
+[13.685s] INFO:colcon.colcon_core.shell:Creating package script '/home/brsd/microros_ws/install/drive_base_msgs/share/drive_base_msgs/package.bash'
+[13.693s] INFO:colcon.colcon_core.shell:Creating package script '/home/brsd/microros_ws/install/drive_base_msgs/share/drive_base_msgs/package.zsh'
+[13.696s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/brsd/microros_ws/install/drive_base_msgs/share/colcon-core/packages/drive_base_msgs)
+[13.710s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/brsd/microros_ws/src/fsm': PYTHONPATH=/home/brsd/microros_ws/build/fsm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/brsd/microros_ws/install/fsm/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/fsm build --build-base /home/brsd/microros_ws/build/fsm/build install --record /home/brsd/microros_ws/build/fsm/install.log --install-scripts $base/lib/fsm --single-version-externally-managed install_data
+[13.744s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/brsd/microros_ws/src/joystick_input' with build type 'ament_python'
+[13.760s] Level 1:colcon.colcon_core.shell:create_environment_hook('joystick_input', 'ament_prefix_path')
+[13.764s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brsd/microros_ws/install/joystick_input/share/joystick_input/hook/ament_prefix_path.ps1'
+[13.768s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/brsd/microros_ws/install/joystick_input/share/joystick_input/hook/ament_prefix_path.dsv'
+[13.775s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brsd/microros_ws/install/joystick_input/share/joystick_input/hook/ament_prefix_path.sh'
+[13.785s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[13.785s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[13.838s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/brsd/microros_ws/src/micro_ros_setup' with build type 'ament_cmake'
+[13.841s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/brsd/microros_ws/src/micro_ros_setup'
+[13.844s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[13.845s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[16.333s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/brsd/microros_ws/src/joystick_input'
+[16.335s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[16.335s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[16.386s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/brsd/microros_ws/build/micro_ros_setup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brsd/microros_ws/install/person_detection:/home/brsd/microros_ws/install/pathfinding:/home/brsd/microros_ws/install/object_detection_pkg:/home/brsd/microros_ws/install/joystick_input:/home/brsd/microros_ws/install/jetson_comm:/home/brsd/microros_ws/install/fsm:/opt/ros/foxy /usr/bin/cmake --build /home/brsd/microros_ws/build/micro_ros_setup -- -j4 -l4
+[16.997s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/brsd/microros_ws/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brsd/microros_ws/install/person_detection:/home/brsd/microros_ws/install/pathfinding:/home/brsd/microros_ws/install/object_detection_pkg:/home/brsd/microros_ws/install/joystick_input:/home/brsd/microros_ws/install/jetson_comm:/home/brsd/microros_ws/install/fsm:/opt/ros/foxy /usr/bin/cmake --build /home/brsd/microros_ws/build/micro_ros_setup -- -j4 -l4
+[17.144s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/fsm' for CMake module files
+[17.146s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/brsd/microros_ws/src/fsm' returned '0': PYTHONPATH=/home/brsd/microros_ws/build/fsm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/brsd/microros_ws/install/fsm/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/fsm build --build-base /home/brsd/microros_ws/build/fsm/build install --record /home/brsd/microros_ws/build/fsm/install.log --install-scripts $base/lib/fsm --single-version-externally-managed install_data
+[17.151s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/fsm' for CMake config files
+[17.160s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/fsm/lib'
+[17.167s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/fsm/bin'
+[17.168s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/fsm/lib/pkgconfig/fsm.pc'
+[17.178s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/fsm/lib/python3.8/site-packages'
+[17.179s] Level 1:colcon.colcon_core.shell:create_environment_hook('fsm', 'pythonpath')
+[17.181s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brsd/microros_ws/install/fsm/share/fsm/hook/pythonpath.ps1'
+[17.188s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/brsd/microros_ws/install/fsm/share/fsm/hook/pythonpath.dsv'
+[17.199s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brsd/microros_ws/install/fsm/share/fsm/hook/pythonpath.sh'
+[17.205s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/fsm/bin'
+[17.206s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fsm)
+[17.208s] INFO:colcon.colcon_core.shell:Creating package script '/home/brsd/microros_ws/install/fsm/share/fsm/package.ps1'
+[17.222s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/brsd/microros_ws/install/fsm/share/fsm/package.dsv'
+[17.229s] INFO:colcon.colcon_core.shell:Creating package script '/home/brsd/microros_ws/install/fsm/share/fsm/package.sh'
+[17.244s] INFO:colcon.colcon_core.shell:Creating package script '/home/brsd/microros_ws/install/fsm/share/fsm/package.bash'
+[17.248s] INFO:colcon.colcon_core.shell:Creating package script '/home/brsd/microros_ws/install/fsm/share/fsm/package.zsh'
+[17.251s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/brsd/microros_ws/install/fsm/share/colcon-core/packages/fsm)
+[17.257s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/brsd/microros_ws/src/object_detection_pkg' with build type 'ament_python'
+[17.260s] Level 1:colcon.colcon_core.shell:create_environment_hook('object_detection_pkg', 'ament_prefix_path')
+[17.268s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brsd/microros_ws/install/object_detection_pkg/share/object_detection_pkg/hook/ament_prefix_path.ps1'
+[17.272s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/brsd/microros_ws/install/object_detection_pkg/share/object_detection_pkg/hook/ament_prefix_path.dsv'
+[17.274s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brsd/microros_ws/install/object_detection_pkg/share/object_detection_pkg/hook/ament_prefix_path.sh'
+[17.294s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[17.295s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[17.395s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/brsd/microros_ws/build/micro_ros_setup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brsd/microros_ws/install/person_detection:/home/brsd/microros_ws/install/pathfinding:/home/brsd/microros_ws/install/object_detection_pkg:/home/brsd/microros_ws/install/joystick_input:/home/brsd/microros_ws/install/jetson_comm:/home/brsd/microros_ws/install/fsm:/opt/ros/foxy /usr/bin/cmake --install /home/brsd/microros_ws/build/micro_ros_setup
+[19.263s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/brsd/microros_ws/src/object_detection_pkg'
+[19.265s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[19.265s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[19.318s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(micro_ros_setup)
+[19.320s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/brsd/microros_ws/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brsd/microros_ws/install/person_detection:/home/brsd/microros_ws/install/pathfinding:/home/brsd/microros_ws/install/object_detection_pkg:/home/brsd/microros_ws/install/joystick_input:/home/brsd/microros_ws/install/jetson_comm:/home/brsd/microros_ws/install/fsm:/opt/ros/foxy /usr/bin/cmake --install /home/brsd/microros_ws/build/micro_ros_setup
+[19.327s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/micro_ros_setup' for CMake module files
+[19.331s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/micro_ros_setup' for CMake config files
+[19.336s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_setup', 'cmake_prefix_path')
+[19.342s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brsd/microros_ws/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.ps1'
+[19.347s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/brsd/microros_ws/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.dsv'
+[19.351s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brsd/microros_ws/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.sh'
+[19.358s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/micro_ros_setup/lib'
+[19.360s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/micro_ros_setup/bin'
+[19.361s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/micro_ros_setup/lib/pkgconfig/micro_ros_setup.pc'
+[19.363s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/micro_ros_setup/lib/python3.8/site-packages'
+[19.364s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/micro_ros_setup/bin'
+[19.366s] INFO:colcon.colcon_core.shell:Creating package script '/home/brsd/microros_ws/install/micro_ros_setup/share/micro_ros_setup/package.ps1'
+[19.375s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/brsd/microros_ws/install/micro_ros_setup/share/micro_ros_setup/package.dsv'
+[19.379s] INFO:colcon.colcon_core.shell:Creating package script '/home/brsd/microros_ws/install/micro_ros_setup/share/micro_ros_setup/package.sh'
+[19.383s] INFO:colcon.colcon_core.shell:Creating package script '/home/brsd/microros_ws/install/micro_ros_setup/share/micro_ros_setup/package.bash'
+[19.387s] INFO:colcon.colcon_core.shell:Creating package script '/home/brsd/microros_ws/install/micro_ros_setup/share/micro_ros_setup/package.zsh'
+[19.394s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/brsd/microros_ws/install/micro_ros_setup/share/colcon-core/packages/micro_ros_setup)
+[19.435s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/brsd/microros_ws/src/jetson_comm': PYTHONPATH=/home/brsd/microros_ws/build/jetson_comm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/brsd/microros_ws/install/jetson_comm/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/jetson_comm build --build-base /home/brsd/microros_ws/build/jetson_comm/build install --record /home/brsd/microros_ws/build/jetson_comm/install.log --install-scripts $base/lib/jetson_comm --single-version-externally-managed install_data
+[19.756s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(micro_ros_setup)
+[19.758s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/micro_ros_setup' for CMake module files
+[19.761s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/micro_ros_setup' for CMake config files
+[19.768s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_setup', 'cmake_prefix_path')
+[19.777s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brsd/microros_ws/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.ps1'
+[19.782s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/brsd/microros_ws/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.dsv'
+[19.787s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brsd/microros_ws/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.sh'
+[19.797s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/micro_ros_setup/lib'
+[19.797s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/micro_ros_setup/bin'
+[19.798s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/micro_ros_setup/lib/pkgconfig/micro_ros_setup.pc'
+[19.799s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/micro_ros_setup/lib/python3.8/site-packages'
+[19.800s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/micro_ros_setup/bin'
+[19.802s] INFO:colcon.colcon_core.shell:Creating package script '/home/brsd/microros_ws/install/micro_ros_setup/share/micro_ros_setup/package.ps1'
+[19.810s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/brsd/microros_ws/install/micro_ros_setup/share/micro_ros_setup/package.dsv'
+[19.816s] INFO:colcon.colcon_core.shell:Creating package script '/home/brsd/microros_ws/install/micro_ros_setup/share/micro_ros_setup/package.sh'
+[19.819s] INFO:colcon.colcon_core.shell:Creating package script '/home/brsd/microros_ws/install/micro_ros_setup/share/micro_ros_setup/package.bash'
+[19.829s] INFO:colcon.colcon_core.shell:Creating package script '/home/brsd/microros_ws/install/micro_ros_setup/share/micro_ros_setup/package.zsh'
+[19.839s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/brsd/microros_ws/install/micro_ros_setup/share/colcon-core/packages/micro_ros_setup)
+[19.841s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/brsd/microros_ws/src/pathfinding' with build type 'ament_python'
+[19.847s] Level 1:colcon.colcon_core.shell:create_environment_hook('pathfinding', 'ament_prefix_path')
+[19.849s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brsd/microros_ws/install/pathfinding/share/pathfinding/hook/ament_prefix_path.ps1'
+[19.852s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/brsd/microros_ws/install/pathfinding/share/pathfinding/hook/ament_prefix_path.dsv'
+[19.854s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brsd/microros_ws/install/pathfinding/share/pathfinding/hook/ament_prefix_path.sh'
+[19.857s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[19.858s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[22.912s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/brsd/microros_ws/src/pathfinding'
+[22.916s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[22.917s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[22.995s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/brsd/microros_ws/src/joystick_input': PYTHONPATH=/home/brsd/microros_ws/build/joystick_input/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/brsd/microros_ws/install/joystick_input/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/joystick_input build --build-base /home/brsd/microros_ws/build/joystick_input/build install --record /home/brsd/microros_ws/build/joystick_input/install.log --install-scripts $base/lib/joystick_input --single-version-externally-managed install_data
+[23.030s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/jetson_comm' for CMake module files
+[23.032s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/brsd/microros_ws/src/jetson_comm' returned '0': PYTHONPATH=/home/brsd/microros_ws/build/jetson_comm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/brsd/microros_ws/install/jetson_comm/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/jetson_comm build --build-base /home/brsd/microros_ws/build/jetson_comm/build install --record /home/brsd/microros_ws/build/jetson_comm/install.log --install-scripts $base/lib/jetson_comm --single-version-externally-managed install_data
+[23.040s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/jetson_comm' for CMake config files
+[23.044s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/jetson_comm/lib'
+[23.045s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/jetson_comm/bin'
+[23.046s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/jetson_comm/lib/pkgconfig/jetson_comm.pc'
+[23.047s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/jetson_comm/lib/python3.8/site-packages'
+[23.048s] Level 1:colcon.colcon_core.shell:create_environment_hook('jetson_comm', 'pythonpath')
+[23.050s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brsd/microros_ws/install/jetson_comm/share/jetson_comm/hook/pythonpath.ps1'
+[23.057s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/brsd/microros_ws/install/jetson_comm/share/jetson_comm/hook/pythonpath.dsv'
+[23.060s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brsd/microros_ws/install/jetson_comm/share/jetson_comm/hook/pythonpath.sh'
+[23.066s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/jetson_comm/bin'
+[23.068s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(jetson_comm)
+[23.070s] INFO:colcon.colcon_core.shell:Creating package script '/home/brsd/microros_ws/install/jetson_comm/share/jetson_comm/package.ps1'
+[23.078s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/brsd/microros_ws/install/jetson_comm/share/jetson_comm/package.dsv'
+[23.084s] INFO:colcon.colcon_core.shell:Creating package script '/home/brsd/microros_ws/install/jetson_comm/share/jetson_comm/package.sh'
+[23.093s] INFO:colcon.colcon_core.shell:Creating package script '/home/brsd/microros_ws/install/jetson_comm/share/jetson_comm/package.bash'
+[23.098s] INFO:colcon.colcon_core.shell:Creating package script '/home/brsd/microros_ws/install/jetson_comm/share/jetson_comm/package.zsh'
+[23.106s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/brsd/microros_ws/install/jetson_comm/share/colcon-core/packages/jetson_comm)
+[23.110s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/brsd/microros_ws/src/person_detection' with build type 'ament_python'
+[23.122s] Level 1:colcon.colcon_core.shell:create_environment_hook('person_detection', 'ament_prefix_path')
+[23.123s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brsd/microros_ws/install/person_detection/share/person_detection/hook/ament_prefix_path.ps1'
+[23.126s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/brsd/microros_ws/install/person_detection/share/person_detection/hook/ament_prefix_path.dsv'
+[23.128s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brsd/microros_ws/install/person_detection/share/person_detection/hook/ament_prefix_path.sh'
+[23.132s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[23.138s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[25.778s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/brsd/microros_ws/src/person_detection'
+[25.780s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[25.781s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[25.893s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/brsd/microros_ws/src/object_detection_pkg': PYTHONPATH=/home/brsd/microros_ws/build/object_detection_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/brsd/microros_ws/install/object_detection_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/object_detection_pkg build --build-base /home/brsd/microros_ws/build/object_detection_pkg/build install --record /home/brsd/microros_ws/build/object_detection_pkg/install.log --install-scripts $base/lib/object_detection_pkg --single-version-externally-managed install_data
+[26.118s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/joystick_input' for CMake module files
+[26.120s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/brsd/microros_ws/src/joystick_input' returned '0': PYTHONPATH=/home/brsd/microros_ws/build/joystick_input/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/brsd/microros_ws/install/joystick_input/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/joystick_input build --build-base /home/brsd/microros_ws/build/joystick_input/build install --record /home/brsd/microros_ws/build/joystick_input/install.log --install-scripts $base/lib/joystick_input --single-version-externally-managed install_data
+[26.127s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/joystick_input' for CMake config files
+[26.132s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/joystick_input/lib'
+[26.139s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/joystick_input/bin'
+[26.140s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/joystick_input/lib/pkgconfig/joystick_input.pc'
+[26.142s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/joystick_input/lib/python3.8/site-packages'
+[26.143s] Level 1:colcon.colcon_core.shell:create_environment_hook('joystick_input', 'pythonpath')
+[26.146s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brsd/microros_ws/install/joystick_input/share/joystick_input/hook/pythonpath.ps1'
+[26.155s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/brsd/microros_ws/install/joystick_input/share/joystick_input/hook/pythonpath.dsv'
+[26.165s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brsd/microros_ws/install/joystick_input/share/joystick_input/hook/pythonpath.sh'
+[26.169s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/joystick_input/bin'
+[26.177s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(joystick_input)
+[26.180s] INFO:colcon.colcon_core.shell:Creating package script '/home/brsd/microros_ws/install/joystick_input/share/joystick_input/package.ps1'
+[26.195s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/brsd/microros_ws/install/joystick_input/share/joystick_input/package.dsv'
+[26.205s] INFO:colcon.colcon_core.shell:Creating package script '/home/brsd/microros_ws/install/joystick_input/share/joystick_input/package.sh'
+[26.214s] INFO:colcon.colcon_core.shell:Creating package script '/home/brsd/microros_ws/install/joystick_input/share/joystick_input/package.bash'
+[26.223s] INFO:colcon.colcon_core.shell:Creating package script '/home/brsd/microros_ws/install/joystick_input/share/joystick_input/package.zsh'
+[26.233s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/brsd/microros_ws/install/joystick_input/share/colcon-core/packages/joystick_input)
+[26.240s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/brsd/microros_ws/src/uros/micro-ROS-Agent/micro_ros_agent' with build type 'ament_cmake'
+[26.242s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/brsd/microros_ws/src/uros/micro-ROS-Agent/micro_ros_agent'
+[26.247s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[26.248s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[26.510s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/brsd/microros_ws/build/micro_ros_agent': CMAKE_PREFIX_PATH=/home/brsd/microros_ws/install/micro_ros_msgs:/home/brsd/microros_ws/install/multisense_ros:/home/brsd/microros_ws/install/xacro:/home/brsd/microros_ws/install/multisense_msgs:/home/brsd/microros_ws/install/multisense_lib:/home/brsd/microros_ws/install/micro_ros_setup:/home/brsd/microros_ws/install/micro_ros_agent:/home/brsd/microros_ws/install/drive_base_msgs:/home/brsd/microros_ws/install/person_detection:/home/brsd/microros_ws/install/pathfinding:/home/brsd/microros_ws/install/object_detection_pkg:/home/brsd/microros_ws/install/joystick_input:/home/brsd/microros_ws/install/jetson_comm:/home/brsd/microros_ws/install/fsm:/opt/ros/foxy LD_LIBRARY_PATH=/home/brsd/microros_ws/install/micro_ros_msgs/lib:/home/brsd/microros_ws/install/multisense_msgs/lib:/home/brsd/microros_ws/install/multisense_lib/lib:/home/brsd/microros_ws/install/micro_ros_agent/lib:/home/brsd/microros_ws/install/drive_base_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/brsd/microros_ws/install/micro_ros_msgs/lib/python3.8/site-packages:/home/brsd/microros_ws/install/xacro/lib/python3.8/site-packages:/home/brsd/microros_ws/install/person_detection/lib/python3.8/site-packages:/home/brsd/microros_ws/install/pathfinding/lib/python3.8/site-packages:/home/brsd/microros_ws/install/object_detection_pkg/lib/python3.8/site-packages:/home/brsd/microros_ws/install/multisense_msgs/lib/python3.8/site-packages:/home/brsd/microros_ws/install/joystick_input/lib/python3.8/site-packages:/home/brsd/microros_ws/install/jetson_comm/lib/python3.8/site-packages:/home/brsd/microros_ws/install/fsm/lib/python3.8/site-packages:/home/brsd/microros_ws/install/drive_base_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/brsd/microros_ws/build/micro_ros_agent -- -j4 -l4
+[27.600s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/brsd/microros_ws/build/micro_ros_agent' returned '0': CMAKE_PREFIX_PATH=/home/brsd/microros_ws/install/micro_ros_msgs:/home/brsd/microros_ws/install/multisense_ros:/home/brsd/microros_ws/install/xacro:/home/brsd/microros_ws/install/multisense_msgs:/home/brsd/microros_ws/install/multisense_lib:/home/brsd/microros_ws/install/micro_ros_setup:/home/brsd/microros_ws/install/micro_ros_agent:/home/brsd/microros_ws/install/drive_base_msgs:/home/brsd/microros_ws/install/person_detection:/home/brsd/microros_ws/install/pathfinding:/home/brsd/microros_ws/install/object_detection_pkg:/home/brsd/microros_ws/install/joystick_input:/home/brsd/microros_ws/install/jetson_comm:/home/brsd/microros_ws/install/fsm:/opt/ros/foxy LD_LIBRARY_PATH=/home/brsd/microros_ws/install/micro_ros_msgs/lib:/home/brsd/microros_ws/install/multisense_msgs/lib:/home/brsd/microros_ws/install/multisense_lib/lib:/home/brsd/microros_ws/install/micro_ros_agent/lib:/home/brsd/microros_ws/install/drive_base_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/brsd/microros_ws/install/micro_ros_msgs/lib/python3.8/site-packages:/home/brsd/microros_ws/install/xacro/lib/python3.8/site-packages:/home/brsd/microros_ws/install/person_detection/lib/python3.8/site-packages:/home/brsd/microros_ws/install/pathfinding/lib/python3.8/site-packages:/home/brsd/microros_ws/install/object_detection_pkg/lib/python3.8/site-packages:/home/brsd/microros_ws/install/multisense_msgs/lib/python3.8/site-packages:/home/brsd/microros_ws/install/joystick_input/lib/python3.8/site-packages:/home/brsd/microros_ws/install/jetson_comm/lib/python3.8/site-packages:/home/brsd/microros_ws/install/fsm/lib/python3.8/site-packages:/home/brsd/microros_ws/install/drive_base_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/brsd/microros_ws/build/micro_ros_agent -- -j4 -l4
+[27.802s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/brsd/microros_ws/src/pathfinding': PYTHONPATH=/home/brsd/microros_ws/build/pathfinding/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/brsd/microros_ws/install/pathfinding/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/pathfinding build --build-base /home/brsd/microros_ws/build/pathfinding/build install --record /home/brsd/microros_ws/build/pathfinding/install.log --install-scripts $base/lib/pathfinding --single-version-externally-managed install_data
+[28.209s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/brsd/microros_ws/build/micro_ros_agent': CMAKE_PREFIX_PATH=/home/brsd/microros_ws/install/micro_ros_msgs:/home/brsd/microros_ws/install/multisense_ros:/home/brsd/microros_ws/install/xacro:/home/brsd/microros_ws/install/multisense_msgs:/home/brsd/microros_ws/install/multisense_lib:/home/brsd/microros_ws/install/micro_ros_setup:/home/brsd/microros_ws/install/micro_ros_agent:/home/brsd/microros_ws/install/drive_base_msgs:/home/brsd/microros_ws/install/person_detection:/home/brsd/microros_ws/install/pathfinding:/home/brsd/microros_ws/install/object_detection_pkg:/home/brsd/microros_ws/install/joystick_input:/home/brsd/microros_ws/install/jetson_comm:/home/brsd/microros_ws/install/fsm:/opt/ros/foxy LD_LIBRARY_PATH=/home/brsd/microros_ws/install/micro_ros_msgs/lib:/home/brsd/microros_ws/install/multisense_msgs/lib:/home/brsd/microros_ws/install/multisense_lib/lib:/home/brsd/microros_ws/install/micro_ros_agent/lib:/home/brsd/microros_ws/install/drive_base_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/brsd/microros_ws/install/micro_ros_msgs/lib/python3.8/site-packages:/home/brsd/microros_ws/install/xacro/lib/python3.8/site-packages:/home/brsd/microros_ws/install/person_detection/lib/python3.8/site-packages:/home/brsd/microros_ws/install/pathfinding/lib/python3.8/site-packages:/home/brsd/microros_ws/install/object_detection_pkg/lib/python3.8/site-packages:/home/brsd/microros_ws/install/multisense_msgs/lib/python3.8/site-packages:/home/brsd/microros_ws/install/joystick_input/lib/python3.8/site-packages:/home/brsd/microros_ws/install/jetson_comm/lib/python3.8/site-packages:/home/brsd/microros_ws/install/fsm/lib/python3.8/site-packages:/home/brsd/microros_ws/install/drive_base_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /home/brsd/microros_ws/build/micro_ros_agent
+[28.374s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(micro_ros_agent)
+[28.376s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/micro_ros_agent' for CMake module files
+[28.379s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/micro_ros_agent' for CMake config files
+[28.384s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/brsd/microros_ws/build/micro_ros_agent' returned '0': CMAKE_PREFIX_PATH=/home/brsd/microros_ws/install/micro_ros_msgs:/home/brsd/microros_ws/install/multisense_ros:/home/brsd/microros_ws/install/xacro:/home/brsd/microros_ws/install/multisense_msgs:/home/brsd/microros_ws/install/multisense_lib:/home/brsd/microros_ws/install/micro_ros_setup:/home/brsd/microros_ws/install/micro_ros_agent:/home/brsd/microros_ws/install/drive_base_msgs:/home/brsd/microros_ws/install/person_detection:/home/brsd/microros_ws/install/pathfinding:/home/brsd/microros_ws/install/object_detection_pkg:/home/brsd/microros_ws/install/joystick_input:/home/brsd/microros_ws/install/jetson_comm:/home/brsd/microros_ws/install/fsm:/opt/ros/foxy LD_LIBRARY_PATH=/home/brsd/microros_ws/install/micro_ros_msgs/lib:/home/brsd/microros_ws/install/multisense_msgs/lib:/home/brsd/microros_ws/install/multisense_lib/lib:/home/brsd/microros_ws/install/micro_ros_agent/lib:/home/brsd/microros_ws/install/drive_base_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/brsd/microros_ws/install/micro_ros_msgs/lib/python3.8/site-packages:/home/brsd/microros_ws/install/xacro/lib/python3.8/site-packages:/home/brsd/microros_ws/install/person_detection/lib/python3.8/site-packages:/home/brsd/microros_ws/install/pathfinding/lib/python3.8/site-packages:/home/brsd/microros_ws/install/object_detection_pkg/lib/python3.8/site-packages:/home/brsd/microros_ws/install/multisense_msgs/lib/python3.8/site-packages:/home/brsd/microros_ws/install/joystick_input/lib/python3.8/site-packages:/home/brsd/microros_ws/install/jetson_comm/lib/python3.8/site-packages:/home/brsd/microros_ws/install/fsm/lib/python3.8/site-packages:/home/brsd/microros_ws/install/drive_base_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /home/brsd/microros_ws/build/micro_ros_agent
+[28.398s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_agent', 'cmake_prefix_path')
+[28.405s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brsd/microros_ws/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.ps1'
+[28.408s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/brsd/microros_ws/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.dsv'
+[28.424s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brsd/microros_ws/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.sh'
+[28.427s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/micro_ros_agent/lib'
+[28.428s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_agent', 'ld_library_path_lib')
+[28.430s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brsd/microros_ws/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.ps1'
+[28.432s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/brsd/microros_ws/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.dsv'
+[28.434s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brsd/microros_ws/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.sh'
+[28.436s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/micro_ros_agent/bin'
+[28.436s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/micro_ros_agent/lib/pkgconfig/micro_ros_agent.pc'
+[28.453s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/micro_ros_agent/lib/python3.8/site-packages'
+[28.454s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/micro_ros_agent/bin'
+[28.456s] INFO:colcon.colcon_core.shell:Creating package script '/home/brsd/microros_ws/install/micro_ros_agent/share/micro_ros_agent/package.ps1'
+[28.466s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/brsd/microros_ws/install/micro_ros_agent/share/micro_ros_agent/package.dsv'
+[28.470s] INFO:colcon.colcon_core.shell:Creating package script '/home/brsd/microros_ws/install/micro_ros_agent/share/micro_ros_agent/package.sh'
+[28.478s] INFO:colcon.colcon_core.shell:Creating package script '/home/brsd/microros_ws/install/micro_ros_agent/share/micro_ros_agent/package.bash'
+[28.487s] INFO:colcon.colcon_core.shell:Creating package script '/home/brsd/microros_ws/install/micro_ros_agent/share/micro_ros_agent/package.zsh'
+[28.493s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/brsd/microros_ws/install/micro_ros_agent/share/colcon-core/packages/micro_ros_agent)
+[29.255s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(micro_ros_agent)
+[29.257s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/micro_ros_agent' for CMake module files
+[29.259s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/micro_ros_agent' for CMake config files
+[29.272s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_agent', 'cmake_prefix_path')
+[29.278s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brsd/microros_ws/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.ps1'
+[29.281s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/brsd/microros_ws/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.dsv'
+[29.282s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brsd/microros_ws/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.sh'
+[29.285s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/micro_ros_agent/lib'
+[29.286s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_agent', 'ld_library_path_lib')
+[29.320s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brsd/microros_ws/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.ps1'
+[29.330s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/brsd/microros_ws/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.dsv'
+[29.332s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brsd/microros_ws/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.sh'
+[29.346s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/micro_ros_agent/bin'
+[29.347s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/micro_ros_agent/lib/pkgconfig/micro_ros_agent.pc'
+[29.348s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/micro_ros_agent/lib/python3.8/site-packages'
+[29.348s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/micro_ros_agent/bin'
+[29.356s] INFO:colcon.colcon_core.shell:Creating package script '/home/brsd/microros_ws/install/micro_ros_agent/share/micro_ros_agent/package.ps1'
+[29.362s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/brsd/microros_ws/install/micro_ros_agent/share/micro_ros_agent/package.dsv'
+[29.371s] INFO:colcon.colcon_core.shell:Creating package script '/home/brsd/microros_ws/install/micro_ros_agent/share/micro_ros_agent/package.sh'
+[29.379s] INFO:colcon.colcon_core.shell:Creating package script '/home/brsd/microros_ws/install/micro_ros_agent/share/micro_ros_agent/package.bash'
+[29.386s] INFO:colcon.colcon_core.shell:Creating package script '/home/brsd/microros_ws/install/micro_ros_agent/share/micro_ros_agent/package.zsh'
+[29.399s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/brsd/microros_ws/install/micro_ros_agent/share/colcon-core/packages/micro_ros_agent)
+[29.402s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/brsd/microros_ws/src/multisense_ros2/multisense_ros' with build type 'ament_cmake'
+[29.403s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/brsd/microros_ws/src/multisense_ros2/multisense_ros'
+[29.405s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[29.407s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[29.696s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/brsd/microros_ws/build/multisense_ros': CMAKE_PREFIX_PATH=/home/brsd/microros_ws/install/xacro:/home/brsd/microros_ws/install/multisense_msgs:/home/brsd/microros_ws/install/multisense_lib:/home/brsd/microros_ws/install/multisense_ros:/home/brsd/microros_ws/install/micro_ros_setup:/home/brsd/microros_ws/install/micro_ros_agent:/home/brsd/microros_ws/install/micro_ros_msgs:/home/brsd/microros_ws/install/drive_base_msgs:/home/brsd/microros_ws/install/person_detection:/home/brsd/microros_ws/install/pathfinding:/home/brsd/microros_ws/install/object_detection_pkg:/home/brsd/microros_ws/install/joystick_input:/home/brsd/microros_ws/install/jetson_comm:/home/brsd/microros_ws/install/fsm:/opt/ros/foxy PYTHONPATH=/home/brsd/microros_ws/install/xacro/lib/python3.8/site-packages:/home/brsd/microros_ws/install/multisense_msgs/lib/python3.8/site-packages:/home/brsd/microros_ws/install/person_detection/lib/python3.8/site-packages:/home/brsd/microros_ws/install/pathfinding/lib/python3.8/site-packages:/home/brsd/microros_ws/install/object_detection_pkg/lib/python3.8/site-packages:/home/brsd/microros_ws/install/micro_ros_msgs/lib/python3.8/site-packages:/home/brsd/microros_ws/install/joystick_input/lib/python3.8/site-packages:/home/brsd/microros_ws/install/jetson_comm/lib/python3.8/site-packages:/home/brsd/microros_ws/install/fsm/lib/python3.8/site-packages:/home/brsd/microros_ws/install/drive_base_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/brsd/microros_ws/build/multisense_ros -- -j4 -l4
+[29.969s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/object_detection_pkg' for CMake module files
+[29.971s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/brsd/microros_ws/src/object_detection_pkg' returned '0': PYTHONPATH=/home/brsd/microros_ws/build/object_detection_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/brsd/microros_ws/install/object_detection_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/object_detection_pkg build --build-base /home/brsd/microros_ws/build/object_detection_pkg/build install --record /home/brsd/microros_ws/build/object_detection_pkg/install.log --install-scripts $base/lib/object_detection_pkg --single-version-externally-managed install_data
+[29.975s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/object_detection_pkg' for CMake config files
+[29.979s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/object_detection_pkg/lib'
+[29.981s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/object_detection_pkg/bin'
+[29.982s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/object_detection_pkg/lib/pkgconfig/object_detection_pkg.pc'
+[29.985s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/object_detection_pkg/lib/python3.8/site-packages'
+[29.986s] Level 1:colcon.colcon_core.shell:create_environment_hook('object_detection_pkg', 'pythonpath')
+[29.993s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brsd/microros_ws/install/object_detection_pkg/share/object_detection_pkg/hook/pythonpath.ps1'
+[30.002s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/brsd/microros_ws/install/object_detection_pkg/share/object_detection_pkg/hook/pythonpath.dsv'
+[30.007s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brsd/microros_ws/install/object_detection_pkg/share/object_detection_pkg/hook/pythonpath.sh'
+[30.015s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/object_detection_pkg/bin'
+[30.022s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(object_detection_pkg)
+[30.026s] INFO:colcon.colcon_core.shell:Creating package script '/home/brsd/microros_ws/install/object_detection_pkg/share/object_detection_pkg/package.ps1'
+[30.056s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/brsd/microros_ws/install/object_detection_pkg/share/object_detection_pkg/package.dsv'
+[30.063s] INFO:colcon.colcon_core.shell:Creating package script '/home/brsd/microros_ws/install/object_detection_pkg/share/object_detection_pkg/package.sh'
+[30.068s] INFO:colcon.colcon_core.shell:Creating package script '/home/brsd/microros_ws/install/object_detection_pkg/share/object_detection_pkg/package.bash'
+[30.075s] INFO:colcon.colcon_core.shell:Creating package script '/home/brsd/microros_ws/install/object_detection_pkg/share/object_detection_pkg/package.zsh'
+[30.079s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/brsd/microros_ws/install/object_detection_pkg/share/colcon-core/packages/object_detection_pkg)
+[30.648s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/brsd/microros_ws/src/person_detection': PYTHONPATH=/home/brsd/microros_ws/build/person_detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/brsd/microros_ws/install/person_detection/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/person_detection build --build-base /home/brsd/microros_ws/build/person_detection/build install --record /home/brsd/microros_ws/build/person_detection/install.log --install-scripts $base/lib/person_detection --single-version-externally-managed install_data
+[31.371s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/brsd/microros_ws/build/multisense_ros' returned '0': CMAKE_PREFIX_PATH=/home/brsd/microros_ws/install/xacro:/home/brsd/microros_ws/install/multisense_msgs:/home/brsd/microros_ws/install/multisense_lib:/home/brsd/microros_ws/install/multisense_ros:/home/brsd/microros_ws/install/micro_ros_setup:/home/brsd/microros_ws/install/micro_ros_agent:/home/brsd/microros_ws/install/micro_ros_msgs:/home/brsd/microros_ws/install/drive_base_msgs:/home/brsd/microros_ws/install/person_detection:/home/brsd/microros_ws/install/pathfinding:/home/brsd/microros_ws/install/object_detection_pkg:/home/brsd/microros_ws/install/joystick_input:/home/brsd/microros_ws/install/jetson_comm:/home/brsd/microros_ws/install/fsm:/opt/ros/foxy PYTHONPATH=/home/brsd/microros_ws/install/xacro/lib/python3.8/site-packages:/home/brsd/microros_ws/install/multisense_msgs/lib/python3.8/site-packages:/home/brsd/microros_ws/install/person_detection/lib/python3.8/site-packages:/home/brsd/microros_ws/install/pathfinding/lib/python3.8/site-packages:/home/brsd/microros_ws/install/object_detection_pkg/lib/python3.8/site-packages:/home/brsd/microros_ws/install/micro_ros_msgs/lib/python3.8/site-packages:/home/brsd/microros_ws/install/joystick_input/lib/python3.8/site-packages:/home/brsd/microros_ws/install/jetson_comm/lib/python3.8/site-packages:/home/brsd/microros_ws/install/fsm/lib/python3.8/site-packages:/home/brsd/microros_ws/install/drive_base_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/brsd/microros_ws/build/multisense_ros -- -j4 -l4
+[31.416s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/pathfinding' for CMake module files
+[31.420s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/brsd/microros_ws/src/pathfinding' returned '0': PYTHONPATH=/home/brsd/microros_ws/build/pathfinding/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/brsd/microros_ws/install/pathfinding/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/pathfinding build --build-base /home/brsd/microros_ws/build/pathfinding/build install --record /home/brsd/microros_ws/build/pathfinding/install.log --install-scripts $base/lib/pathfinding --single-version-externally-managed install_data
+[31.427s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/pathfinding' for CMake config files
+[31.435s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/pathfinding/lib'
+[31.438s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/pathfinding/bin'
+[31.439s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/pathfinding/lib/pkgconfig/pathfinding.pc'
+[31.447s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/pathfinding/lib/python3.8/site-packages'
+[31.447s] Level 1:colcon.colcon_core.shell:create_environment_hook('pathfinding', 'pythonpath')
+[31.450s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brsd/microros_ws/install/pathfinding/share/pathfinding/hook/pythonpath.ps1'
+[31.465s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/brsd/microros_ws/install/pathfinding/share/pathfinding/hook/pythonpath.dsv'
+[31.471s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brsd/microros_ws/install/pathfinding/share/pathfinding/hook/pythonpath.sh'
+[31.475s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/pathfinding/bin'
+[31.478s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pathfinding)
+[31.481s] INFO:colcon.colcon_core.shell:Creating package script '/home/brsd/microros_ws/install/pathfinding/share/pathfinding/package.ps1'
+[31.516s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/brsd/microros_ws/install/pathfinding/share/pathfinding/package.dsv'
+[31.522s] INFO:colcon.colcon_core.shell:Creating package script '/home/brsd/microros_ws/install/pathfinding/share/pathfinding/package.sh'
+[31.527s] INFO:colcon.colcon_core.shell:Creating package script '/home/brsd/microros_ws/install/pathfinding/share/pathfinding/package.bash'
+[31.539s] INFO:colcon.colcon_core.shell:Creating package script '/home/brsd/microros_ws/install/pathfinding/share/pathfinding/package.zsh'
+[31.543s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/brsd/microros_ws/install/pathfinding/share/colcon-core/packages/pathfinding)
+[32.198s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/brsd/microros_ws/build/multisense_ros': CMAKE_PREFIX_PATH=/home/brsd/microros_ws/install/xacro:/home/brsd/microros_ws/install/multisense_msgs:/home/brsd/microros_ws/install/multisense_lib:/home/brsd/microros_ws/install/multisense_ros:/home/brsd/microros_ws/install/micro_ros_setup:/home/brsd/microros_ws/install/micro_ros_agent:/home/brsd/microros_ws/install/micro_ros_msgs:/home/brsd/microros_ws/install/drive_base_msgs:/home/brsd/microros_ws/install/person_detection:/home/brsd/microros_ws/install/pathfinding:/home/brsd/microros_ws/install/object_detection_pkg:/home/brsd/microros_ws/install/joystick_input:/home/brsd/microros_ws/install/jetson_comm:/home/brsd/microros_ws/install/fsm:/opt/ros/foxy PYTHONPATH=/home/brsd/microros_ws/install/xacro/lib/python3.8/site-packages:/home/brsd/microros_ws/install/multisense_msgs/lib/python3.8/site-packages:/home/brsd/microros_ws/install/person_detection/lib/python3.8/site-packages:/home/brsd/microros_ws/install/pathfinding/lib/python3.8/site-packages:/home/brsd/microros_ws/install/object_detection_pkg/lib/python3.8/site-packages:/home/brsd/microros_ws/install/micro_ros_msgs/lib/python3.8/site-packages:/home/brsd/microros_ws/install/joystick_input/lib/python3.8/site-packages:/home/brsd/microros_ws/install/jetson_comm/lib/python3.8/site-packages:/home/brsd/microros_ws/install/fsm/lib/python3.8/site-packages:/home/brsd/microros_ws/install/drive_base_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /home/brsd/microros_ws/build/multisense_ros
+[32.365s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(multisense_ros)
+[32.367s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/multisense_ros' for CMake module files
+[32.386s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/multisense_ros' for CMake config files
+[32.391s] Level 1:colcon.colcon_core.shell:create_environment_hook('multisense_ros', 'cmake_prefix_path')
+[32.392s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brsd/microros_ws/install/multisense_ros/share/multisense_ros/hook/cmake_prefix_path.ps1'
+[32.396s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/brsd/microros_ws/install/multisense_ros/share/multisense_ros/hook/cmake_prefix_path.dsv'
+[32.410s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brsd/microros_ws/install/multisense_ros/share/multisense_ros/hook/cmake_prefix_path.sh'
+[32.414s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/brsd/microros_ws/build/multisense_ros' returned '0': CMAKE_PREFIX_PATH=/home/brsd/microros_ws/install/xacro:/home/brsd/microros_ws/install/multisense_msgs:/home/brsd/microros_ws/install/multisense_lib:/home/brsd/microros_ws/install/multisense_ros:/home/brsd/microros_ws/install/micro_ros_setup:/home/brsd/microros_ws/install/micro_ros_agent:/home/brsd/microros_ws/install/micro_ros_msgs:/home/brsd/microros_ws/install/drive_base_msgs:/home/brsd/microros_ws/install/person_detection:/home/brsd/microros_ws/install/pathfinding:/home/brsd/microros_ws/install/object_detection_pkg:/home/brsd/microros_ws/install/joystick_input:/home/brsd/microros_ws/install/jetson_comm:/home/brsd/microros_ws/install/fsm:/opt/ros/foxy PYTHONPATH=/home/brsd/microros_ws/install/xacro/lib/python3.8/site-packages:/home/brsd/microros_ws/install/multisense_msgs/lib/python3.8/site-packages:/home/brsd/microros_ws/install/person_detection/lib/python3.8/site-packages:/home/brsd/microros_ws/install/pathfinding/lib/python3.8/site-packages:/home/brsd/microros_ws/install/object_detection_pkg/lib/python3.8/site-packages:/home/brsd/microros_ws/install/micro_ros_msgs/lib/python3.8/site-packages:/home/brsd/microros_ws/install/joystick_input/lib/python3.8/site-packages:/home/brsd/microros_ws/install/jetson_comm/lib/python3.8/site-packages:/home/brsd/microros_ws/install/fsm/lib/python3.8/site-packages:/home/brsd/microros_ws/install/drive_base_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /home/brsd/microros_ws/build/multisense_ros
+[32.416s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/multisense_ros/lib'
+[32.417s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/multisense_ros/bin'
+[32.417s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/multisense_ros/lib/pkgconfig/multisense_ros.pc'
+[32.418s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/multisense_ros/lib/python3.8/site-packages'
+[32.419s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/multisense_ros/bin'
+[32.424s] INFO:colcon.colcon_core.shell:Creating package script '/home/brsd/microros_ws/install/multisense_ros/share/multisense_ros/package.ps1'
+[32.427s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/brsd/microros_ws/install/multisense_ros/share/multisense_ros/package.dsv'
+[32.430s] INFO:colcon.colcon_core.shell:Creating package script '/home/brsd/microros_ws/install/multisense_ros/share/multisense_ros/package.sh'
+[32.432s] INFO:colcon.colcon_core.shell:Creating package script '/home/brsd/microros_ws/install/multisense_ros/share/multisense_ros/package.bash'
+[32.434s] INFO:colcon.colcon_core.shell:Creating package script '/home/brsd/microros_ws/install/multisense_ros/share/multisense_ros/package.zsh'
+[32.436s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/brsd/microros_ws/install/multisense_ros/share/colcon-core/packages/multisense_ros)
+[33.039s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(multisense_ros)
+[33.041s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/multisense_ros' for CMake module files
+[33.046s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/multisense_ros' for CMake config files
+[33.049s] Level 1:colcon.colcon_core.shell:create_environment_hook('multisense_ros', 'cmake_prefix_path')
+[33.050s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brsd/microros_ws/install/multisense_ros/share/multisense_ros/hook/cmake_prefix_path.ps1'
+[33.064s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/brsd/microros_ws/install/multisense_ros/share/multisense_ros/hook/cmake_prefix_path.dsv'
+[33.071s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brsd/microros_ws/install/multisense_ros/share/multisense_ros/hook/cmake_prefix_path.sh'
+[33.088s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/multisense_ros/lib'
+[33.091s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/multisense_ros/bin'
+[33.093s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/multisense_ros/lib/pkgconfig/multisense_ros.pc'
+[33.101s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/multisense_ros/lib/python3.8/site-packages'
+[33.103s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/multisense_ros/bin'
+[33.108s] INFO:colcon.colcon_core.shell:Creating package script '/home/brsd/microros_ws/install/multisense_ros/share/multisense_ros/package.ps1'
+[33.113s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/brsd/microros_ws/install/multisense_ros/share/multisense_ros/package.dsv'
+[33.121s] INFO:colcon.colcon_core.shell:Creating package script '/home/brsd/microros_ws/install/multisense_ros/share/multisense_ros/package.sh'
+[33.132s] INFO:colcon.colcon_core.shell:Creating package script '/home/brsd/microros_ws/install/multisense_ros/share/multisense_ros/package.bash'
+[33.137s] INFO:colcon.colcon_core.shell:Creating package script '/home/brsd/microros_ws/install/multisense_ros/share/multisense_ros/package.zsh'
+[33.142s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/brsd/microros_ws/install/multisense_ros/share/colcon-core/packages/multisense_ros)
+[33.229s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/person_detection' for CMake module files
+[33.231s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/brsd/microros_ws/src/person_detection' returned '0': PYTHONPATH=/home/brsd/microros_ws/build/person_detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/brsd/microros_ws/install/person_detection/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/person_detection build --build-base /home/brsd/microros_ws/build/person_detection/build install --record /home/brsd/microros_ws/build/person_detection/install.log --install-scripts $base/lib/person_detection --single-version-externally-managed install_data
+[33.241s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/person_detection' for CMake config files
+[33.245s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/person_detection/lib'
+[33.246s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/person_detection/bin'
+[33.247s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/person_detection/lib/pkgconfig/person_detection.pc'
+[33.249s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/person_detection/lib/python3.8/site-packages'
+[33.249s] Level 1:colcon.colcon_core.shell:create_environment_hook('person_detection', 'pythonpath')
+[33.251s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brsd/microros_ws/install/person_detection/share/person_detection/hook/pythonpath.ps1'
+[33.264s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/brsd/microros_ws/install/person_detection/share/person_detection/hook/pythonpath.dsv'
+[33.267s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brsd/microros_ws/install/person_detection/share/person_detection/hook/pythonpath.sh'
+[33.276s] Level 1:colcon.colcon_core.environment:checking '/home/brsd/microros_ws/install/person_detection/bin'
+[33.277s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(person_detection)
+[33.284s] INFO:colcon.colcon_core.shell:Creating package script '/home/brsd/microros_ws/install/person_detection/share/person_detection/package.ps1'
+[33.290s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/brsd/microros_ws/install/person_detection/share/person_detection/package.dsv'
+[33.294s] INFO:colcon.colcon_core.shell:Creating package script '/home/brsd/microros_ws/install/person_detection/share/person_detection/package.sh'
+[33.298s] INFO:colcon.colcon_core.shell:Creating package script '/home/brsd/microros_ws/install/person_detection/share/person_detection/package.bash'
+[33.302s] INFO:colcon.colcon_core.shell:Creating package script '/home/brsd/microros_ws/install/person_detection/share/person_detection/package.zsh'
+[33.308s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/brsd/microros_ws/install/person_detection/share/colcon-core/packages/person_detection)
+[33.313s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[33.315s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[33.315s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[33.316s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[33.382s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[33.382s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[33.383s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[33.485s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[33.486s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/brsd/microros_ws/install/local_setup.ps1'
+[33.494s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/brsd/microros_ws/install/_local_setup_util_ps1.py'
+[33.513s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/brsd/microros_ws/install/setup.ps1'
+[33.541s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/brsd/microros_ws/install/local_setup.sh'
+[33.557s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/brsd/microros_ws/install/_local_setup_util_sh.py'
+[33.562s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/brsd/microros_ws/install/setup.sh'
+[33.585s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/brsd/microros_ws/install/local_setup.bash'
+[33.592s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/brsd/microros_ws/install/setup.bash'
+[33.607s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/brsd/microros_ws/install/local_setup.zsh'
+[33.613s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/brsd/microros_ws/install/setup.zsh'

@@ -1,0 +1,723 @@
+[0.000000] (-) TimerEvent: {}
+[0.001234] (drive_base_msgs) JobQueued: {'identifier': 'drive_base_msgs', 'dependencies': OrderedDict()}
+[0.001381] (jetson_comm) JobQueued: {'identifier': 'jetson_comm', 'dependencies': OrderedDict()}
+[0.001496] (joystick_input) JobQueued: {'identifier': 'joystick_input', 'dependencies': OrderedDict()}
+[0.001593] (micro_ros_msgs) JobQueued: {'identifier': 'micro_ros_msgs', 'dependencies': OrderedDict()}
+[0.002140] (micro_ros_setup) JobQueued: {'identifier': 'micro_ros_setup', 'dependencies': OrderedDict()}
+[0.002645] (multisense_lib) JobQueued: {'identifier': 'multisense_lib', 'dependencies': OrderedDict()}
+[0.002824] (multisense_msgs) JobQueued: {'identifier': 'multisense_msgs', 'dependencies': OrderedDict()}
+[0.003167] (object_detection_pkg) JobQueued: {'identifier': 'object_detection_pkg', 'dependencies': OrderedDict()}
+[0.003320] (pathfinding) JobQueued: {'identifier': 'pathfinding', 'dependencies': OrderedDict()}
+[0.003446] (person_detection) JobQueued: {'identifier': 'person_detection', 'dependencies': OrderedDict()}
+[0.003551] (xacro) JobQueued: {'identifier': 'xacro', 'dependencies': OrderedDict()}
+[0.003656] (micro_ros_agent) JobQueued: {'identifier': 'micro_ros_agent', 'dependencies': OrderedDict([('micro_ros_msgs', '/home/brsd/microros_ws/src/install/micro_ros_msgs')])}
+[0.003775] (multisense_ros) JobQueued: {'identifier': 'multisense_ros', 'dependencies': OrderedDict([('multisense_lib', '/home/brsd/microros_ws/src/install/multisense_lib'), ('multisense_msgs', '/home/brsd/microros_ws/src/install/multisense_msgs'), ('xacro', '/home/brsd/microros_ws/src/install/xacro')])}
+[0.004452] (micro_ros_msgs) JobStarted: {'identifier': 'micro_ros_msgs'}
+[0.045181] (multisense_lib) JobStarted: {'identifier': 'multisense_lib'}
+[0.074888] (multisense_msgs) JobStarted: {'identifier': 'multisense_msgs'}
+[0.099011] (-) TimerEvent: {}
+[0.105642] (xacro) JobStarted: {'identifier': 'xacro'}
+[0.148040] (micro_ros_msgs) JobProgress: {'identifier': 'micro_ros_msgs', 'progress': 'cmake'}
+[0.149074] (micro_ros_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/brsd/microros_ws/src/uros/micro_ros_msgs', '-DCMAKE_INSTALL_PREFIX=/home/brsd/microros_ws/src/install/micro_ros_msgs'], 'cwd': '/home/brsd/microros_ws/src/build/micro_ros_msgs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'brsd'), ('SSH_AGENT_PID', '5422'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/brsd/microros_ws/install/multisense_msgs/lib:/home/brsd/microros_ws/install/multisense_lib/lib:/home/brsd/microros_ws/install/micro_ros_agent/lib:/home/brsd/microros_ws/install/micro_ros_msgs/lib:/home/brsd/microros_ws/install/drive_base_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/brsd'), ('OLDPWD', '/home/brsd/microros_ws/src/pathfinding'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '5287'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/brsd/microros_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'brsd'), ('JOURNAL_STREAM', '8:41771'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'brsd'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/brsd/microros_ws/install/xacro/bin:/home/brsd/microros_ws/install/multisense_lib/bin:/opt/ros/foxy/bin:/home/brsd/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/brsd-desktop:@/tmp/.ICE-unix/5457,unix/brsd-desktop:/tmp/.ICE-unix/5457'), ('INVOCATION_ID', 'ce2d9ff209bc452898cce4a9cb7b3b96'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/3c481e1a_45b9_40f7_a021_45f09e2b72e1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.81'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/brsd/microros_ws/install/multisense_ros:/home/brsd/microros_ws/install/xacro:/home/brsd/microros_ws/install/person_detection:/home/brsd/microros_ws/install/pathfinding:/home/brsd/microros_ws/install/object_detection_pkg:/home/brsd/microros_ws/install/multisense_msgs:/home/brsd/microros_ws/install/multisense_lib:/home/brsd/microros_ws/install/micro_ros_setup:/home/brsd/microros_ws/install/micro_ros_agent:/home/brsd/microros_ws/install/micro_ros_msgs:/home/brsd/microros_ws/install/joystick_input:/home/brsd/microros_ws/install/jetson_comm:/home/brsd/microros_ws/install/drive_base_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/brsd/microros_ws/src/build/micro_ros_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/brsd/microros_ws/install/xacro/lib/python3.8/site-packages:/home/brsd/microros_ws/install/person_detection/lib/python3.8/site-packages:/home/brsd/microros_ws/install/pathfinding/lib/python3.8/site-packages:/home/brsd/microros_ws/install/object_detection_pkg/lib/python3.8/site-packages:/home/brsd/microros_ws/install/multisense_msgs/lib/python3.8/site-packages:/home/brsd/microros_ws/install/micro_ros_msgs/lib/python3.8/site-packages:/home/brsd/microros_ws/install/joystick_input/lib/python3.8/site-packages:/home/brsd/microros_ws/install/jetson_comm/lib/python3.8/site-packages:/home/brsd/microros_ws/install/drive_base_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/brsd/microros_ws/install/multisense_ros:/home/brsd/microros_ws/install/xacro:/home/brsd/microros_ws/install/multisense_msgs:/home/brsd/microros_ws/install/multisense_lib:/home/brsd/microros_ws/install/micro_ros_setup:/home/brsd/microros_ws/install/micro_ros_agent:/home/brsd/microros_ws/install/micro_ros_msgs:/home/brsd/microros_ws/install/drive_base_msgs:/home/brsd/microros_ws/install/person_detection:/home/brsd/microros_ws/install/pathfinding:/home/brsd/microros_ws/install/object_detection_pkg:/home/brsd/microros_ws/install/joystick_input:/home/brsd/microros_ws/install/jetson_comm:/opt/ros/foxy')]), 'shell': False}
+[0.169707] (multisense_lib) JobProgress: {'identifier': 'multisense_lib', 'progress': 'cmake'}
+[0.170614] (multisense_lib) Command: {'cmd': ['/usr/bin/cmake', '/home/brsd/microros_ws/src/multisense_ros2/multisense_lib', '-DCMAKE_INSTALL_PREFIX=/home/brsd/microros_ws/src/install/multisense_lib'], 'cwd': '/home/brsd/microros_ws/src/build/multisense_lib', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'brsd'), ('SSH_AGENT_PID', '5422'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/brsd/microros_ws/install/multisense_msgs/lib:/home/brsd/microros_ws/install/multisense_lib/lib:/home/brsd/microros_ws/install/micro_ros_agent/lib:/home/brsd/microros_ws/install/micro_ros_msgs/lib:/home/brsd/microros_ws/install/drive_base_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/brsd'), ('OLDPWD', '/home/brsd/microros_ws/src/pathfinding'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '5287'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/brsd/microros_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'brsd'), ('JOURNAL_STREAM', '8:41771'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'brsd'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/brsd/microros_ws/install/xacro/bin:/home/brsd/microros_ws/install/multisense_lib/bin:/opt/ros/foxy/bin:/home/brsd/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/brsd-desktop:@/tmp/.ICE-unix/5457,unix/brsd-desktop:/tmp/.ICE-unix/5457'), ('INVOCATION_ID', 'ce2d9ff209bc452898cce4a9cb7b3b96'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/3c481e1a_45b9_40f7_a021_45f09e2b72e1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.81'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/brsd/microros_ws/install/multisense_ros:/home/brsd/microros_ws/install/xacro:/home/brsd/microros_ws/install/person_detection:/home/brsd/microros_ws/install/pathfinding:/home/brsd/microros_ws/install/object_detection_pkg:/home/brsd/microros_ws/install/multisense_msgs:/home/brsd/microros_ws/install/multisense_lib:/home/brsd/microros_ws/install/micro_ros_setup:/home/brsd/microros_ws/install/micro_ros_agent:/home/brsd/microros_ws/install/micro_ros_msgs:/home/brsd/microros_ws/install/joystick_input:/home/brsd/microros_ws/install/jetson_comm:/home/brsd/microros_ws/install/drive_base_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/brsd/microros_ws/src/build/multisense_lib'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/brsd/microros_ws/install/xacro/lib/python3.8/site-packages:/home/brsd/microros_ws/install/person_detection/lib/python3.8/site-packages:/home/brsd/microros_ws/install/pathfinding/lib/python3.8/site-packages:/home/brsd/microros_ws/install/object_detection_pkg/lib/python3.8/site-packages:/home/brsd/microros_ws/install/multisense_msgs/lib/python3.8/site-packages:/home/brsd/microros_ws/install/micro_ros_msgs/lib/python3.8/site-packages:/home/brsd/microros_ws/install/joystick_input/lib/python3.8/site-packages:/home/brsd/microros_ws/install/jetson_comm/lib/python3.8/site-packages:/home/brsd/microros_ws/install/drive_base_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/brsd/microros_ws/install/multisense_ros:/home/brsd/microros_ws/install/xacro:/home/brsd/microros_ws/install/multisense_msgs:/home/brsd/microros_ws/install/multisense_lib:/home/brsd/microros_ws/install/micro_ros_setup:/home/brsd/microros_ws/install/micro_ros_agent:/home/brsd/microros_ws/install/micro_ros_msgs:/home/brsd/microros_ws/install/drive_base_msgs:/home/brsd/microros_ws/install/person_detection:/home/brsd/microros_ws/install/pathfinding:/home/brsd/microros_ws/install/object_detection_pkg:/home/brsd/microros_ws/install/joystick_input:/home/brsd/microros_ws/install/jetson_comm:/opt/ros/foxy')]), 'shell': False}
+[0.183111] (multisense_msgs) JobProgress: {'identifier': 'multisense_msgs', 'progress': 'cmake'}
+[0.184592] (multisense_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/brsd/microros_ws/src/multisense_ros2/multisense_msgs', '-DCMAKE_INSTALL_PREFIX=/home/brsd/microros_ws/src/install/multisense_msgs'], 'cwd': '/home/brsd/microros_ws/src/build/multisense_msgs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'brsd'), ('SSH_AGENT_PID', '5422'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/brsd/microros_ws/install/multisense_msgs/lib:/home/brsd/microros_ws/install/multisense_lib/lib:/home/brsd/microros_ws/install/micro_ros_agent/lib:/home/brsd/microros_ws/install/micro_ros_msgs/lib:/home/brsd/microros_ws/install/drive_base_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/brsd'), ('OLDPWD', '/home/brsd/microros_ws/src/pathfinding'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '5287'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/brsd/microros_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'brsd'), ('JOURNAL_STREAM', '8:41771'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'brsd'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/brsd/microros_ws/install/xacro/bin:/home/brsd/microros_ws/install/multisense_lib/bin:/opt/ros/foxy/bin:/home/brsd/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/brsd-desktop:@/tmp/.ICE-unix/5457,unix/brsd-desktop:/tmp/.ICE-unix/5457'), ('INVOCATION_ID', 'ce2d9ff209bc452898cce4a9cb7b3b96'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/3c481e1a_45b9_40f7_a021_45f09e2b72e1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.81'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/brsd/microros_ws/install/multisense_ros:/home/brsd/microros_ws/install/xacro:/home/brsd/microros_ws/install/person_detection:/home/brsd/microros_ws/install/pathfinding:/home/brsd/microros_ws/install/object_detection_pkg:/home/brsd/microros_ws/install/multisense_msgs:/home/brsd/microros_ws/install/multisense_lib:/home/brsd/microros_ws/install/micro_ros_setup:/home/brsd/microros_ws/install/micro_ros_agent:/home/brsd/microros_ws/install/micro_ros_msgs:/home/brsd/microros_ws/install/joystick_input:/home/brsd/microros_ws/install/jetson_comm:/home/brsd/microros_ws/install/drive_base_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/brsd/microros_ws/src/build/multisense_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/brsd/microros_ws/install/xacro/lib/python3.8/site-packages:/home/brsd/microros_ws/install/person_detection/lib/python3.8/site-packages:/home/brsd/microros_ws/install/pathfinding/lib/python3.8/site-packages:/home/brsd/microros_ws/install/object_detection_pkg/lib/python3.8/site-packages:/home/brsd/microros_ws/install/multisense_msgs/lib/python3.8/site-packages:/home/brsd/microros_ws/install/micro_ros_msgs/lib/python3.8/site-packages:/home/brsd/microros_ws/install/joystick_input/lib/python3.8/site-packages:/home/brsd/microros_ws/install/jetson_comm/lib/python3.8/site-packages:/home/brsd/microros_ws/install/drive_base_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/brsd/microros_ws/install/multisense_ros:/home/brsd/microros_ws/install/xacro:/home/brsd/microros_ws/install/multisense_msgs:/home/brsd/microros_ws/install/multisense_lib:/home/brsd/microros_ws/install/micro_ros_setup:/home/brsd/microros_ws/install/micro_ros_agent:/home/brsd/microros_ws/install/micro_ros_msgs:/home/brsd/microros_ws/install/drive_base_msgs:/home/brsd/microros_ws/install/person_detection:/home/brsd/microros_ws/install/pathfinding:/home/brsd/microros_ws/install/object_detection_pkg:/home/brsd/microros_ws/install/joystick_input:/home/brsd/microros_ws/install/jetson_comm:/opt/ros/foxy')]), 'shell': False}
+[0.198928] (-) TimerEvent: {}
+[0.200900] (xacro) JobProgress: {'identifier': 'xacro', 'progress': 'cmake'}
+[0.201858] (xacro) Command: {'cmd': ['/usr/bin/cmake', '/home/brsd/microros_ws/src/xacro', '-DCMAKE_INSTALL_PREFIX=/home/brsd/microros_ws/src/install/xacro'], 'cwd': '/home/brsd/microros_ws/src/build/xacro', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'brsd'), ('SSH_AGENT_PID', '5422'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/brsd/microros_ws/install/multisense_msgs/lib:/home/brsd/microros_ws/install/multisense_lib/lib:/home/brsd/microros_ws/install/micro_ros_agent/lib:/home/brsd/microros_ws/install/micro_ros_msgs/lib:/home/brsd/microros_ws/install/drive_base_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/brsd'), ('OLDPWD', '/home/brsd/microros_ws/src/pathfinding'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '5287'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/brsd/microros_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'brsd'), ('JOURNAL_STREAM', '8:41771'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'brsd'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/brsd/microros_ws/install/xacro/bin:/home/brsd/microros_ws/install/multisense_lib/bin:/opt/ros/foxy/bin:/home/brsd/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/brsd-desktop:@/tmp/.ICE-unix/5457,unix/brsd-desktop:/tmp/.ICE-unix/5457'), ('INVOCATION_ID', 'ce2d9ff209bc452898cce4a9cb7b3b96'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/3c481e1a_45b9_40f7_a021_45f09e2b72e1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.81'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/brsd/microros_ws/install/multisense_ros:/home/brsd/microros_ws/install/xacro:/home/brsd/microros_ws/install/person_detection:/home/brsd/microros_ws/install/pathfinding:/home/brsd/microros_ws/install/object_detection_pkg:/home/brsd/microros_ws/install/multisense_msgs:/home/brsd/microros_ws/install/multisense_lib:/home/brsd/microros_ws/install/micro_ros_setup:/home/brsd/microros_ws/install/micro_ros_agent:/home/brsd/microros_ws/install/micro_ros_msgs:/home/brsd/microros_ws/install/joystick_input:/home/brsd/microros_ws/install/jetson_comm:/home/brsd/microros_ws/install/drive_base_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/brsd/microros_ws/src/build/xacro'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/brsd/microros_ws/install/xacro/lib/python3.8/site-packages:/home/brsd/microros_ws/install/person_detection/lib/python3.8/site-packages:/home/brsd/microros_ws/install/pathfinding/lib/python3.8/site-packages:/home/brsd/microros_ws/install/object_detection_pkg/lib/python3.8/site-packages:/home/brsd/microros_ws/install/multisense_msgs/lib/python3.8/site-packages:/home/brsd/microros_ws/install/micro_ros_msgs/lib/python3.8/site-packages:/home/brsd/microros_ws/install/joystick_input/lib/python3.8/site-packages:/home/brsd/microros_ws/install/jetson_comm/lib/python3.8/site-packages:/home/brsd/microros_ws/install/drive_base_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/brsd/microros_ws/install/multisense_ros:/home/brsd/microros_ws/install/xacro:/home/brsd/microros_ws/install/multisense_msgs:/home/brsd/microros_ws/install/multisense_lib:/home/brsd/microros_ws/install/micro_ros_setup:/home/brsd/microros_ws/install/micro_ros_agent:/home/brsd/microros_ws/install/micro_ros_msgs:/home/brsd/microros_ws/install/drive_base_msgs:/home/brsd/microros_ws/install/person_detection:/home/brsd/microros_ws/install/pathfinding:/home/brsd/microros_ws/install/object_detection_pkg:/home/brsd/microros_ws/install/joystick_input:/home/brsd/microros_ws/install/jetson_comm:/opt/ros/foxy')]), 'shell': False}
+[0.299178] (-) TimerEvent: {}
+[0.400086] (-) TimerEvent: {}
+[0.500783] (-) TimerEvent: {}
+[0.601485] (-) TimerEvent: {}
+[0.702604] (-) TimerEvent: {}
+[0.792448] (micro_ros_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.793576] (multisense_lib) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.794390] (multisense_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.802771] (-) TimerEvent: {}
+[0.806025] (xacro) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.903034] (-) TimerEvent: {}
+[1.003759] (-) TimerEvent: {}
+[1.104455] (-) TimerEvent: {}
+[1.205240] (-) TimerEvent: {}
+[1.280193] (xacro) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[1.281207] (micro_ros_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[1.284903] (multisense_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[1.292307] (multisense_lib) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[1.305404] (-) TimerEvent: {}
+[1.311364] (micro_ros_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[1.311990] (xacro) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[1.312669] (multisense_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[1.315307] (multisense_lib) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[1.405600] (-) TimerEvent: {}
+[1.506747] (-) TimerEvent: {}
+[1.610812] (-) TimerEvent: {}
+[1.619731] (micro_ros_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[1.632370] (multisense_lib) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[1.633038] (micro_ros_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.633646] (multisense_lib) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.634321] (multisense_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[1.637260] (multisense_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.656670] (xacro) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[1.660173] (xacro) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.711080] (-) TimerEvent: {}
+[1.811906] (-) TimerEvent: {}
+[1.913013] (-) TimerEvent: {}
+[1.960402] (multisense_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.971985] (xacro) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.985298] (micro_ros_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.002818] (multisense_lib) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.013162] (-) TimerEvent: {}
+[2.018141] (multisense_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.020372] (multisense_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.025007] (xacro) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.026363] (xacro) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.033472] (multisense_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[2.036700] (xacro) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[2.037907] (micro_ros_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.040069] (micro_ros_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.051493] (micro_ros_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[2.069296] (multisense_lib) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.070585] (multisense_lib) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.081609] (multisense_lib) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[2.113358] (-) TimerEvent: {}
+[2.214333] (-) TimerEvent: {}
+[2.315273] (-) TimerEvent: {}
+[2.378886] (xacro) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[2.383271] (xacro) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.387721] (multisense_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[2.392970] (multisense_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.415454] (-) TimerEvent: {}
+[2.416573] (micro_ros_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[2.421650] (micro_ros_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.445505] (multisense_lib) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[2.450331] (multisense_lib) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.515637] (-) TimerEvent: {}
+[2.616392] (-) TimerEvent: {}
+[2.717247] (-) TimerEvent: {}
+[2.733195] (xacro) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.767383] (multisense_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.800189] (xacro) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.802225] (xacro) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.806565] (multisense_lib) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.811242] (micro_ros_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.817402] (-) TimerEvent: {}
+[2.822753] (multisense_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.827569] (multisense_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.828420] (xacro) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[2.829139] (multisense_msgs) StdoutLine: {'line': b'-- Selecting default build type: Release\n'}
+[2.843920] (multisense_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[2.871905] (micro_ros_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.872694] (multisense_lib) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.874840] (micro_ros_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.875471] (multisense_lib) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.877781] (multisense_lib) StdoutLine: {'line': b'-- Selecting default build type: Release\n'}
+[2.894115] (multisense_lib) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[2.896895] (micro_ros_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[2.917568] (-) TimerEvent: {}
+[3.007446] (multisense_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[3.008147] (multisense_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.008678] (xacro) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[3.009190] (xacro) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.019025] (-) TimerEvent: {}
+[3.043646] (micro_ros_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[3.044527] (micro_ros_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.052033] (multisense_lib) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[3.053465] (multisense_lib) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.119180] (-) TimerEvent: {}
+[3.220010] (-) TimerEvent: {}
+[3.321097] (-) TimerEvent: {}
+[3.422135] (-) TimerEvent: {}
+[3.523219] (-) TimerEvent: {}
+[3.623973] (-) TimerEvent: {}
+[3.724738] (-) TimerEvent: {}
+[3.825493] (-) TimerEvent: {}
+[3.926566] (-) TimerEvent: {}
+[4.027373] (-) TimerEvent: {}
+[4.128242] (-) TimerEvent: {}
+[4.229026] (-) TimerEvent: {}
+[4.286438] (multisense_msgs) StdoutLine: {'line': b'-- Found builtin_interfaces: 1.0.0 (/opt/ros/foxy/share/builtin_interfaces/cmake)\n'}
+[4.288582] (micro_ros_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[4.328835] (micro_ros_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.329444] (-) TimerEvent: {}
+[4.341843] (multisense_lib) StdoutLine: {'line': b'-- Performing Test HAVE_CONSTEXPR\n'}
+[4.397500] (micro_ros_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[4.423211] (xacro) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[4.429650] (-) TimerEvent: {}
+[4.501932] (multisense_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.529812] (-) TimerEvent: {}
+[4.558634] (multisense_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[4.629974] (-) TimerEvent: {}
+[4.714986] (multisense_lib) StdoutLine: {'line': b'-- Performing Test HAVE_CONSTEXPR - Success\n'}
+[4.724033] (multisense_lib) StdoutLine: {'line': b'-- Looking for vasprintf\n'}
+[4.730146] (-) TimerEvent: {}
+[4.830927] (-) TimerEvent: {}
+[4.932159] (-) TimerEvent: {}
+[5.033153] (-) TimerEvent: {}
+[5.050379] (multisense_msgs) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[5.051366] (micro_ros_msgs) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[5.060525] (multisense_lib) StdoutLine: {'line': b'-- Looking for vasprintf - found\n'}
+[5.078855] (multisense_lib) StdoutLine: {'line': b'-- Looking for getopt\n'}
+[5.133335] (-) TimerEvent: {}
+[5.187765] (micro_ros_msgs) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[5.189358] (multisense_msgs) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[5.233511] (-) TimerEvent: {}
+[5.334306] (-) TimerEvent: {}
+[5.387452] (multisense_lib) StdoutLine: {'line': b'-- Looking for getopt - found\n'}
+[5.434466] (-) TimerEvent: {}
+[5.535281] (-) TimerEvent: {}
+[5.636118] (-) TimerEvent: {}
+[5.680896] (multisense_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.682750] (micro_ros_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.736301] (-) TimerEvent: {}
+[5.815446] (multisense_lib) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.836466] (-) TimerEvent: {}
+[5.863541] (multisense_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[5.872892] (micro_ros_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[5.936633] (-) TimerEvent: {}
+[6.026532] (multisense_lib) StdoutLine: {'line': b'-- Generating done\n'}
+[6.036808] (-) TimerEvent: {}
+[6.048202] (multisense_lib) StdoutLine: {'line': b'-- Build files have been written to: /home/brsd/microros_ws/src/build/multisense_lib\n'}
+[6.073253] (multisense_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[6.089118] (multisense_lib) CommandEnded: {'returncode': 0}
+[6.093058] (multisense_lib) JobProgress: {'identifier': 'multisense_lib', 'progress': 'build'}
+[6.093280] (multisense_lib) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/brsd/microros_ws/src/build/multisense_lib', '--', '-j4', '-l4'], 'cwd': '/home/brsd/microros_ws/src/build/multisense_lib', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'brsd'), ('SSH_AGENT_PID', '5422'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/brsd/microros_ws/install/multisense_msgs/lib:/home/brsd/microros_ws/install/multisense_lib/lib:/home/brsd/microros_ws/install/micro_ros_agent/lib:/home/brsd/microros_ws/install/micro_ros_msgs/lib:/home/brsd/microros_ws/install/drive_base_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/brsd'), ('OLDPWD', '/home/brsd/microros_ws/src/pathfinding'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '5287'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/brsd/microros_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'brsd'), ('JOURNAL_STREAM', '8:41771'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'brsd'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/brsd/microros_ws/install/xacro/bin:/home/brsd/microros_ws/install/multisense_lib/bin:/opt/ros/foxy/bin:/home/brsd/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/brsd-desktop:@/tmp/.ICE-unix/5457,unix/brsd-desktop:/tmp/.ICE-unix/5457'), ('INVOCATION_ID', 'ce2d9ff209bc452898cce4a9cb7b3b96'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/3c481e1a_45b9_40f7_a021_45f09e2b72e1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.81'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/brsd/microros_ws/install/multisense_ros:/home/brsd/microros_ws/install/xacro:/home/brsd/microros_ws/install/person_detection:/home/brsd/microros_ws/install/pathfinding:/home/brsd/microros_ws/install/object_detection_pkg:/home/brsd/microros_ws/install/multisense_msgs:/home/brsd/microros_ws/install/multisense_lib:/home/brsd/microros_ws/install/micro_ros_setup:/home/brsd/microros_ws/install/micro_ros_agent:/home/brsd/microros_ws/install/micro_ros_msgs:/home/brsd/microros_ws/install/joystick_input:/home/brsd/microros_ws/install/jetson_comm:/home/brsd/microros_ws/install/drive_base_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/brsd/microros_ws/src/build/multisense_lib'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/brsd/microros_ws/install/xacro/lib/python3.8/site-packages:/home/brsd/microros_ws/install/person_detection/lib/python3.8/site-packages:/home/brsd/microros_ws/install/pathfinding/lib/python3.8/site-packages:/home/brsd/microros_ws/install/object_detection_pkg/lib/python3.8/site-packages:/home/brsd/microros_ws/install/multisense_msgs/lib/python3.8/site-packages:/home/brsd/microros_ws/install/micro_ros_msgs/lib/python3.8/site-packages:/home/brsd/microros_ws/install/joystick_input/lib/python3.8/site-packages:/home/brsd/microros_ws/install/jetson_comm/lib/python3.8/site-packages:/home/brsd/microros_ws/install/drive_base_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/brsd/microros_ws/install/multisense_ros:/home/brsd/microros_ws/install/xacro:/home/brsd/microros_ws/install/multisense_msgs:/home/brsd/microros_ws/install/multisense_lib:/home/brsd/microros_ws/install/micro_ros_setup:/home/brsd/microros_ws/install/micro_ros_agent:/home/brsd/microros_ws/install/micro_ros_msgs:/home/brsd/microros_ws/install/drive_base_msgs:/home/brsd/microros_ws/install/person_detection:/home/brsd/microros_ws/install/pathfinding:/home/brsd/microros_ws/install/object_detection_pkg:/home/brsd/microros_ws/install/joystick_input:/home/brsd/microros_ws/install/jetson_comm:/opt/ros/foxy')]), 'shell': False}
+[6.137012] (-) TimerEvent: {}
+[6.238199] (-) TimerEvent: {}
+[6.286745] (multisense_lib) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target MultiSense\x1b[0m\n'}
+[6.338437] (-) TimerEvent: {}
+[6.439642] (-) TimerEvent: {}
+[6.504353] (micro_ros_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[6.539810] (-) TimerEvent: {}
+[6.543932] (multisense_lib) StdoutLine: {'line': b'[  2%] \x1b[32mBuilding CXX object LibMultiSense/source/LibMultiSense/CMakeFiles/MultiSense.dir/details/public.cc.o\x1b[0m\n'}
+[6.550427] (multisense_lib) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding CXX object LibMultiSense/source/LibMultiSense/CMakeFiles/MultiSense.dir/details/flash.cc.o\x1b[0m\n'}
+[6.558519] (multisense_lib) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding CXX object LibMultiSense/source/LibMultiSense/CMakeFiles/MultiSense.dir/details/channel.cc.o\x1b[0m\n'}
+[6.576428] (multisense_lib) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding CXX object LibMultiSense/source/LibMultiSense/CMakeFiles/MultiSense.dir/details/constants.cc.o\x1b[0m\n'}
+[6.639972] (-) TimerEvent: {}
+[6.741002] (-) TimerEvent: {}
+[6.842030] (-) TimerEvent: {}
+[6.943915] (-) TimerEvent: {}
+[7.044770] (-) TimerEvent: {}
+[7.137017] (micro_ros_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[7.144934] (-) TimerEvent: {}
+[7.245873] (-) TimerEvent: {}
+[7.347146] (-) TimerEvent: {}
+[7.403251] (multisense_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[7.447310] (-) TimerEvent: {}
+[7.559117] (-) TimerEvent: {}
+[7.659881] (-) TimerEvent: {}
+[7.761089] (-) TimerEvent: {}
+[7.862310] (-) TimerEvent: {}
+[7.963092] (-) TimerEvent: {}
+[8.064235] (-) TimerEvent: {}
+[8.165392] (-) TimerEvent: {}
+[8.266514] (-) TimerEvent: {}
+[8.334401] (micro_ros_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[8.366715] (-) TimerEvent: {}
+[8.435255] (micro_ros_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[8.466894] (-) TimerEvent: {}
+[8.476119] (multisense_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[8.567153] (-) TimerEvent: {}
+[8.571924] (multisense_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[8.667322] (-) TimerEvent: {}
+[8.775092] (-) TimerEvent: {}
+[8.783797] (micro_ros_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[8.796325] (multisense_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[8.808802] (micro_ros_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[8.828187] (multisense_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[8.875258] (-) TimerEvent: {}
+[8.976427] (-) TimerEvent: {}
+[9.034970] (micro_ros_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[9.036827] (micro_ros_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[9.037845] (micro_ros_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[9.038806] (micro_ros_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so\n'}
+[9.076607] (-) TimerEvent: {}
+[9.101467] (multisense_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[9.103221] (multisense_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[9.106470] (multisense_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[9.107530] (multisense_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so\n'}
+[9.176787] (-) TimerEvent: {}
+[9.254362] (multisense_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[9.276989] (-) TimerEvent: {}
+[9.299749] (micro_ros_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[9.318823] (xacro) StdoutLine: {'line': b'-- Configuring done\n'}
+[9.359165] (xacro) StdoutLine: {'line': b'-- Generating done\n'}
+[9.373630] (xacro) StdoutLine: {'line': b'-- Build files have been written to: /home/brsd/microros_ws/src/build/xacro\n'}
+[9.377181] (-) TimerEvent: {}
+[9.423166] (xacro) CommandEnded: {'returncode': 0}
+[9.426873] (xacro) JobProgress: {'identifier': 'xacro', 'progress': 'build'}
+[9.427147] (xacro) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/brsd/microros_ws/src/build/xacro', '--', '-j4', '-l4'], 'cwd': '/home/brsd/microros_ws/src/build/xacro', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'brsd'), ('SSH_AGENT_PID', '5422'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/brsd/microros_ws/install/multisense_msgs/lib:/home/brsd/microros_ws/install/multisense_lib/lib:/home/brsd/microros_ws/install/micro_ros_agent/lib:/home/brsd/microros_ws/install/micro_ros_msgs/lib:/home/brsd/microros_ws/install/drive_base_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/brsd'), ('OLDPWD', '/home/brsd/microros_ws/src/pathfinding'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '5287'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/brsd/microros_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'brsd'), ('JOURNAL_STREAM', '8:41771'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'brsd'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/brsd/microros_ws/install/xacro/bin:/home/brsd/microros_ws/install/multisense_lib/bin:/opt/ros/foxy/bin:/home/brsd/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/brsd-desktop:@/tmp/.ICE-unix/5457,unix/brsd-desktop:/tmp/.ICE-unix/5457'), ('INVOCATION_ID', 'ce2d9ff209bc452898cce4a9cb7b3b96'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/3c481e1a_45b9_40f7_a021_45f09e2b72e1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.81'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/brsd/microros_ws/install/multisense_ros:/home/brsd/microros_ws/install/xacro:/home/brsd/microros_ws/install/person_detection:/home/brsd/microros_ws/install/pathfinding:/home/brsd/microros_ws/install/object_detection_pkg:/home/brsd/microros_ws/install/multisense_msgs:/home/brsd/microros_ws/install/multisense_lib:/home/brsd/microros_ws/install/micro_ros_setup:/home/brsd/microros_ws/install/micro_ros_agent:/home/brsd/microros_ws/install/micro_ros_msgs:/home/brsd/microros_ws/install/joystick_input:/home/brsd/microros_ws/install/jetson_comm:/home/brsd/microros_ws/install/drive_base_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/brsd/microros_ws/src/build/xacro'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/brsd/microros_ws/install/xacro/lib/python3.8/site-packages:/home/brsd/microros_ws/install/person_detection/lib/python3.8/site-packages:/home/brsd/microros_ws/install/pathfinding/lib/python3.8/site-packages:/home/brsd/microros_ws/install/object_detection_pkg/lib/python3.8/site-packages:/home/brsd/microros_ws/install/multisense_msgs/lib/python3.8/site-packages:/home/brsd/microros_ws/install/micro_ros_msgs/lib/python3.8/site-packages:/home/brsd/microros_ws/install/joystick_input/lib/python3.8/site-packages:/home/brsd/microros_ws/install/jetson_comm/lib/python3.8/site-packages:/home/brsd/microros_ws/install/drive_base_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/brsd/microros_ws/install/multisense_ros:/home/brsd/microros_ws/install/xacro:/home/brsd/microros_ws/install/multisense_msgs:/home/brsd/microros_ws/install/multisense_lib:/home/brsd/microros_ws/install/micro_ros_setup:/home/brsd/microros_ws/install/micro_ros_agent:/home/brsd/microros_ws/install/micro_ros_msgs:/home/brsd/microros_ws/install/drive_base_msgs:/home/brsd/microros_ws/install/person_detection:/home/brsd/microros_ws/install/pathfinding:/home/brsd/microros_ws/install/object_detection_pkg:/home/brsd/microros_ws/install/joystick_input:/home/brsd/microros_ws/install/jetson_comm:/opt/ros/foxy')]), 'shell': False}
+[9.477396] (-) TimerEvent: {}
+[9.578301] (-) TimerEvent: {}
+[9.679206] (xacro) CommandEnded: {'returncode': 0}
+[9.683160] (-) TimerEvent: {}
+[9.784428] (-) TimerEvent: {}
+[9.843459] (micro_ros_msgs) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[9.884605] (-) TimerEvent: {}
+[9.985865] (-) TimerEvent: {}
+[10.001137] (multisense_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[10.086071] (-) TimerEvent: {}
+[10.100852] (xacro) JobProgress: {'identifier': 'xacro', 'progress': 'install'}
+[10.186309] (-) TimerEvent: {}
+[10.254830] (xacro) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/brsd/microros_ws/src/build/xacro'], 'cwd': '/home/brsd/microros_ws/src/build/xacro', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'brsd'), ('SSH_AGENT_PID', '5422'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/brsd/microros_ws/install/multisense_msgs/lib:/home/brsd/microros_ws/install/multisense_lib/lib:/home/brsd/microros_ws/install/micro_ros_agent/lib:/home/brsd/microros_ws/install/micro_ros_msgs/lib:/home/brsd/microros_ws/install/drive_base_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/brsd'), ('OLDPWD', '/home/brsd/microros_ws/src/pathfinding'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '5287'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/brsd/microros_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'brsd'), ('JOURNAL_STREAM', '8:41771'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'brsd'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/brsd/microros_ws/install/xacro/bin:/home/brsd/microros_ws/install/multisense_lib/bin:/opt/ros/foxy/bin:/home/brsd/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/brsd-desktop:@/tmp/.ICE-unix/5457,unix/brsd-desktop:/tmp/.ICE-unix/5457'), ('INVOCATION_ID', 'ce2d9ff209bc452898cce4a9cb7b3b96'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/3c481e1a_45b9_40f7_a021_45f09e2b72e1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.81'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/brsd/microros_ws/install/multisense_ros:/home/brsd/microros_ws/install/xacro:/home/brsd/microros_ws/install/person_detection:/home/brsd/microros_ws/install/pathfinding:/home/brsd/microros_ws/install/object_detection_pkg:/home/brsd/microros_ws/install/multisense_msgs:/home/brsd/microros_ws/install/multisense_lib:/home/brsd/microros_ws/install/micro_ros_setup:/home/brsd/microros_ws/install/micro_ros_agent:/home/brsd/microros_ws/install/micro_ros_msgs:/home/brsd/microros_ws/install/joystick_input:/home/brsd/microros_ws/install/jetson_comm:/home/brsd/microros_ws/install/drive_base_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/brsd/microros_ws/src/build/xacro'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/brsd/microros_ws/install/xacro/lib/python3.8/site-packages:/home/brsd/microros_ws/install/person_detection/lib/python3.8/site-packages:/home/brsd/microros_ws/install/pathfinding/lib/python3.8/site-packages:/home/brsd/microros_ws/install/object_detection_pkg/lib/python3.8/site-packages:/home/brsd/microros_ws/install/multisense_msgs/lib/python3.8/site-packages:/home/brsd/microros_ws/install/micro_ros_msgs/lib/python3.8/site-packages:/home/brsd/microros_ws/install/joystick_input/lib/python3.8/site-packages:/home/brsd/microros_ws/install/jetson_comm/lib/python3.8/site-packages:/home/brsd/microros_ws/install/drive_base_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/brsd/microros_ws/install/multisense_ros:/home/brsd/microros_ws/install/xacro:/home/brsd/microros_ws/install/multisense_msgs:/home/brsd/microros_ws/install/multisense_lib:/home/brsd/microros_ws/install/micro_ros_setup:/home/brsd/microros_ws/install/micro_ros_agent:/home/brsd/microros_ws/install/micro_ros_msgs:/home/brsd/microros_ws/install/drive_base_msgs:/home/brsd/microros_ws/install/person_detection:/home/brsd/microros_ws/install/pathfinding:/home/brsd/microros_ws/install/object_detection_pkg:/home/brsd/microros_ws/install/joystick_input:/home/brsd/microros_ws/install/jetson_comm:/opt/ros/foxy')]), 'shell': False}
+[10.286540] (-) TimerEvent: {}
+[10.366021] (micro_ros_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[10.377546] (xacro) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.378392] (xacro) StdoutLine: {'line': b'-- Installing: /home/brsd/microros_ws/src/install/xacro/share/xacro/environment/completion.bash\n'}
+[10.385192] (xacro) StdoutLine: {'line': b'-- Installing: /home/brsd/microros_ws/src/install/xacro/share/xacro/environment/pythonpath.sh\n'}
+[10.385960] (xacro) StdoutLine: {'line': b'-- Installing: /home/brsd/microros_ws/src/install/xacro/share/xacro/environment/pythonpath.dsv\n'}
+[10.386550] (xacro) StdoutLine: {'line': b'-- Installing: /home/brsd/microros_ws/src/install/xacro/lib/python3.8/site-packages/xacro\n'}
+[10.387014] (-) TimerEvent: {}
+[10.388060] (xacro) StdoutLine: {'line': b'-- Installing: /home/brsd/microros_ws/src/install/xacro/lib/python3.8/site-packages/xacro/__init__.py\n'}
+[10.389039] (xacro) StdoutLine: {'line': b'-- Installing: /home/brsd/microros_ws/src/install/xacro/lib/python3.8/site-packages/xacro/substitution_args.py\n'}
+[10.390236] (xacro) StdoutLine: {'line': b'-- Installing: /home/brsd/microros_ws/src/install/xacro/lib/python3.8/site-packages/xacro/xmlutils.py\n'}
+[10.391271] (xacro) StdoutLine: {'line': b'-- Installing: /home/brsd/microros_ws/src/install/xacro/lib/python3.8/site-packages/xacro/color.py\n'}
+[10.392483] (xacro) StdoutLine: {'line': b'-- Installing: /home/brsd/microros_ws/src/install/xacro/lib/python3.8/site-packages/xacro/cli.py\n'}
+[10.487190] (-) TimerEvent: {}
+[10.573179] (micro_ros_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[10.580527] (multisense_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[10.587364] (-) TimerEvent: {}
+[10.605096] (multisense_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/brsd/microros_ws/src/build/multisense_msgs\n'}
+[10.617808] (micro_ros_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[10.668125] (multisense_msgs) CommandEnded: {'returncode': 0}
+[10.672124] (multisense_msgs) JobProgress: {'identifier': 'multisense_msgs', 'progress': 'build'}
+[10.672371] (multisense_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/brsd/microros_ws/src/build/multisense_msgs', '--', '-j4', '-l4'], 'cwd': '/home/brsd/microros_ws/src/build/multisense_msgs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'brsd'), ('SSH_AGENT_PID', '5422'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/brsd/microros_ws/install/multisense_msgs/lib:/home/brsd/microros_ws/install/multisense_lib/lib:/home/brsd/microros_ws/install/micro_ros_agent/lib:/home/brsd/microros_ws/install/micro_ros_msgs/lib:/home/brsd/microros_ws/install/drive_base_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/brsd'), ('OLDPWD', '/home/brsd/microros_ws/src/pathfinding'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '5287'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/brsd/microros_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'brsd'), ('JOURNAL_STREAM', '8:41771'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'brsd'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/brsd/microros_ws/install/xacro/bin:/home/brsd/microros_ws/install/multisense_lib/bin:/opt/ros/foxy/bin:/home/brsd/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/brsd-desktop:@/tmp/.ICE-unix/5457,unix/brsd-desktop:/tmp/.ICE-unix/5457'), ('INVOCATION_ID', 'ce2d9ff209bc452898cce4a9cb7b3b96'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/3c481e1a_45b9_40f7_a021_45f09e2b72e1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.81'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/brsd/microros_ws/install/multisense_ros:/home/brsd/microros_ws/install/xacro:/home/brsd/microros_ws/install/person_detection:/home/brsd/microros_ws/install/pathfinding:/home/brsd/microros_ws/install/object_detection_pkg:/home/brsd/microros_ws/install/multisense_msgs:/home/brsd/microros_ws/install/multisense_lib:/home/brsd/microros_ws/install/micro_ros_setup:/home/brsd/microros_ws/install/micro_ros_agent:/home/brsd/microros_ws/install/micro_ros_msgs:/home/brsd/microros_ws/install/joystick_input:/home/brsd/microros_ws/install/jetson_comm:/home/brsd/microros_ws/install/drive_base_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/brsd/microros_ws/src/build/multisense_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/brsd/microros_ws/install/xacro/lib/python3.8/site-packages:/home/brsd/microros_ws/install/person_detection/lib/python3.8/site-packages:/home/brsd/microros_ws/install/pathfinding/lib/python3.8/site-packages:/home/brsd/microros_ws/install/object_detection_pkg/lib/python3.8/site-packages:/home/brsd/microros_ws/install/multisense_msgs/lib/python3.8/site-packages:/home/brsd/microros_ws/install/micro_ros_msgs/lib/python3.8/site-packages:/home/brsd/microros_ws/install/joystick_input/lib/python3.8/site-packages:/home/brsd/microros_ws/install/jetson_comm/lib/python3.8/site-packages:/home/brsd/microros_ws/install/drive_base_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/brsd/microros_ws/install/multisense_ros:/home/brsd/microros_ws/install/xacro:/home/brsd/microros_ws/install/multisense_msgs:/home/brsd/microros_ws/install/multisense_lib:/home/brsd/microros_ws/install/micro_ros_setup:/home/brsd/microros_ws/install/micro_ros_agent:/home/brsd/microros_ws/install/micro_ros_msgs:/home/brsd/microros_ws/install/drive_base_msgs:/home/brsd/microros_ws/install/person_detection:/home/brsd/microros_ws/install/pathfinding:/home/brsd/microros_ws/install/object_detection_pkg:/home/brsd/microros_ws/install/joystick_input:/home/brsd/microros_ws/install/jetson_comm:/opt/ros/foxy')]), 'shell': False}
+[10.687592] (-) TimerEvent: {}
+[10.788683] (-) TimerEvent: {}
+[10.890059] (-) TimerEvent: {}
+[10.911142] (xacro) StdoutLine: {'line': b"Listing '/home/brsd/microros_ws/src/install/xacro/lib/python3.8/site-packages/xacro'...\n"}
+[10.912269] (xacro) StdoutLine: {'line': b"Compiling '/home/brsd/microros_ws/src/install/xacro/lib/python3.8/site-packages/xacro/__init__.py'...\n"}
+[10.912814] (xacro) StdoutLine: {'line': b"Compiling '/home/brsd/microros_ws/src/install/xacro/lib/python3.8/site-packages/xacro/cli.py'...\n"}
+[10.913276] (xacro) StdoutLine: {'line': b"Compiling '/home/brsd/microros_ws/src/install/xacro/lib/python3.8/site-packages/xacro/color.py'...\n"}
+[10.913769] (xacro) StdoutLine: {'line': b"Compiling '/home/brsd/microros_ws/src/install/xacro/lib/python3.8/site-packages/xacro/substitution_args.py'...\n"}
+[10.914256] (xacro) StdoutLine: {'line': b"Compiling '/home/brsd/microros_ws/src/install/xacro/lib/python3.8/site-packages/xacro/xmlutils.py'...\n"}
+[10.941955] (xacro) StdoutLine: {'line': b'-- Installing: /home/brsd/microros_ws/src/install/xacro/bin/xacro\n'}
+[10.944648] (xacro) StdoutLine: {'line': b'-- Installing: /home/brsd/microros_ws/src/install/xacro/lib/xacro/xacro\n'}
+[10.945733] (xacro) StdoutLine: {'line': b'-- Installing: /home/brsd/microros_ws/src/install/xacro/share/ament_index/resource_index/package_run_dependencies/xacro\n'}
+[10.946916] (xacro) StdoutLine: {'line': b'-- Installing: /home/brsd/microros_ws/src/install/xacro/share/ament_index/resource_index/parent_prefix_path/xacro\n'}
+[10.947844] (xacro) StdoutLine: {'line': b'-- Installing: /home/brsd/microros_ws/src/install/xacro/share/xacro/environment/ament_prefix_path.sh\n'}
+[10.948535] (xacro) StdoutLine: {'line': b'-- Installing: /home/brsd/microros_ws/src/install/xacro/share/xacro/environment/ament_prefix_path.dsv\n'}
+[10.949188] (xacro) StdoutLine: {'line': b'-- Installing: /home/brsd/microros_ws/src/install/xacro/share/xacro/environment/path.sh\n'}
+[10.949806] (xacro) StdoutLine: {'line': b'-- Installing: /home/brsd/microros_ws/src/install/xacro/share/xacro/environment/path.dsv\n'}
+[10.950412] (xacro) StdoutLine: {'line': b'-- Installing: /home/brsd/microros_ws/src/install/xacro/share/xacro/local_setup.bash\n'}
+[10.951093] (xacro) StdoutLine: {'line': b'-- Installing: /home/brsd/microros_ws/src/install/xacro/share/xacro/local_setup.sh\n'}
+[10.951800] (xacro) StdoutLine: {'line': b'-- Installing: /home/brsd/microros_ws/src/install/xacro/share/xacro/local_setup.zsh\n'}
+[10.952481] (xacro) StdoutLine: {'line': b'-- Installing: /home/brsd/microros_ws/src/install/xacro/share/xacro/local_setup.dsv\n'}
+[10.953050] (xacro) StdoutLine: {'line': b'-- Installing: /home/brsd/microros_ws/src/install/xacro/share/xacro/package.dsv\n'}
+[10.953838] (xacro) StdoutLine: {'line': b'-- Installing: /home/brsd/microros_ws/src/install/xacro/share/ament_index/resource_index/packages/xacro\n'}
+[10.954636] (xacro) StdoutLine: {'line': b'-- Installing: /home/brsd/microros_ws/src/install/xacro/share/xacro/cmake/xacro-extras.cmake\n'}
+[10.959668] (xacro) StdoutLine: {'line': b'-- Installing: /home/brsd/microros_ws/src/install/xacro/share/xacro/cmake/xacroConfig.cmake\n'}
+[10.960497] (xacro) StdoutLine: {'line': b'-- Installing: /home/brsd/microros_ws/src/install/xacro/share/xacro/cmake/xacroConfig-version.cmake\n'}
+[10.961214] (xacro) StdoutLine: {'line': b'-- Installing: /home/brsd/microros_ws/src/install/xacro/share/xacro/package.xml\n'}
+[10.984549] (xacro) CommandEnded: {'returncode': 0}
+[10.990838] (-) TimerEvent: {}
+[11.022424] (micro_ros_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[11.043267] (micro_ros_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/brsd/microros_ws/src/build/micro_ros_msgs\n'}
+[11.091713] (-) TimerEvent: {}
+[11.201876] (multisense_msgs) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[11.203420] (-) TimerEvent: {}
+[11.211426] (micro_ros_msgs) CommandEnded: {'returncode': 0}
+[11.215944] (micro_ros_msgs) JobProgress: {'identifier': 'micro_ros_msgs', 'progress': 'build'}
+[11.216195] (micro_ros_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/brsd/microros_ws/src/build/micro_ros_msgs', '--', '-j4', '-l4'], 'cwd': '/home/brsd/microros_ws/src/build/micro_ros_msgs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'brsd'), ('SSH_AGENT_PID', '5422'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/brsd/microros_ws/install/multisense_msgs/lib:/home/brsd/microros_ws/install/multisense_lib/lib:/home/brsd/microros_ws/install/micro_ros_agent/lib:/home/brsd/microros_ws/install/micro_ros_msgs/lib:/home/brsd/microros_ws/install/drive_base_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/brsd'), ('OLDPWD', '/home/brsd/microros_ws/src/pathfinding'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '5287'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/brsd/microros_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'brsd'), ('JOURNAL_STREAM', '8:41771'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'brsd'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/brsd/microros_ws/install/xacro/bin:/home/brsd/microros_ws/install/multisense_lib/bin:/opt/ros/foxy/bin:/home/brsd/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/brsd-desktop:@/tmp/.ICE-unix/5457,unix/brsd-desktop:/tmp/.ICE-unix/5457'), ('INVOCATION_ID', 'ce2d9ff209bc452898cce4a9cb7b3b96'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/3c481e1a_45b9_40f7_a021_45f09e2b72e1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.81'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/brsd/microros_ws/install/multisense_ros:/home/brsd/microros_ws/install/xacro:/home/brsd/microros_ws/install/person_detection:/home/brsd/microros_ws/install/pathfinding:/home/brsd/microros_ws/install/object_detection_pkg:/home/brsd/microros_ws/install/multisense_msgs:/home/brsd/microros_ws/install/multisense_lib:/home/brsd/microros_ws/install/micro_ros_setup:/home/brsd/microros_ws/install/micro_ros_agent:/home/brsd/microros_ws/install/micro_ros_msgs:/home/brsd/microros_ws/install/joystick_input:/home/brsd/microros_ws/install/jetson_comm:/home/brsd/microros_ws/install/drive_base_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/brsd/microros_ws/src/build/micro_ros_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/brsd/microros_ws/install/xacro/lib/python3.8/site-packages:/home/brsd/microros_ws/install/person_detection/lib/python3.8/site-packages:/home/brsd/microros_ws/install/pathfinding/lib/python3.8/site-packages:/home/brsd/microros_ws/install/object_detection_pkg/lib/python3.8/site-packages:/home/brsd/microros_ws/install/multisense_msgs/lib/python3.8/site-packages:/home/brsd/microros_ws/install/micro_ros_msgs/lib/python3.8/site-packages:/home/brsd/microros_ws/install/joystick_input/lib/python3.8/site-packages:/home/brsd/microros_ws/install/jetson_comm/lib/python3.8/site-packages:/home/brsd/microros_ws/install/drive_base_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/brsd/microros_ws/install/multisense_ros:/home/brsd/microros_ws/install/xacro:/home/brsd/microros_ws/install/multisense_msgs:/home/brsd/microros_ws/install/multisense_lib:/home/brsd/microros_ws/install/micro_ros_setup:/home/brsd/microros_ws/install/micro_ros_agent:/home/brsd/microros_ws/install/micro_ros_msgs:/home/brsd/microros_ws/install/drive_base_msgs:/home/brsd/microros_ws/install/person_detection:/home/brsd/microros_ws/install/pathfinding:/home/brsd/microros_ws/install/object_detection_pkg:/home/brsd/microros_ws/install/joystick_input:/home/brsd/microros_ws/install/jetson_comm:/opt/ros/foxy')]), 'shell': False}
+[11.294759] (multisense_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target multisense_msgs__cpp\x1b[0m\n'}
+[11.303616] (-) TimerEvent: {}
+[11.415220] (-) TimerEvent: {}
+[11.478885] (multisense_msgs) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[11.515402] (-) TimerEvent: {}
+[11.616223] (-) TimerEvent: {}
+[11.715349] (xacro) JobEnded: {'identifier': 'xacro', 'rc': 0}
+[11.717222] (-) TimerEvent: {}
+[11.748594] (drive_base_msgs) JobStarted: {'identifier': 'drive_base_msgs'}
+[11.811188] (micro_ros_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target micro_ros_msgs__cpp\x1b[0m\n'}
+[11.817461] (-) TimerEvent: {}
+[11.850334] (drive_base_msgs) JobProgress: {'identifier': 'drive_base_msgs', 'progress': 'cmake'}
+[11.851885] (drive_base_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/brsd/microros_ws/src/uros/drive_base/drive_base_msgs', '-DCMAKE_INSTALL_PREFIX=/home/brsd/microros_ws/src/install/drive_base_msgs'], 'cwd': '/home/brsd/microros_ws/src/build/drive_base_msgs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'brsd'), ('SSH_AGENT_PID', '5422'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/brsd/microros_ws/install/multisense_msgs/lib:/home/brsd/microros_ws/install/multisense_lib/lib:/home/brsd/microros_ws/install/micro_ros_agent/lib:/home/brsd/microros_ws/install/micro_ros_msgs/lib:/home/brsd/microros_ws/install/drive_base_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/brsd'), ('OLDPWD', '/home/brsd/microros_ws/src/pathfinding'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '5287'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/brsd/microros_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'brsd'), ('JOURNAL_STREAM', '8:41771'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'brsd'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/brsd/microros_ws/install/xacro/bin:/home/brsd/microros_ws/install/multisense_lib/bin:/opt/ros/foxy/bin:/home/brsd/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/brsd-desktop:@/tmp/.ICE-unix/5457,unix/brsd-desktop:/tmp/.ICE-unix/5457'), ('INVOCATION_ID', 'ce2d9ff209bc452898cce4a9cb7b3b96'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/3c481e1a_45b9_40f7_a021_45f09e2b72e1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.81'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/brsd/microros_ws/install/multisense_ros:/home/brsd/microros_ws/install/xacro:/home/brsd/microros_ws/install/person_detection:/home/brsd/microros_ws/install/pathfinding:/home/brsd/microros_ws/install/object_detection_pkg:/home/brsd/microros_ws/install/multisense_msgs:/home/brsd/microros_ws/install/multisense_lib:/home/brsd/microros_ws/install/micro_ros_setup:/home/brsd/microros_ws/install/micro_ros_agent:/home/brsd/microros_ws/install/micro_ros_msgs:/home/brsd/microros_ws/install/joystick_input:/home/brsd/microros_ws/install/jetson_comm:/home/brsd/microros_ws/install/drive_base_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/brsd/microros_ws/src/build/drive_base_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/brsd/microros_ws/install/xacro/lib/python3.8/site-packages:/home/brsd/microros_ws/install/person_detection/lib/python3.8/site-packages:/home/brsd/microros_ws/install/pathfinding/lib/python3.8/site-packages:/home/brsd/microros_ws/install/object_detection_pkg/lib/python3.8/site-packages:/home/brsd/microros_ws/install/multisense_msgs/lib/python3.8/site-packages:/home/brsd/microros_ws/install/micro_ros_msgs/lib/python3.8/site-packages:/home/brsd/microros_ws/install/joystick_input/lib/python3.8/site-packages:/home/brsd/microros_ws/install/jetson_comm/lib/python3.8/site-packages:/home/brsd/microros_ws/install/drive_base_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/brsd/microros_ws/install/multisense_ros:/home/brsd/microros_ws/install/xacro:/home/brsd/microros_ws/install/multisense_msgs:/home/brsd/microros_ws/install/multisense_lib:/home/brsd/microros_ws/install/micro_ros_setup:/home/brsd/microros_ws/install/micro_ros_agent:/home/brsd/microros_ws/install/micro_ros_msgs:/home/brsd/microros_ws/install/drive_base_msgs:/home/brsd/microros_ws/install/person_detection:/home/brsd/microros_ws/install/pathfinding:/home/brsd/microros_ws/install/object_detection_pkg:/home/brsd/microros_ws/install/joystick_input:/home/brsd/microros_ws/install/jetson_comm:/opt/ros/foxy')]), 'shell': False}
+[11.892555] (micro_ros_msgs) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[11.917683] (-) TimerEvent: {}
+[11.999359] (micro_ros_msgs) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[12.017858] (-) TimerEvent: {}
+[12.118639] (-) TimerEvent: {}
+[12.219523] (-) TimerEvent: {}
+[12.309656] (multisense_lib) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object LibMultiSense/source/LibMultiSense/CMakeFiles/MultiSense.dir/details/dispatch.cc.o\x1b[0m\n'}
+[12.319710] (-) TimerEvent: {}
+[12.420883] (-) TimerEvent: {}
+[12.521658] (-) TimerEvent: {}
+[12.619300] (drive_base_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[12.621829] (-) TimerEvent: {}
+[12.722642] (-) TimerEvent: {}
+[12.823845] (-) TimerEvent: {}
+[12.924648] (-) TimerEvent: {}
+[13.039084] (-) TimerEvent: {}
+[13.147667] (-) TimerEvent: {}
+[13.248487] (-) TimerEvent: {}
+[13.326448] (drive_base_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[13.348673] (-) TimerEvent: {}
+[13.392860] (drive_base_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[13.448854] (-) TimerEvent: {}
+[13.561305] (-) TimerEvent: {}
+[13.662087] (-) TimerEvent: {}
+[13.763392] (-) TimerEvent: {}
+[13.880521] (-) TimerEvent: {}
+[13.981611] (-) TimerEvent: {}
+[14.082390] (-) TimerEvent: {}
+[14.183561] (-) TimerEvent: {}
+[14.229538] (drive_base_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[14.233020] (drive_base_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[14.283735] (-) TimerEvent: {}
+[14.384809] (-) TimerEvent: {}
+[14.485580] (-) TimerEvent: {}
+[14.586968] (-) TimerEvent: {}
+[14.689756] (-) TimerEvent: {}
+[14.792897] (-) TimerEvent: {}
+[14.894032] (-) TimerEvent: {}
+[14.995172] (-) TimerEvent: {}
+[15.096321] (-) TimerEvent: {}
+[15.197625] (-) TimerEvent: {}
+[15.225772] (drive_base_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[15.297824] (-) TimerEvent: {}
+[15.366754] (drive_base_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[15.392434] (drive_base_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[15.398000] (-) TimerEvent: {}
+[15.405635] (drive_base_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[15.498185] (-) TimerEvent: {}
+[15.603085] (-) TimerEvent: {}
+[15.703848] (-) TimerEvent: {}
+[15.804987] (-) TimerEvent: {}
+[15.905798] (-) TimerEvent: {}
+[16.006907] (-) TimerEvent: {}
+[16.108109] (-) TimerEvent: {}
+[16.209295] (-) TimerEvent: {}
+[16.310142] (-) TimerEvent: {}
+[16.411042] (-) TimerEvent: {}
+[16.512242] (-) TimerEvent: {}
+[16.513385] (drive_base_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[16.518531] (drive_base_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[16.612420] (-) TimerEvent: {}
+[16.713572] (-) TimerEvent: {}
+[16.814711] (-) TimerEvent: {}
+[16.915693] (-) TimerEvent: {}
+[16.950394] (micro_ros_msgs) StdoutLine: {'line': b'[  4%] Built target micro_ros_msgs__cpp\n'}
+[17.015888] (-) TimerEvent: {}
+[17.110403] (micro_ros_msgs) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[17.116072] (-) TimerEvent: {}
+[17.217220] (-) TimerEvent: {}
+[17.318311] (-) TimerEvent: {}
+[17.410325] (micro_ros_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target micro_ros_msgs__rosidl_generator_c\x1b[0m\n'}
+[17.418509] (-) TimerEvent: {}
+[17.443009] (micro_ros_msgs) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[17.443668] (micro_ros_msgs) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[17.518873] (-) TimerEvent: {}
+[17.607699] (micro_ros_msgs) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/micro_ros_msgs/msg/detail/graph__functions.c.o\x1b[0m\n'}
+[17.617565] (multisense_lib) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object LibMultiSense/source/LibMultiSense/CMakeFiles/MultiSense.dir/details/utility/Constants.cc.o\x1b[0m\n'}
+[17.619069] (-) TimerEvent: {}
+[17.720126] (-) TimerEvent: {}
+[17.817233] (drive_base_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[17.820297] (-) TimerEvent: {}
+[17.921384] (-) TimerEvent: {}
+[17.981239] (drive_base_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[17.988792] (drive_base_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[18.015388] (multisense_lib) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object LibMultiSense/source/LibMultiSense/CMakeFiles/MultiSense.dir/details/utility/TimeStamp.cc.o\x1b[0m\n'}
+[18.021572] (-) TimerEvent: {}
+[18.033647] (drive_base_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[18.121749] (-) TimerEvent: {}
+[18.222890] (-) TimerEvent: {}
+[18.279933] (micro_ros_msgs) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/micro_ros_msgs/msg/detail/node__functions.c.o\x1b[0m\n'}
+[18.323082] (-) TimerEvent: {}
+[18.424172] (-) TimerEvent: {}
+[18.434797] (drive_base_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[18.437052] (drive_base_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[18.524341] (-) TimerEvent: {}
+[18.625146] (-) TimerEvent: {}
+[18.725938] (-) TimerEvent: {}
+[18.826720] (-) TimerEvent: {}
+[18.845236] (micro_ros_msgs) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/micro_ros_msgs/msg/detail/entity__functions.c.o\x1b[0m\n'}
+[18.926898] (-) TimerEvent: {}
+[19.028035] (-) TimerEvent: {}
+[19.129160] (-) TimerEvent: {}
+[19.229926] (-) TimerEvent: {}
+[19.330676] (-) TimerEvent: {}
+[19.346500] (micro_ros_msgs) StdoutLine: {'line': b'[ 19%] \x1b[32m\x1b[1mLinking C shared library libmicro_ros_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[19.430843] (-) TimerEvent: {}
+[19.531965] (-) TimerEvent: {}
+[19.633106] (-) TimerEvent: {}
+[19.734341] (-) TimerEvent: {}
+[19.835096] (-) TimerEvent: {}
+[19.910639] (micro_ros_msgs) StdoutLine: {'line': b'[ 19%] Built target micro_ros_msgs__rosidl_generator_c\n'}
+[19.935262] (-) TimerEvent: {}
+[20.036418] (-) TimerEvent: {}
+[20.096677] (micro_ros_msgs) StdoutLine: {'line': b'[ 21%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[20.136582] (-) TimerEvent: {}
+[20.258020] (-) TimerEvent: {}
+[20.358915] (-) TimerEvent: {}
+[20.459870] (-) TimerEvent: {}
+[20.560835] (-) TimerEvent: {}
+[20.661669] (-) TimerEvent: {}
+[20.763206] (-) TimerEvent: {}
+[20.864040] (-) TimerEvent: {}
+[20.965115] (-) TimerEvent: {}
+[21.044025] (multisense_lib) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding CXX object LibMultiSense/source/LibMultiSense/CMakeFiles/MultiSense.dir/details/utility/Exception.cc.o\x1b[0m\n'}
+[21.065293] (-) TimerEvent: {}
+[21.166391] (-) TimerEvent: {}
+[21.267343] (-) TimerEvent: {}
+[21.368146] (-) TimerEvent: {}
+[21.469216] (-) TimerEvent: {}
+[21.570425] (-) TimerEvent: {}
+[21.671223] (-) TimerEvent: {}
+[21.771960] (-) TimerEvent: {}
+[21.873048] (-) TimerEvent: {}
+[21.975431] (-) TimerEvent: {}
+[22.087229] (-) TimerEvent: {}
+[22.113231] (micro_ros_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target micro_ros_msgs__rosidl_typesupport_cpp\x1b[0m\n'}
+[22.187408] (-) TimerEvent: {}
+[22.269236] (micro_ros_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target micro_ros_msgs__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[22.287587] (-) TimerEvent: {}
+[22.328285] (micro_ros_msgs) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/micro_ros_msgs/msg/graph__type_support.cpp.o\x1b[0m\n'}
+[22.387775] (-) TimerEvent: {}
+[22.488639] (-) TimerEvent: {}
+[22.502527] (micro_ros_msgs) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/micro_ros_msgs/msg/detail/graph__type_support.cpp.o\x1b[0m\n'}
+[22.588847] (-) TimerEvent: {}
+[22.690085] (-) TimerEvent: {}
+[22.790991] (-) TimerEvent: {}
+[22.891844] (-) TimerEvent: {}
+[22.992968] (-) TimerEvent: {}
+[23.003752] (drive_base_msgs) StdoutLine: {'line': b'-- Found std_msgs: 2.0.5 (/opt/ros/foxy/share/std_msgs/cmake)\n'}
+[23.093157] (-) TimerEvent: {}
+[23.194025] (-) TimerEvent: {}
+[23.294931] (-) TimerEvent: {}
+[23.395893] (-) TimerEvent: {}
+[23.415281] (micro_ros_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target micro_ros_msgs__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[23.496356] (-) TimerEvent: {}
+[23.597235] (-) TimerEvent: {}
+[23.665254] (drive_base_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[23.697421] (-) TimerEvent: {}
+[23.700474] (micro_ros_msgs) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/micro_ros_msgs/msg/detail/dds_fastrtps/graph__type_support.cpp.o\x1b[0m\n'}
+[23.797616] (-) TimerEvent: {}
+[23.831467] (drive_base_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[23.897808] (-) TimerEvent: {}
+[24.044528] (-) TimerEvent: {}
+[24.145392] (-) TimerEvent: {}
+[24.263089] (-) TimerEvent: {}
+[24.363885] (-) TimerEvent: {}
+[24.464742] (-) TimerEvent: {}
+[24.565888] (-) TimerEvent: {}
+[24.667080] (-) TimerEvent: {}
+[24.767917] (-) TimerEvent: {}
+[24.868750] (-) TimerEvent: {}
+[24.969608] (-) TimerEvent: {}
+[25.075095] (-) TimerEvent: {}
+[25.176294] (-) TimerEvent: {}
+[25.277315] (-) TimerEvent: {}
+[25.290325] (drive_base_msgs) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[25.313917] (micro_ros_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target micro_ros_msgs__rosidl_typesupport_c\x1b[0m\n'}
+[25.377512] (-) TimerEvent: {}
+[25.478676] (-) TimerEvent: {}
+[25.539050] (multisense_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target multisense_msgs__rosidl_generator_c\x1b[0m\n'}
+[25.541268] (micro_ros_msgs) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/micro_ros_msgs/msg/graph__type_support.cpp.o\x1b[0m\n'}
+[25.578858] (-) TimerEvent: {}
+[25.647376] (drive_base_msgs) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[25.679072] (-) TimerEvent: {}
+[25.780365] (-) TimerEvent: {}
+[25.810837] (multisense_msgs) StdoutLine: {'line': b'[  2%] \x1b[32mBuilding C object CMakeFiles/multisense_msgs__rosidl_generator_c.dir/rosidl_generator_c/multisense_msgs/msg/detail/device_info__functions.c.o\x1b[0m\n'}
+[25.881755] (-) TimerEvent: {}
+[25.982895] (-) TimerEvent: {}
+[25.984947] (multisense_msgs) StdoutLine: {'line': b'[  3%] \x1b[32mBuilding C object CMakeFiles/multisense_msgs__rosidl_generator_c.dir/rosidl_generator_c/multisense_msgs/msg/detail/raw_cam_config__functions.c.o\x1b[0m\n'}
+[26.083171] (-) TimerEvent: {}
+[26.091618] (micro_ros_msgs) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/micro_ros_msgs/msg/node__type_support.cpp.o\x1b[0m\n'}
+[26.183352] (-) TimerEvent: {}
+[26.286402] (-) TimerEvent: {}
+[26.403554] (-) TimerEvent: {}
+[26.504710] (-) TimerEvent: {}
+[26.565046] (micro_ros_msgs) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/micro_ros_msgs/msg/entity__type_support.cpp.o\x1b[0m\n'}
+[26.604910] (-) TimerEvent: {}
+[26.705768] (-) TimerEvent: {}
+[26.806929] (-) TimerEvent: {}
+[26.908184] (-) TimerEvent: {}
+[26.940074] (multisense_msgs) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding C object CMakeFiles/multisense_msgs__rosidl_generator_c.dir/rosidl_generator_c/multisense_msgs/msg/detail/raw_imu_data__functions.c.o\x1b[0m\n'}
+[26.953116] (micro_ros_msgs) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/micro_ros_msgs/msg/node__type_support.cpp.o\x1b[0m\n'}
+[26.981625] (drive_base_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[27.008385] (-) TimerEvent: {}
+[27.092078] (micro_ros_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32m\x1b[1mLinking CXX shared library libmicro_ros_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[27.108585] (-) TimerEvent: {}
+[27.209755] (-) TimerEvent: {}
+[27.310575] (-) TimerEvent: {}
+[27.411440] (-) TimerEvent: {}
+[27.490770] (multisense_msgs) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding C object CMakeFiles/multisense_msgs__rosidl_generator_c.dir/rosidl_generator_c/multisense_msgs/msg/detail/raw_lidar_data__functions.c.o\x1b[0m\n'}
+[27.511631] (-) TimerEvent: {}
+[27.613125] (-) TimerEvent: {}
+[27.657737] (micro_ros_msgs) StdoutLine: {'line': b'[ 38%] Built target micro_ros_msgs__rosidl_typesupport_c\n'}
+[27.706151] (multisense_msgs) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/multisense_msgs__rosidl_generator_c.dir/rosidl_generator_c/multisense_msgs/msg/detail/raw_cam_cal__functions.c.o\x1b[0m\n'}
+[27.713304] (-) TimerEvent: {}
+[27.814126] (-) TimerEvent: {}
+[27.907674] (micro_ros_msgs) StdoutLine: {'line': b'[ 40%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[27.914322] (-) TimerEvent: {}
+[28.015506] (-) TimerEvent: {}
+[28.086563] (drive_base_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[28.115674] (-) TimerEvent: {}
+[28.216790] (-) TimerEvent: {}
+[28.230230] (multisense_msgs) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/multisense_msgs__rosidl_generator_c.dir/rosidl_generator_c/multisense_msgs/msg/detail/raw_cam_data__functions.c.o\x1b[0m\n'}
+[28.316969] (-) TimerEvent: {}
+[28.418114] (-) TimerEvent: {}
+[28.519314] (-) TimerEvent: {}
+[28.538349] (micro_ros_msgs) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/micro_ros_msgs/msg/detail/node__type_support.cpp.o\x1b[0m\n'}
+[28.619498] (-) TimerEvent: {}
+[28.720683] (-) TimerEvent: {}
+[28.753279] (drive_base_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[28.820866] (-) TimerEvent: {}
+[28.922009] (-) TimerEvent: {}
+[29.022784] (-) TimerEvent: {}
+[29.106724] (multisense_msgs) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/multisense_msgs__rosidl_generator_c.dir/rosidl_generator_c/multisense_msgs/msg/detail/raw_lidar_cal__functions.c.o\x1b[0m\n'}
+[29.123059] (-) TimerEvent: {}
+[29.188241] (multisense_msgs) StdoutLine: {'line': b'[  7%] Built target multisense_msgs__cpp\n'}
+[29.223119] (-) TimerEvent: {}
+[29.324246] (-) TimerEvent: {}
+[29.361594] (multisense_msgs) StdoutLine: {'line': b'[  8%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[29.424431] (-) TimerEvent: {}
+[29.525272] (-) TimerEvent: {}
+[29.626474] (-) TimerEvent: {}
+[29.727339] (-) TimerEvent: {}
+[29.828744] (-) TimerEvent: {}
+[29.943106] (-) TimerEvent: {}
+[30.043955] (-) TimerEvent: {}
+[30.145062] (-) TimerEvent: {}
+[30.246200] (-) TimerEvent: {}
+[30.347334] (-) TimerEvent: {}
+[30.448492] (-) TimerEvent: {}
+[30.549589] (-) TimerEvent: {}
+[30.571483] (multisense_msgs) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/multisense_msgs__rosidl_generator_c.dir/rosidl_generator_c/multisense_msgs/msg/detail/device_status__functions.c.o\x1b[0m\n'}
+[30.649774] (-) TimerEvent: {}
+[30.751051] (-) TimerEvent: {}
+[30.851847] (-) TimerEvent: {}
+[30.952837] (-) TimerEvent: {}
+[31.071097] (-) TimerEvent: {}
+[31.171895] (-) TimerEvent: {}
+[31.273120] (-) TimerEvent: {}
+[31.374099] (-) TimerEvent: {}
+[31.475312] (-) TimerEvent: {}
+[31.524144] (micro_ros_msgs) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/micro_ros_msgs/msg/entity__type_support.cpp.o\x1b[0m\n'}
+[31.575485] (-) TimerEvent: {}
+[31.676261] (-) TimerEvent: {}
+[31.777459] (-) TimerEvent: {}
+[31.878292] (-) TimerEvent: {}
+[31.908726] (drive_base_msgs) StdoutLine: {'line': b'-- Found ament_cmake_cppcheck: 0.9.8 (/opt/ros/foxy/share/ament_cmake_cppcheck/cmake)\n'}
+[31.958383] (drive_base_msgs) StdoutLine: {'line': b'-- Found ament_cmake_cpplint: 0.9.8 (/opt/ros/foxy/share/ament_cmake_cpplint/cmake)\n'}
+[31.970844] (multisense_msgs) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/multisense_msgs__rosidl_generator_c.dir/rosidl_generator_c/multisense_msgs/msg/detail/histogram__functions.c.o\x1b[0m\n'}
+[31.978482] (-) TimerEvent: {}
+[32.013546] (drive_base_msgs) StdoutLine: {'line': b'-- Found ament_cmake_uncrustify: 0.9.8 (/opt/ros/foxy/share/ament_cmake_uncrustify/cmake)\n'}
+[32.070064] (drive_base_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[32.074394] (micro_ros_msgs) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/micro_ros_msgs/msg/detail/dds_fastrtps/node__type_support.cpp.o\x1b[0m\n'}
+[32.078798] (-) TimerEvent: {}
+[32.180169] (-) TimerEvent: {}
+[32.281274] (-) TimerEvent: {}
+[32.382415] (-) TimerEvent: {}
+[32.483485] (-) TimerEvent: {}
+[32.584360] (-) TimerEvent: {}
+[32.685527] (-) TimerEvent: {}
+[32.786698] (-) TimerEvent: {}
+[32.887942] (-) TimerEvent: {}
+[32.988829] (-) TimerEvent: {}
+[33.089876] (-) TimerEvent: {}
+[33.175998] (micro_ros_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/micro_ros_msgs/msg/detail/entity__type_support.cpp.o\x1b[0m\n'}
+[33.190077] (-) TimerEvent: {}
+[33.196912] (multisense_msgs) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/multisense_msgs__rosidl_generator_c.dir/rosidl_generator_c/multisense_msgs/msg/detail/ptp_status__functions.c.o\x1b[0m\n'}
+[33.290264] (-) TimerEvent: {}
+[33.391091] (-) TimerEvent: {}
+[33.492217] (-) TimerEvent: {}
+[33.593365] (-) TimerEvent: {}
+[33.694505] (-) TimerEvent: {}
+[33.750162] (micro_ros_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target micro_ros_msgs__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[33.794696] (-) TimerEvent: {}
+[33.895898] (-) TimerEvent: {}
+[33.934606] (micro_ros_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/micro_ros_msgs/msg/detail/graph__type_support.c.o\x1b[0m\n'}
+[33.996092] (-) TimerEvent: {}
+[34.097228] (-) TimerEvent: {}
+[34.198076] (-) TimerEvent: {}
+[34.299263] (-) TimerEvent: {}
+[34.321580] (multisense_msgs) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/multisense_msgs__rosidl_generator_c.dir/rosidl_generator_c/multisense_msgs/msg/detail/stamped_pps__functions.c.o\x1b[0m\n'}
+[34.399442] (-) TimerEvent: {}
+[34.416147] (micro_ros_msgs) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/micro_ros_msgs/msg/detail/node__type_support.c.o\x1b[0m\n'}
+[34.499623] (-) TimerEvent: {}
+[34.600782] (-) TimerEvent: {}
+[34.701909] (-) TimerEvent: {}
+[34.803100] (-) TimerEvent: {}
+[34.860421] (micro_ros_msgs) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/micro_ros_msgs/msg/detail/entity__type_support.c.o\x1b[0m\n'}
+[34.903268] (-) TimerEvent: {}
+[35.004543] (-) TimerEvent: {}
+[35.105383] (-) TimerEvent: {}
+[35.146108] (drive_base_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[35.155668] (micro_ros_msgs) StderrLine: {'line': b'make[2]: *** wait: No child processes.  Stop.\n'}
+[35.156492] (micro_ros_msgs) StderrLine: {'line': b'make[2]: *** Waiting for unfinished jobs....\n'}
+[35.156976] (micro_ros_msgs) StderrLine: {'line': b'make[2]: *** wait: No child processes.  Stop.\n'}
+[35.157418] (micro_ros_msgs) StderrLine: {'line': b'make[2]: *** [CMakeFiles/micro_ros_msgs__rosidl_typesupport_fastrtps_cpp.dir/build.make:105: CMakeFiles/micro_ros_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/micro_ros_msgs/msg/detail/dds_fastrtps/node__type_support.cpp.o] Interrupt\n'}
+[35.157845] (multisense_msgs) StderrLine: {'line': b"make[2]: *** Deleting file 'rosidl_typesupport_cpp/multisense_msgs/msg/device_info__type_support.cpp'\n"}
+[35.160971] (multisense_lib) StderrLine: {'line': b'make[2]: *** [LibMultiSense/source/LibMultiSense/CMakeFiles/MultiSense.dir/build.make:76: LibMultiSense/source/LibMultiSense/CMakeFiles/MultiSense.dir/details/public.cc.o] Interrupt\n'}
+[35.163578] (multisense_lib) StderrLine: {'line': b'make[2]: *** [LibMultiSense/source/LibMultiSense/CMakeFiles/MultiSense.dir/build.make:63: LibMultiSense/source/LibMultiSense/CMakeFiles/MultiSense.dir/details/channel.cc.o] Interrupt\n'}
+[35.164182] (multisense_lib) StderrLine: {'line': b'make[2]: *** wait: No child processes.  Stop.\n'}
+[35.164710] (multisense_lib) StderrLine: {'line': b'make[2]: *** Waiting for unfinished jobs....\n'}
+[35.167633] (multisense_lib) StderrLine: {'line': b'make[2]: *** wait: No child processes.  Stop.\n'}
+[35.168889] (multisense_lib) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:603: LibMultiSense/source/LibMultiSense/CMakeFiles/MultiSense.dir/all] Error 2\n'}
+[35.175466] (multisense_lib) StderrLine: {'line': b'make: *** [Makefile:141: all] Interrupt\n'}
+[35.176100] (micro_ros_msgs) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:418: CMakeFiles/micro_ros_msgs__rosidl_typesupport_fastrtps_cpp.dir/all] Interrupt\n'}
+[35.176637] (multisense_msgs) StderrLine: {'line': b'make[2]: *** wait: No child processes.  Stop.\n'}
+[35.177162] (micro_ros_msgs) StderrLine: {'line': b'make[2]: *** [CMakeFiles/micro_ros_msgs__rosidl_typesupport_cpp.dir/build.make:107: CMakeFiles/micro_ros_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/micro_ros_msgs/msg/entity__type_support.cpp.o] Interrupt\n'}
+[35.179937] (micro_ros_msgs) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:361: CMakeFiles/micro_ros_msgs__rosidl_typesupport_cpp.dir/all] Interrupt\n'}
+[35.188676] (micro_ros_msgs) StderrLine: {'line': b'make[2]: *** wait: No child processes.  Stop.\n'}
+[35.190552] (micro_ros_msgs) StderrLine: {'line': b'make[2]: *** Waiting for unfinished jobs....\n'}
+[35.191634] (micro_ros_msgs) StderrLine: {'line': b'make[2]: *** wait: No child processes.  Stop.\n'}
+[35.192970] (multisense_msgs) StderrLine: {'line': b'make[2]: *** Waiting for unfinished jobs....\n'}
+[35.194417] (multisense_msgs) StderrLine: {'line': b'make[2]: *** wait: No child processes.  Stop.\n'}
+[35.195776] (micro_ros_msgs) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:472: CMakeFiles/micro_ros_msgs__rosidl_typesupport_introspection_c.dir/all] Error 2\n'}
+[35.196398] (micro_ros_msgs) StderrLine: {'line': b'make[1]: *** wait: No child processes.  Stop.\n'}
+[35.197942] (micro_ros_msgs) StderrLine: {'line': b'make[1]: *** Waiting for unfinished jobs....\n'}
+[35.200816] (micro_ros_msgs) StderrLine: {'line': b'make[1]: *** wait: No child processes.  Stop.\n'}
+[35.201373] (micro_ros_msgs) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[35.201821] (multisense_msgs) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[35.202272] (multisense_msgs) StderrLine: {'line': b'  File "/opt/ros/foxy/lib/rosidl_typesupport_cpp/rosidl_typesupport_cpp", line 28, in <module>\n'}
+[35.202692] (multisense_msgs) StderrLine: {'line': b'    sys.exit(main())\n'}
+[35.208329] (-) TimerEvent: {}
+[35.208872] (multisense_msgs) StderrLine: {'line': b'  File "/opt/ros/foxy/lib/rosidl_typesupport_cpp/rosidl_typesupport_cpp", line 24, in main\n'}
+[35.209387] (multisense_msgs) StderrLine: {'line': b'    return generate_cpp(args.generator_arguments_file, args.typesupports)\n'}
+[35.209797] (multisense_msgs) StderrLine: {'line': b'  File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_typesupport_cpp/__init__.py", line 28, in generate_cpp\n'}
+[35.210198] (multisense_msgs) StderrLine: {'line': b'    generate_files(\n'}
+[35.210593] (multisense_msgs) StderrLine: {'line': b'  File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_cmake/__init__.py", line 74, in generate_files\n'}
+[35.211038] (multisense_msgs) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:213: CMakeFiles/multisense_msgs__rosidl_generator_c.dir/all] Error 2\n'}
+[35.211491] (multisense_msgs) StderrLine: {'line': b'    idl_file = parse_idl_file(locator)\n'}
+[35.211893] (multisense_msgs) StderrLine: {'line': b'  File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_parser/parser.py", line 64, in parse_idl_file\n'}
+[35.212312] (multisense_msgs) StderrLine: {'line': b'    content = parse_idl_string(string, png_file=png_file)\n'}
+[35.212720] (multisense_msgs) StderrLine: {'line': b'  File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_parser/parser.py", line 72, in parse_idl_string\n'}
+[35.213179] (multisense_msgs) StderrLine: {'line': b'    tree = get_ast_from_idl_string(idl_string)\n'}
+[35.213623] (multisense_msgs) StderrLine: {'line': b'  File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_parser/parser.py", line 89, in get_ast_from_idl_string\n'}
+[35.214087] (multisense_msgs) StderrLine: {'line': b'    return _parser.parse(idl_string)\n'}
+[35.214542] (multisense_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/lark/lark.py", line 293, in parse\n'}
+[35.215080] (drive_base_msgs) CommandEnded: {'returncode': -2}
+[35.216795] (multisense_msgs) StderrLine: {'line': b'    return self.parser.parse(text, start=start)\n'}
+[35.217364] (multisense_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/lark/parser_frontends.py", line 193, in parse\n'}
+[35.217855] (multisense_msgs) StderrLine: {'line': b'    return self._parse(text, start)\n'}
+[35.218270] (multisense_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/lark/parser_frontends.py", line 54, in _parse\n'}
+[35.218676] (multisense_msgs) StderrLine: {'line': b'    return self.parser.parse(input, start, *args)\n'}
+[35.226273] (multisense_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/lark/parsers/earley.py", line 292, in parse\n'}
+[35.226798] (multisense_msgs) StderrLine: {'line': b'    to_scan = self._parse(stream, columns, to_scan, start_symbol)\n'}
+[35.227368] (multisense_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/lark/parsers/xearley.py", line 137, in _parse\n'}
+[35.227842] (multisense_msgs) StderrLine: {'line': b'    to_scan = scan(i, to_scan)\n'}
+[35.228297] (multisense_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/lark/parsers/xearley.py", line 99, in scan\n'}
+[35.228912] (multisense_msgs) StderrLine: {'line': b'    new_item.node = node_cache[label] if label in node_cache else node_cache.setdefault(label, SymbolNode(*label))\n'}
+[35.229694] (multisense_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/lark/parsers/earley_forest.py", line 48, in __init__\n'}
+[35.230245] (multisense_msgs) StderrLine: {'line': b'    self.is_intermediate = isinstance(s, tuple)\n'}
+[35.230709] (multisense_msgs) StderrLine: {'line': b'KeyboardInterrupt\n'}
+[35.231266] (drive_base_msgs) StderrLine: {'line': b'Traceback (most recent call last):\n  File "/usr/lib/python3/dist-packages/colcon_parallel_executor/executor/parallel.py", line 75, in execute\n    loop.run_until_complete(future)\n  File "/usr/lib/python3.8/asyncio/base_events.py", line 603, in run_until_complete\n    self.run_forever()\n  File "/usr/lib/python3.8/asyncio/base_events.py", line 570, in run_forever\n    self._run_once()\n  File "/usr/lib/python3.8/asyncio/base_events.py", line 1823, in _run_once\n    event_list = self._selector.select(timeout)\n  File "/usr/lib/python3.8/selectors.py", line 468, in select\n    fd_event_list = self._selector.poll(timeout, max_ev)\nKeyboardInterrupt\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__\n    rc = await self.task(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__\n    return await task_method(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_cmake/build.py", line 59, in build\n    rc = await extension.build(\n  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/build.py", line 87, in build\n    rc = await self._reconfigure(args, env)\n  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/build.py", line 182, in _reconfigure\n    buildfile = get_buildfile(cmake_cache)\n  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/__init__.py", line 114, in get_buildfile\n    if \'Visual Studio\' in generator:\nTypeError: argument of type \'NoneType\' is not iterable\n'}
+[35.231979] (drive_base_msgs) JobEnded: {'identifier': 'drive_base_msgs', 'rc': 'SIGINT'}
+[35.234095] (micro_ros_msgs) JobEnded: {'identifier': 'micro_ros_msgs', 'rc': 'SIGINT'}
+[35.246251] (multisense_lib) JobEnded: {'identifier': 'multisense_lib', 'rc': 'SIGINT'}
+[35.296747] (multisense_msgs) StderrLine: {'line': b'make[2]: *** [CMakeFiles/multisense_msgs__rosidl_typesupport_cpp.dir/build.make:80: rosidl_typesupport_cpp/multisense_msgs/msg/device_info__type_support.cpp] Interrupt\n'}
+[35.297575] (multisense_msgs) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:331: CMakeFiles/multisense_msgs__rosidl_typesupport_cpp.dir/all] Interrupt\n'}
+[35.297982] (multisense_msgs) StderrLine: {'line': b'make: *** [Makefile:141: all] Interrupt\n'}
+[35.302153] (multisense_msgs) JobEnded: {'identifier': 'multisense_msgs', 'rc': 'SIGINT'}
+[35.308480] (-) TimerEvent: {}
+[35.313991] (jetson_comm) JobSkipped: {'identifier': 'jetson_comm'}
+[35.314356] (joystick_input) JobSkipped: {'identifier': 'joystick_input'}
+[35.314601] (micro_ros_setup) JobSkipped: {'identifier': 'micro_ros_setup'}
+[35.314771] (object_detection_pkg) JobSkipped: {'identifier': 'object_detection_pkg'}
+[35.315181] (pathfinding) JobSkipped: {'identifier': 'pathfinding'}
+[35.315501] (person_detection) JobSkipped: {'identifier': 'person_detection'}
+[35.315623] (micro_ros_agent) JobSkipped: {'identifier': 'micro_ros_agent'}
+[35.315725] (multisense_ros) JobSkipped: {'identifier': 'multisense_ros'}
+[35.315820] (-) EventReactorShutdown: {}

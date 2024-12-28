@@ -1,0 +1,38 @@
+make[2]: *** Deleting file 'rosidl_typesupport_cpp/multisense_msgs/msg/device_info__type_support.cpp'
+make[2]: *** wait: No child processes.  Stop.
+make[2]: *** Waiting for unfinished jobs....
+make[2]: *** wait: No child processes.  Stop.
+Traceback (most recent call last):
+  File "/opt/ros/foxy/lib/rosidl_typesupport_cpp/rosidl_typesupport_cpp", line 28, in <module>
+    sys.exit(main())
+  File "/opt/ros/foxy/lib/rosidl_typesupport_cpp/rosidl_typesupport_cpp", line 24, in main
+    return generate_cpp(args.generator_arguments_file, args.typesupports)
+  File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_typesupport_cpp/__init__.py", line 28, in generate_cpp
+    generate_files(
+  File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_cmake/__init__.py", line 74, in generate_files
+make[1]: *** [CMakeFiles/Makefile2:213: CMakeFiles/multisense_msgs__rosidl_generator_c.dir/all] Error 2
+    idl_file = parse_idl_file(locator)
+  File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_parser/parser.py", line 64, in parse_idl_file
+    content = parse_idl_string(string, png_file=png_file)
+  File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_parser/parser.py", line 72, in parse_idl_string
+    tree = get_ast_from_idl_string(idl_string)
+  File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_parser/parser.py", line 89, in get_ast_from_idl_string
+    return _parser.parse(idl_string)
+  File "/usr/lib/python3/dist-packages/lark/lark.py", line 293, in parse
+    return self.parser.parse(text, start=start)
+  File "/usr/lib/python3/dist-packages/lark/parser_frontends.py", line 193, in parse
+    return self._parse(text, start)
+  File "/usr/lib/python3/dist-packages/lark/parser_frontends.py", line 54, in _parse
+    return self.parser.parse(input, start, *args)
+  File "/usr/lib/python3/dist-packages/lark/parsers/earley.py", line 292, in parse
+    to_scan = self._parse(stream, columns, to_scan, start_symbol)
+  File "/usr/lib/python3/dist-packages/lark/parsers/xearley.py", line 137, in _parse
+    to_scan = scan(i, to_scan)
+  File "/usr/lib/python3/dist-packages/lark/parsers/xearley.py", line 99, in scan
+    new_item.node = node_cache[label] if label in node_cache else node_cache.setdefault(label, SymbolNode(*label))
+  File "/usr/lib/python3/dist-packages/lark/parsers/earley_forest.py", line 48, in __init__
+    self.is_intermediate = isinstance(s, tuple)
+KeyboardInterrupt
+make[2]: *** [CMakeFiles/multisense_msgs__rosidl_typesupport_cpp.dir/build.make:80: rosidl_typesupport_cpp/multisense_msgs/msg/device_info__type_support.cpp] Interrupt
+make[1]: *** [CMakeFiles/Makefile2:331: CMakeFiles/multisense_msgs__rosidl_typesupport_cpp.dir/all] Interrupt
+make: *** [Makefile:141: all] Interrupt
